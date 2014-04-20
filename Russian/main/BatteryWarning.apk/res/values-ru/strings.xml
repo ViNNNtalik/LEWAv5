@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="batteryWarning_label">Предупреждение батареи</string>
+    <string name="title_charger_over_voltage">Превышено напряжение на зарядном устройстве</string>
+    <string name="title_battery_over_temperature">Перегрев батареи</string>
+    <string name="title_over_current_protection">Защита от перегрузки по току</string>
+    <string name="title_battery_over_voltage">Превышено напряжение на батарее</string>
+    <string name="title_safety_timer_timeout">Превышено время зарядки</string>
+    <string name="title_battery_low_temperature">Низкая температура батареи</string>
+    <string name="msg_charger_over_voltage">Превышено напряжение на зарядном устройстве, отключите зарядное устройство!</string>
+    <string name="msg_battery_over_temperature">Батарея перегрелась, извлеките батарею!</string>
+    <string name="msg_over_current_protection">Сработала защита батареи от перегрузки по току, извлеките батарею!</string>
+    <string name="msg_battery_over_voltage">Превышено напряжение на батарее, извлеките батарею!</string>
+    <string name="msg_safety_timer_timeout">Зарядка длится слишком долго, отключите зарядное устройство!</string>
+    <string name="msg_battery_low_temperature">Температура Вашей батареи слишком низкая, отключите зарядное устройство!</string>
+    <string name="btn_ok_msg">Отложить</string>
+    <string name="btn_cancel_msg">Отключить</string>
+    <string name="title_power_weak">Неподходящее зарядное устройство</string>
+    <string name="msg_power_weak">Для избежания повреждений используйте только подходящие зарядные устройства!</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_label">EM SIM ME Блокировка</string>
+    <string name="simmelock_name">SIM ME Блокировка</string>
+    <string name="strInputPassword">Пожалуйста, введите пароль:</string>
+    <string name="strConfirm">Завершено</string>
+    <string name="strCancel">Отмена</string>
+    <string name="strInputChancesleft">Осталось попыток:</string>
+    <string name="strMCCMNC">MCC+MNC:</string>
+    <string name="strMCCMNCHLR">MCC+MNC+HLR:</string>
+    <string name="strGID1">GID1:</string>
+    <string name="strGID2">GID2:</string>
+    <string name="strInputPasswordAgain">Пожалуйста, введите пароль еще раз:</string>
+    <string name="strIMSI">IMSI:</string>
+    <string name="strAttention">Внимание</string>
+    <string name="strConfirmRemove">Действительно удалить?</string>
+    <string name="srtConfirmPermanUnlock">Действительно разблокировать?</string>
+    <string name="strYes">Да</string>
+    <string name="strLockFail">Блокировка не удалась!</string>
+    <string name="strLockSucceed">Блокировка успешна!</string>
+    <string name="strUnlockFail">Разблокировка не удалась!</string>
+    <string name="strUnlockSucceed">Разблокировка успешна!</string>
+    <string name="strUserInput">Польз. ввод</string>
+    <string name="strInputMode">Пользовательский ввод?</string>
+    <string name="strLockNameNetwork">Сетевая персонализация</string>
+    <string name="strLockNameNetworkSub">Персонализация сети Subset</string>
+    <string name="strLockNameService">Персонализация услуг</string>
+    <string name="strLockNameCorporate">Корпоративная персонализация</string>
+    <string name="strLockNameSIM">SIM-персонализация</string>
+    <string name="strActionNameLock">Блокировка</string>
+    <string name="strActionNameUnlock">Разблокировка</string>
+    <string name="strActionNameAddLock">Добавить</string>
+    <string name="strActionNameRemoveLock">Удалить</string>
+    <string name="strActionNamePermanentUnlock">Постоянная разблокировка</string>
+    <string name="strPasswordLengthIncorrect">4-8 цифр!</string>
+    <string name="strQueryFailed">Запрос не удался!</string>
+    <string name="strAddLockFail">Ошибка добавления!</string>
+    <string name="strAddLockSucceed">Добавление успешно!</string>
+    <string name="strMCCMNCLengthIncorrect">MCC+MNC недействительны!</string>
+    <string name="strMCCMNCHLRLengthIncorrect">MCC+MNC+HLR недействительны!</string>
+    <string name="strIMSILengthIncorrect">IMSI недействителен!</string>
+    <string name="strGID1WRONG">GID1 недействителен!</string>
+    <string name="strGID2WRONG">GID2 недействителен!</string>
+    <string name="str_simme_passwords_dont_match">Пароли не совпадают</string>
+</resources>

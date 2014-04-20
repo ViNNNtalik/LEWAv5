@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Меню SIM</string>
+    <string name="activity_not_found">Приложение не установлено на Вашем устройстве</string>
+    <string name="simlock_toolkit">Меню SIM</string>
+    <string name="no_sim_card_inserted">Пожалуйста, вставьте SIM для запуска приложения</string>
+    <string name="airplane_mode_on">Невозможно запустить приложение, пока включен режим полета</string>
+    <string name="lable_sim_not_ready">Меню SIM не готово или не поддерживается</string>
+</resources>

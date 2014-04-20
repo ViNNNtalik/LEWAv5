@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_device_account_name">Устройство</string>
+    <string name="name_given">Имя</string>
+    <string name="name_family">Фамилия</string>
+    <string name="display_options_sort_by_given_name">По имени</string>
+    <string name="display_options_sort_by_family_name">По фамилии</string>
+    <string name="display_options_view_given_name_first">Вначале отображать имя</string>
+    <string name="display_options_view_family_name_first">Вначале отображать фамилию</string>
+    <string name="deleteCallLogConfirmation_title">Удалить вызов(ы)?</string>
+    <string name="deleteCallLogConfirmation_message">Вы уверены, что хотите удалить выбранные вызовы?</string>
+</resources>

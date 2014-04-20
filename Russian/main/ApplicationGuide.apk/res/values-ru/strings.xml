@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">Далее</string>
+    <string name="scroll_left_bar_title">Прокрутите для просмотра других режимов съемки</string>
+    <string name="zoome_title">Масштабирование</string>
+</resources>

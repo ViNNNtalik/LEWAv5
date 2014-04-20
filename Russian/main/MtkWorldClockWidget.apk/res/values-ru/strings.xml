@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="month_day_no_year">d MMM</string>
+    <string name="app_name">Мировое время</string>
+    <string name="current_time_text">Текущее</string>
+    <string name="another_city_text">Добавить</string>
+    <string name="ime_action_done">Готово</string>
+    <string name="a_city_selected">Выбран город</string>
+    <string name="search_city">Поиск города</string>
+    <string name="next">Далее</string>
+    <string name="select_right_city">Извините, такого города нет</string>
+    <string name="clock_loading">Идет загрузка…</string>
+    <string name="add_city">Щелкните значок для добавления нового города</string>
+    <string name="add_new_city">Добавить новый город</string>
+    <string name="delete_city">Удалить город</string>
+    <string name="delete_city_info">Данный город будет удален</string>
+    <string name="has_chosen">выбран(о)</string>
+    <string name="deleteok">Удалить</string>
+    <string name="cancel">Отклонить</string>
+</resources>

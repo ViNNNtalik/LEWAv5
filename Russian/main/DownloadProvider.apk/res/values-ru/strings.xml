@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="download_title">Загрузки</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">OK</string>
+    <string name="download_file_already_exist">Файл уже существует, перезаписать?</string>
+    <string name="notification_download_complete_op01">Файл сохранен в:</string>
+    <string name="app_label">Диспетчер загрузки</string>
+    <string name="permlab_downloadManager">Доступ к менеджеру загрузок</string>
+    <string name="permdesc_downloadManager">Приложение получит доступ к менеджеру загрузок и сможет загружать файлы через него. Вредоносные приложения смогут таким образом прерывать загрузки и просматривать личную информацию</string>
+    <string name="permlab_downloadManagerAdvanced">Расширенные функции менеджера загрузок</string>
+    <string name="permdesc_downloadManagerAdvanced">Приложение получит доступ к расширенным функциям менеджера загрузок. Вредоносные приложения смогут таким образом прерывать загрузки и просматривать личную информацию</string>
+    <string name="permlab_downloadCompletedIntent">Отправление оповещения о загрузке</string>
+    <string name="permdesc_downloadCompletedIntent">Приложение сможет отправлять оповещения о завершенных загрузках. Вредоносные приложения смогут таким образом мешать работе приложений, загружающих файлы</string>
+    <string name="permlab_seeAllExternal">Просмотр всех загрузок на SD-карте</string>
+    <string name="permdesc_seeAllExternal">Приложение получит доступ ко всем загрузкам на SD-карте независимо от того, через какое приложение они были загружены</string>
+    <string name="permlab_downloadCacheNonPurgeable">Резервирование места в кэше</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Приложение сможет загружать файлы в кэш загрузки (который не может быть автоматически очищен), если менеджеру загрузок потребуется больше места</string>
+    <string name="permlab_downloadWithoutNotification">Загрузка файлов без оповещения</string>
+    <string name="permdesc_downloadWithoutNotification">Приложение сможет загружать файлы через диспетчер загрузок без уведомления пользователя</string>
+    <string name="permlab_accessAllDownloads">Доступ ко всем загрузкам</string>
+    <string name="permdesc_accessAllDownloads">Приложение сможет открывать и изменять загрузки независимо от того, через какое приложение они были загружены</string>
+    <string name="download_unknown_title">&lt;Без названия></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" и ещё %d"</string>
+    <string name="notification_download_complete">Загрузка завершена</string>
+    <string name="notification_download_failed">Не удалось загрузить файл</string>
+    <string name="notification_need_wifi_for_size">Загрузка только по Wi-Fi</string>
+    <string name="notification_paused_in_background">Загрузка приостановлена</string>
+    <string name="wifi_required_title">Слишком большой файл для загрузки через 2G/3G</string>
+    <string name="wifi_required_body" formatted="false">"Для завершения загрузки файла размером %s  необходимо подключение к сети Wi-Fi.
+
+Чтобы продолжить загрузку позже через Wi-Fi, нажмите %s "</string>
+    <string name="wifi_recommended_title">Поставить в очередь на загрузку позже?</string>
+    <string name="wifi_recommended_body" formatted="false">"Если загрузить %s  сейчас, батарея может быстро разрядиться. Также не исключено превышение трафика и, как результат, увеличение расходов.
+
+Чтобы выполнить загрузку позже через Wi-Fi, нажмите %s"</string>
+    <string name="button_queue_for_wifi">Добавить в очередь</string>
+    <string name="button_cancel_download">Отмена</string>
+    <string name="button_start_now">Запустить</string>
+    <string name="download_percent">%d%%</string>
+    <string name="notification_title">%1$d задание загружается</string>
+    <string name="notification_title_pause">%1$d задание приостановлено</string>
+    <string name="notification_info_pause">пауза</string>
+    <string name="notification_info_wait_for_retry">ожидание переподключения</string>
+    <string name="notification_info_wait_for_network">ожидание сети</string>
+    <string name="notification_info_wait_for_wlan">ожидание Wi-Fi</string>
+    <string name="notification_info_peding">ожидание</string>
+    <string name="notification_info_fail">ошибка</string>	
+</resources>

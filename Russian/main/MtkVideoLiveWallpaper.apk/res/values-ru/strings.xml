@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpapers">MTK Live Wallpapers</string>
+    <string name="vlw">Видеообои</string>
+    <string name="vlw_author">MediaTek Inc.</string>
+    <string name="vlw_desc">Установить видео в качестве обоев</string>
+    <string name="VideoScene_error_text_invalid_progressive_playback">Это видео не может проигрываться на данном устройстве</string>
+    <string name="VideoScene_error_text_unknown">Это видео не может быть проиграно</string>
+    <string name="VideoScene_error_media_removed">Файл удален</string>
+    <string name="VideoScene_error_sdcard_unmounted">SD-карта не подключена</string>
+    <string name="VideoScene_info_wait_sdcard">Подготовка SD-карты</string>
+    <string name="VideoScene_error_media_not_found">Файлов пока нет</string>
+    <string name="VideoScene_error_be_set">Это видео не может быть установлено в качестве обоев</string>
+    <string name="VideoEditor_error_title">Невозможно проиграть видео</string>
+    <string name="VideoEditor_error_button">OK</string>
+    <string name="VideoEditor_error_no_video_selected">Видео не выбрано</string>
+    <string name="VideoEditor_warning_limited_duration">Выберите видео длительностью не менее 1 сек</string>
+    <string name="VideoScene_reload_after_mount">Загружается видео с SD-карты, подождите</string>
+    <string name="select_video">SD-карта</string>
+    <string name="select_default">Обои</string>
+    <string name="select">Выберите видео</string>
+    <string name="set_wallpaper">Установить обои</string>
+    <string name="title">Видеообои</string>
+    <string name="default_title">Видео по умолчанию</string>
+    <string name="default_video_path">android.resource://com.mediatek.vlw/raw/default_video</string>
+    <string name="default_video_title">MediaTek Inc.</string>
+    <string name="capture_video">Камера</string>
+    <string name="menu_item_add_item">Выберите видео с SD-карты</string>
+    <string name="group_video">Выбрать файл видео</string>
+    <string name="group_folder">Выбрать папку</string>
+    <string name="folder_info">video(s)&lt;br>from&lt;br></string>
+</resources>

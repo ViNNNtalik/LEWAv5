@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поиск</string>
+    <string name="app_setting">Настройки поиска</string>
+    <string name="app_setting_info">Источники поиска</string>
+    <string name="app_setting_about">О программе</string>
+    <string name="system_app">Системное приложение</string>
+    <string name="user_app">Пользовательское приложение</string>
+    <string name="system_setting">Системные настройки</string>
+    <string name="web_search">Поиск в Интернете</string>
+    <string name="app_search">Поиск приложений</string>
+    <string name="find_no_associated_app">Не найдено связанное приложение!</string>
+    <string name="enter_app_error_prefix">Приложение</string>
+    <string name="enter_app_error_suffix">не удалось открыть</string>
+    <string name="web_search_prefix">"Поиск в Интернете "</string>
+    <string name="web_search_suffix">" Связанная информация"</string>
+    <string name="app_search_prefix">"Поиск в Интернете "</string>
+    <string name="app_search_suffix">" Связанные приложения"</string>
+    <string name="select_browser">Выбор браузера для поиска</string>
+    <string name="choose_browser">Выберите браузер</string>
+    <string name="info_setting_message">Сообщения</string>
+    <string name="info_setting_message_str">Содержимое сообщений</string>
+    <string name="info_setting_app">Приложения</string>
+    <string name="info_setting_app_str">Установленные приложения</string>
+    <string name="info_setting_image">Изображения</string>
+    <string name="info_setting_image_str">Изображения на устройстве</string>
+    <string name="info_setting_contact">Контакты</string>
+    <string name="info_setting_contact_str">Информация о контактах</string>
+    <string name="info_setting_music">Музыка</string>
+    <string name="info_setting_music_str">Музыкальные файлы</string>
+    <string name="info_setting_setting">Настройки системы</string>
+    <string name="info_setting_setting_str">Страница настроек устройства</string>
+    <string name="info_setting_file">Локальные файлы</string>
+    <string name="info_setting_file_str">Другие локальные файлы</string>
+    <string name="no_default_browser">Нет браузера по умолчанию</string>
+    <string name="sdcard_status_changed_title">SD-карта недоступна</string>
+    <string name="sdcard_status_changed_msg">Убедитесь, что SD-карта подключена и устройство не находится в режиме передачи файлов</string>
+    <string name="type_ok">ОК</string>
+    <string name="no_browser">Нет браузера</string>
+</resources>

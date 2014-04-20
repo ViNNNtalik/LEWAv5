@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="modes_array">
+        <item>Перехват вызовов и сообщений</item>
+        <item>Перехват вызовов</item>
+        <item>Перехват сообщений</item>
+    </string-array>
+    <string-array name="number_list">
+        <item>Черный список</item>
+        <item>Белый список</item>
+    </string-array>
+    <string-array name="block_information_list">
+        <item>Сообщения</item>
+        <item>Звонки</item>
+    </string-array>
+</resources>

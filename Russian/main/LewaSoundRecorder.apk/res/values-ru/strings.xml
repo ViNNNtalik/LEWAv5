@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Диктофон</string>
+    <string name="record_your_message">Запишите сообщение</string>
+    <string name="message_recorded">Сообщение записано</string>
+    <string name="review_message">Просмотреть сообщение</string>
+    <string name="recording">Запись</string>
+    <string name="recording_stopped">Запись остановлена</string>
+    <string name="storage_is_full">Память заполнена</string>
+    <string name="max_length_reached">Достигнута максимальная длина</string>
+    <string name="insert_sd_card">Вставьте SD-карту</string>
+    <string name="min_available">Осталось %d мин.</string>
+    <string name="sec_available">Осталось %d сек.</string>
+    <string name="accept">Использовать эту запись</string>
+    <string name="discard">Отменить</string>
+    <string name="button_ok">ОК</string>
+    <string name="timer_format_with_hour" formatted="false">%02d:%02d:%02d</string>
+    <string name="timer_format_without_hour" formatted="false">%02d:%02d</string>
+    <string name="audio_db_title_format">dd.MM.yyyy HH:mm:ss</string>
+    <string name="audio_db_artist_name">Ваши записи</string>
+    <string name="audio_db_album_name">Аудиозаписи</string>
+    <string name="audio_db_playlist_name">Мои записи</string>
+    <string name="error_sdcard_access">Не удалось получить доступ к SD-карте</string>
+    <string name="error_app_internal">Внутренняя ошибка приложения</string>
+    <string name="error_mediadb_new_record">Не удалось сохранить аудиозапись</string>
+    <string name="error_app_recorder_occupied">Диктофон занят другим приложением</string>
+    <string name="unknown_artist_name">Неизвестный исполнитель</string>
+    <string name="error_app_failed_title">Ошибка записи</string>
+    <string name="tell_save_record_success">Сохранено</string>
+    <string name="save_record">Сохранить</string>
+    <string name="spaceIsLow_content">На SD-карте заканчивается место. Остановите запись или удалите файлы с SD-карты</string>
+    <string name="cancel">Отмена</string>
+    <string name="rename_record_file">Переименовать файл</string>
+    <string name="file_already_exists">Файл уже существует</string>
+    <string name="select_recording_format">Выберите качество записи</string>
+    <string name="recording_format_high">Высокое</string>
+    <string name="recording_format_mid">Среднее</string>
+    <string name="recording_format_low">Низкое</string>
+    <string name="three_mins_avail_total">Всего доступно 3 минуты</string>
+    <string name="recorder_can_not_be_used">Диктофон не может быть использован</string>
+    <string name="alert_delete_multiple">Данные записи будут удалены</string>
+    <string name="alert_delete_single">Данная запись будет удалена</string>
+    <string name="ok">ОК</string>
+    <string name="delete">Удалить</string>
+    <string name="deleting">Удаление</string>
+    <string name="no_recording_file">(Нет файлов)</string>
+    <string name="recording_file_list">Список файлов</string>
+    <string name="recording_paused">Запись приостановлена</string>
+    <string name="record_title">Запись</string>
+    <string name="play_title">Воспроизведение</string>
+    <string name="time_zero">00:00</string>
+    <string name="delete_selected">Выбрано %s</string>
+    <string name="duration_timer_format_with_hour" formatted="false">%02dH%02dm%02ds</string>
+    <string name="duration_timer_format_without_hour" formatted="false">%02dm%02ds</string>
+    <string name="is_recording_can_not_use_play_function">Во время записи нельзя использовать воспроизведение</string>
+    <string name="is_playing_can_not_use_record_function">Проигрывается аудиофайл, нельзя использовать запись</string>
+    <string name="menu_actionbar_selected_items">%s выбрано</string>
+    <string name="menu_multichoice_select_all">Выбрать все</string>
+    <string name="menu_multichoice_clear_select">Отменить все</string>
+    <string name="recording_notitication">Запись</string>
+    <string name="pause_record">Пауза</string>
+    <string name="line">" - "</string>
+    <string name="tv_prompt">Подсказка: Нажмите клавишу домой для проигрывания записи</string>
+    <string name="sounder_file">Запись файлов</string>
+</resources>

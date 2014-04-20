@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_choise">
+        <item>Капли</item>
+        <item>Мечта</item>
+        <item>Сумерки</item>
+        <item>Янтарь</item>
+    </string-array>
+    <string-array name="bg_choise_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="shake_degree">
+        <item>1.0f</item>
+        <item>0.5f</item>
+    </string-array>
+    <string-array name="select_photo">
+        <item>Камера</item>
+        <item>Выбрать из Галереи</item>
+    </string-array>
+    <string-array name="select_photo_judge">
+        <item>Сброс</item>
+        <item>Удаление</item>
+    </string-array>
+    <string-array name="eq_genres">
+        <item>Нет</item>
+        <item>Общее</item>
+        <item>Классика</item>
+        <item>Танц. музыка</item>
+        <item>Фолк музыка</item>
+        <item>Тяжелый металл</item>
+        <item>Хип-хоп</item>
+        <item>Джаз</item>
+        <item>Поп</item>
+        <item>Рок</item>
+        <item>Пользовательский режим</item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 неделя</item>
+        <item>2 недели</item>
+        <item>3 недели</item>
+        <item>4 недели</item>
+        <item>5 недель</item>
+        <item>6 недель</item>
+        <item>7 недель</item>
+        <item>8 недель</item>
+        <item>9 недель</item>
+        <item>10 недель</item>
+        <item>11 недель</item>
+        <item>12 недель</item>
+    </string-array>
+    <string-array name="download_method">
+        <item>Только Wi-Fi</item>
+        <item>Разрешить все</item>
+    </string-array>
+    <string-array name="download_method_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

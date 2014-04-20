@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flashDevice">/sys/class/leds/flashlight/brightness</string>
+    <string name="app_name">Фонарик</string>
+    <string name="prompt">В режиме блокировки удерживайте кнопку - ДОМОЙ</string>
+    <string name="errorCameraOpenTitle">Ошибка фонарика</string>
+    <string name="errorCameraOpenMessage">"Не удается активировать фонарик. Интерфейс камеры уже используется"</string>
+</resources>

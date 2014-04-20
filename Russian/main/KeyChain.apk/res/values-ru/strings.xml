@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Основная цепочка</string>
+    <string name="title_no_certs">Сертификаты не найдены</string>
+    <string name="title_select_cert">Выберите сертификат</string>
+    <string name="requesting_application">Приложение %s запросило сертификат. После выбора сертификата приложение сможет использовать идентичность с серверами в текущий момент и в будущем</string>
+    <string name="requesting_server">Это приложение идентифицировало запрашивающий сервер как %s, но приложению следует открыть доступ к данному сертификату только в том случае, если приложение является доверенным</string>
+    <string name="install_new_cert_message">Сертификаты можно установить из файла PKCS#12 с расширением %1$s или %2$s, находящемся на внешнем носителе</string>
+    <string name="install_new_cert_button_label">Установить</string>
+    <string name="allow_button">Разрешить</string>
+    <string name="deny_button">Отклонить</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="desktop_transition_effect_entries">
+        <item>Стандарт</item>
+        <item>Отскок</item>
+        <item>Приближение</item>
+        <item>Отдаление</item>
+        <item>Вращение вверх</item>
+        <item>Вращение вниз</item>
+        <item>Вращение</item>
+        <item>Переворот</item>
+        <item>Куб внутри</item>
+        <item>Куб снаружи</item>
+        <item>Стек</item>
+        <item>Аккордеон</item>
+        <item>Цилиндр наружу</item>
+        <item>Цилиндр внутрь</item>
+        <item>Карусель</item>
+    </string-array>
+    <string-array name="desktop_transition_effect_values">
+        <item>Standard</item>
+        <item>OverShoot</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Spin</item>
+        <item>Flip</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>Stack</item>
+        <item>Accordion</item>
+        <item>CylinderIn</item>
+        <item>CylinderOut</item>
+        <item>CarouselLeft</item>
+    </string-array>
+    <string-array name="large_screen_layout">
+        <item>4 * 4</item>
+        <item>4 * 5</item>
+        <item>4 * 6</item>
+        <item>5 * 5</item>
+        <item>5 * 6</item>
+    </string-array>
+    <string-array name="large_screen_layout_value">
+        <item>4|4</item>
+        <item>4|5</item>
+        <item>4|6</item>
+        <item>5|5</item>
+        <item>5|6</item>
+    </string-array>
+    <string-array name="ex_large_screen_layout">
+        <item>4 * 4</item>
+        <item>4 * 5</item>
+        <item>4 * 6</item>
+        <item>5 * 5</item>
+        <item>5 * 6</item>
+    </string-array>
+    <string-array name="ex_large_screen_layout_value">
+        <item>4|4</item>
+        <item>4|5</item>
+        <item>4|6</item>
+        <item>5|5</item>
+        <item>5|6</item>
+    </string-array>
+    <array name="wallpapers" />
+</resources>
