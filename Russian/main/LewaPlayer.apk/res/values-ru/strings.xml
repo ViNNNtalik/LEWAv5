@@ -446,4 +446,6 @@
     <string name="enter_keys">Введите исполнителя или название песни</string>
     <string name="songs_download">Скачать песни</string>
     <string name="playlist_exists">Плейлист уже существует. Пожалуйста, переименуйте</string>
+	<string name="EQ">Эквалайзер</string>
+    <string name="adjust_EQ">Регулировать эквалайзер</string>
 </resources>
