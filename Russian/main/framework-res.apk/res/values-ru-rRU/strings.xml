@@ -1399,9 +1399,6 @@
     <string name="zz_keyguard_accessibility_voice_unlock">Разблокировка голосом</string>
     <string name="sd_accessing_swtich_user_title">Переключить пользователя?</string>
     <string name="sd_accessing_swtich_user_message">Все несохраненные данные в текущем аккаунте будут потеряны</string>
-	<string name="hour_minute_24">%H:%M</string>
-    <string name="hour_minute_ampm">%-l:%M%p</string>
-    <string name="hour_minute_cap_ampm">%-l:%M%^p</string>
     <string name="month_long_standalone_january">Январь</string>
     <string name="month_long_standalone_february">Февраль</string>
     <string name="month_long_standalone_march">Март</string>
