@@ -31,12 +31,13 @@
         <item>576000</item>
         <item>921600</item>
     </string-array>
-    <string-array name="bt_uart">
-        <item>UART1</item>
-        <item>UART2</item>
-        <item>UART3</item>
-        <item>UART4</item>
-    </string-array>
+
+
+
+
+
+
+
     <string-array name="bt_ble_test_pattern">
         <item>PRBS9</item>
         <item>11110000</item>
@@ -305,6 +306,7 @@
         <item>Headset_LoudSpeaker Mode</item>
         <item>Speech Enhancement</item>
         <item>Debug Info</item>
+        <item>Debug Session</item>
         <item>Speech Logger</item>
         <item>Audio Logger</item>
     </string-array>
@@ -449,12 +451,11 @@
         <item>GSM only</item>
         <item>Not Specified</item>
     </string-array>
-    <string-array name="mTddNetworkLabels">
-        <item>TD-SCDMA preferred</item>
-        <item>GSM only</item>
-        <item>TD-SCDMA only</item>
-        <item>GSM/TD-SCDMA(auto)</item>
-    </string-array>
+
+
+
+
+
     <string-array name="mWcdmaNetworkLabels">
         <item>GSM/WCDMA (WCDMA preferred)</item>
         <item>GSM only</item>

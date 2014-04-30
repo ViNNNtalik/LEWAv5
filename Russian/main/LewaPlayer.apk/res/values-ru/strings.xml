@@ -272,8 +272,8 @@
     <string name="title_artist">Исполнитель</string>
     <string name="title_album">Альбом</string>
     <string name="title_mine">Мое</string>
-    <string name="synchron_title">Синхронизация музыки</string>
-    <string name="synchron_message">Синхронизация музыки...</string>
+    <string name="synchron_title">Сканирование музыки</string>
+    <string name="synchron_message">Сканирование...</string>
     <string name="first_dialog_title">Добро пожаловать в приложение Музыка</string>
     <string name="first_dialog_message">Пожалуйста, выберите Ваши папки с музыкой</string>
     <string name="dialog_positive">Да</string>
@@ -297,7 +297,7 @@
     <string name="japan_korea">Япония и Южная Корея</string>
     <string name="other">другие</string>
     <string name="wait_for_download">Ожидание загрузки</string>
-    <string name="download_fail">Не удалось загрузить</string>
+    <string name="download_fail">Не удалось загрузить, нажмите для повтора</string>
     <string name="download_incorrect_Id">Ссылка не корректная</string>
     <string name="download_resume">Нажмите, чтобы продолжить загрузку</string>
     <string name="no_avaliable_space">Не достаточно памяти</string>
@@ -305,6 +305,7 @@
     <string name="open_download">Нажмите, чтобы открыть список загрузок</string>
     <string name="download_done">Загрузка завершена</string>
     <string name="downloading">Загрузка</string>
+    <string name="download_paused">на паузе</string>
     <string name="add_to_download">“%s” добавить в список загрузки</string>
     <string name="enter_name">Пожалуйста введите название песни или имя певца</string>
     <string name="clear_histroy">Очистка истории</string>
