@@ -142,4 +142,5 @@
     <string name="alarm_command_summary_format">"Вы можете сказать %1$s или %2$s 
  Отложить или выключить сигнал."</string>
     <string name="alarm_command_summary_format_land">Сказать %1$s или %2$s Отложить или выключить сигнал.</string>
+    <string name="turn_snooze">Перевернуть, чтобы отложить</string>
 </resources>

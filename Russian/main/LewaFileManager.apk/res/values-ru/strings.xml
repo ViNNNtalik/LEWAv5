@@ -224,6 +224,7 @@
     <string name="operation_paste">Вставить</string>
     <string name="operation_pasting">Вставка...</string>
     <string name="operation_refresh">Обновить</string>
+    <string name="operation_refresh_completed">Обновление завершено</string>
     <string name="operation_rename">Переименовать</string>
     <string name="operation_rename_message">Введите новое имя</string>
     <string name="operation_selectall">Выбрать все</string>

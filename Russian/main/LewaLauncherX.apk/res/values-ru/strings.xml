@@ -52,6 +52,10 @@
     <string name="pref_desktop_effect">Эффект анимации рабочего стола</string>
     <string name="pref_screen_layout">Сетка экрана</string>
     <string name="pref_screen_layout_summary">Выберите экранное расположение значков</string>
+    <string name="pref_icon_size">Размер иконок</string>
+    <string name="pref_icon_size_summary">Выберите размер иконок</string>
+    <string name="small_icon_size">Маленький</string>
+    <string name="normal_icon_size">Нормальный</string>
     <string name="pref_desktop_effect_summary">Эфекты при перемещении рабочих столов</string>
     <string name="pref_title_wallpaper_scrolling">Прокрутка обоев</string>
     <string name="pref_summary_wallpaper_scrolling">Обои перемещаются вместе с рабочим столом</string>
