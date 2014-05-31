@@ -273,4 +273,7 @@
 %1$s %3$s"</string>
     <string name="twenty_four_hour_time_format">H:mm</string>
     <string name="twelve_hour_time_format">h:mm a</string>
+    <string name="notifilter_header">Предотвращенные уведомления</string>
+    <string name="notifilter_tail">Не предотвращенные уведомления</string>
+    <string name="notifilter_headernotice">Запрещенные уведомления</string>
 </resources>

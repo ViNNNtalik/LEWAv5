@@ -196,7 +196,7 @@
     <string name="pref_stereo3d_video_quality_default">11</string>
     <string name="pref_camera_picturesize_stereo3d_title">Формат Stereo3D</string>
     <string name="pref_camera_picturesize_entry_4224x3168">13.3 Мпикс.</string>
-   <string name="pref_camera_picturesize_entry_3264x1836">8 Мпикс.</string>
+    <string name="pref_camera_picturesize_entry_3264x1836">8 Мпикс.</string>
     <string name="pref_camera_picturesize_entry_2592x1458">5 Мпикс.</string>
     <string name="pref_camera_picturesize_entry_2048x1152">3 Мпикс.</string>
     <string name="pref_camera_picturesize_entry_1600x900">2 Мпикс.</string>
@@ -220,6 +220,7 @@
     <string name="close_settings_weather_title">Закрыть Погоду</string>
     <string name="close_settings_self_timer_title">Закрыть Таймер</string>
     <string name="delete_success">Удалено успешно</string>
+
     <string name="camera_error_title">Ошибка камеры</string>
     <string name="cannot_connect_camera">Не удалось подключиться к камере</string>
     <string name="camera_disabled">Камера отключена в соответствии с политикой безопасности</string>
@@ -246,6 +247,8 @@
     <string name="pref_camera_id_entry_front">Передняя</string>
     <string name="pref_camera_recordlocation_title">Геотеги</string>
     <string name="pref_camera_recordlocation_default">on</string>
+
+
     <string name="pref_camera_mute_shutter_title">Выкл.звук затвора</string>
     <string name="pref_camera_mute_shutter_default">off</string>
     <string name="pref_camera_power_shutter_title">Длинное нажатие затвора</string>
@@ -273,7 +276,7 @@
     <string name="pref_camera_picturesize_entry_1024x768">1 Мпикс.</string>
     <string name="pref_camera_picturesize_entry_640x480">VGA</string>
     <string name="pref_camera_picturesize_entry_320x240">QVGA</string>
-    <string name="pref_camera_picturesize_entry_2560x1920">5  Мпикс.</string>
+    <string name="pref_camera_picturesize_entry_2560x1920">5 Мпикс.</string>
     <string name="pref_camera_picturesize_entry_4096x2304">9,5 Мпикс.</string>
     <string name="pref_camera_picturesize_entry_3584x2016">8 Мпикс.</string>
     <string name="pref_camera_picturesize_entry_2880x1620">5 Мпикс.</string>
@@ -397,7 +400,6 @@
     <string name="original_picture_text">@string/original</string>
     <string name="original">Оригинал</string>
     <string name="borders">Границы</string>
-    <string name="done">Готово</string>
     <string name="filtershow_undo">Отмена</string>
     <string name="filtershow_redo">Повторить</string>
     <string name="show_history_panel">Показать историю</string>
@@ -427,17 +429,11 @@
     <string name="sharpness">Резкость</string>
     <string name="contrast">Контраст</string>
     <string name="vibrance">Вибрация</string>
-    <string name="saturation">Насыщенность</string>
     <string name="bwfilter">Ч/Б</string>
     <string name="wbalance">Авторежим</string>
     <string name="hue">Оттенок</string>
     <string name="shadow_recovery">Тени</string>
     <string name="curvesRGB">Кривые</string>
-    <string name="vignette">Виньетка</string>
-    <string name="redeye">Красные глаза</string>
-    <string name="straighten">Выравнивание</string>
-    <string name="crop">Кадрировать</string>
-    <string name="rotate">Поворот</string>
     <string name="mirror">Отразить</string>
     <string name="none">Оригинал</string>
     <string name="curves_channel_rgb">RGB</string>
@@ -447,12 +443,24 @@
     <string name="save_edited_picture">Сохранить измененное изображение?</string>
     <string name="memory_full_failed_save">Нет свободного места. Сохранить не удалось</string>
     <string name="failed_to_save">Ошибка сохранения</string>
-    <string name="dcim_album_path">DCIM/Camera</string>
-    <string name="family_album_path">Pictures/family</string>
-    <string name="friend_album_path">Pictures/friend</string>
-    <string name="colleague_album_path">Pictures/colleague</string>
-    <string name="travel_album_path">Pictures/travel</string>
-    <string name="default_camera_category">android.intent.category.LAUNCHER</string>
+    <string name="saturation">Насыщенность</string>
+    <string name="redeye">Красные глаза</string>
+    <string name="straighten">Выравнивание</string>
+    <string name="crop">Кадрировать</string>
+    <string name="rotate">Поворот</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string name="camera_roll_tab">Камера</string>
     <string name="phone_pictures_tab">Изображения</string>
     <string name="today">Сегодня</string>
@@ -511,7 +519,6 @@
     <string name="filter_rotate_updown">Сверху вниз</string>
     <string name="audio_not_supported">Не удалось проиграть аудио</string>
     <string name="can_not_trim">Возникла ошибка, видео не может быть обрезано</string>
-    <string name="settings">Настройки</string>
     <string name="setp_option_name">Шаг</string>
     <string name="step_option_desc">Настроить шаг вперед/назад</string>
     <string name="setp_option_three_second">3 секунды</string>
@@ -605,13 +612,13 @@
     <string name="Skin_tone_Sat">Оттенок кожи(Sat): 0</string>
     <string name="SGS_number">6</string>
     <string name="step_option_default_value">0</string>
+    <string name="settings">Настройки</string>
     <string name="photoeditor_name">Фотостудия</string>
     <string name="loading_failure">Не удалось загрузить фотографию</string>
     <string name="saving_failure">Не удалось сохранить изменения</string>
     <string name="photo_saved">Измененная фотография сохранена в папке %s</string>
     <string name="discard_unsaved_photo">Отменить несохраненные изменения?</string>
     <string name="yes">Да</string>
-    <string name="save">Сохранить</string>
     <string name="autofix">Авто</string>
     <string name="crossprocess">Кроссобработка</string>
     <string name="documentary">Документальные</string>
@@ -634,6 +641,7 @@
     <string name="sharpen">Резкость</string>
     <string name="temperature">Тепло</string>
     <string name="tint">Оттенок</string>
+    <string name="vignette">Виньетка</string>
     <string name="crop_tooltip">Чтобы кадрировать фото, перетащите маркеры</string>
     <string name="doodle_tooltip">Рисуйте на фото пальцем</string>
     <string name="flip_tooltip">Чтобы отразить фото, перетащите его край</string>
@@ -646,10 +654,11 @@
     <string name="photoeditor_fix">Изменить</string>
     <string name="photoeditor_undo">Отменить</string>
     <string name="photoeditor_redo">Повторить</string>
+    <string name="save">Сохранить</string>
     <string name="app_name">Галерея</string>
     <string name="gadget_title">Рамка фотографии</string>
-    <string name="details_ms">%1$02d:%2$02d</string>
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+
+
     <string name="movie_view_label">Видеопроигрыватель</string>
     <string name="loading_video">Загрузка видео...</string>
     <string name="loading_image">Загрузка изображения...</string>
@@ -726,6 +735,7 @@
     <string name="picasa_posts">Записи</string>
     <string name="make_available_offline">Офлайн-доступ</string>
     <string name="sync_picasa_albums">Обновить</string>
+    <string name="done">Готово</string>
     <string name="sequence_in_set">%1$d из %2$d:</string>
     <string name="title">Название</string>
     <string name="description">Описание</string>
@@ -794,7 +804,7 @@
     <string name="folder_imported">Импортированные</string>
     <string name="folder_screenshot">Скриншоты</string>
     <string name="help">Справка</string>
-    <string name="help_url_gallery_main" />
+
     <string name="no_external_storage_title">Накопитель не найден</string>
     <string name="no_external_storage">Нет внешних накопителей</string>
     <string name="switch_photo_filmstrip">Кинолента</string>
@@ -814,16 +824,16 @@
     <string name="f360_Retro_Yellow">Ретро</string>
     <string name="f360_HDR_Soft">Мягкий HDR</string>
     <string name="f360_BW_Normal">Норм. Ч/Б</string>
-    <string name="f360_DepthClean_p">C360_Skin_DepthClean</string>
-    <string name="f360_DepthWhitening_p">C360_Skin_DepthWhitening</string>
-    <string name="f360_CleanBW_p">C360_Skin_CleanBW</string>
-    <string name="f360_Sunshine_p">C360_Skin_Sunshine</string>
-    <string name="f360_Greenish_p">C360_Skin_Greenish</string>
-    <string name="f360_LightColor_beauty_p">C360_LightColor_Beauty</string>
-    <string name="f360_LOMO_Film_p">C360_LOMO_Film</string>
-    <string name="f360_Retro_Yellow_p">C360_Retro_Yellow</string>
-    <string name="f360_HDR_Soft_p">C360_HDR_Soft</string>
-    <string name="f360_BW_Normal_p">C360_BW_Normal</string>
+
+
+
+
+
+
+
+
+
+
     <string name="set_as_wallpaper">Локскрин</string>
     <string name="set_as_lockscreen">Раб. стол</string>
     <string name="set_as_both">Все</string>
@@ -835,10 +845,10 @@
     <string name="lockpattern_pattern_confirmed_header">Новый графический ключ разблокировки:</string>
     <string name="lockpattern_confirm_button_text">Подтвердить</string>
     <string name="lockpattern_restart_button_text">Воспроизвести повторно</string>
-    <string name="lockpattern_retry_button_text">Повторить</string>
     <string name="lockpattern_continue_button_text">Продолжить</string>
     <string name="lockpattern_recording_intro_header">Начертите графический ключ разблокировки</string>
     <string name="lockpattern_recording_intro_footer">Для справки нажмите \"Меню\"</string>
+    <string name="lockpattern_retry_button_text">Повторить</string>
     <string name="lockpattern_settings_title">Графический ключ разблокировки</string>
     <string name="lockpattern_settings_enable_title">Запрашивать ключ</string>
     <string name="lockpattern_settings_enable_summary">Использовать графический ключ для защиты телефона</string>
@@ -853,16 +863,57 @@
     <string name="lockpattern_need_to_unlock_wrong">Повторить:</string>
     <string name="lockpattern_tutorial_cancel_label">Отмена</string>
     <string name="lockpattern_tutorial_continue_label">Далее</string>
-    <string name="lock_title">Securing your phone</string>
-    <string name="lock_intro_message">"Protect your phone from unauthorized use by creating a personal screen unlock pattern. Slide your finger to connect at least four dots in any order on the next screen. 
+    <string name="lock_title">Обеспечение безопасности</string>
+    <string name="lock_intro_message">"Чтобы никто, кроме Вас, не мог воспользоваться устройством, создайте графический ключ разблокировки экрана. Для этого соедините в произвольном порядке не менее четырех точек на следующем экране. 
 
-Ready to start? Touch Next."</string>
-    <string name="lockpassword_confirm_your_pattern_header">Confirm your pattern</string>
-    <string name="lockpattern_need_to_unlock">Confirm saved pattern</string>
-    <string name="lockpattern_need_to_unlock_footer" />
-    <string name="lockpattern_need_to_unlock_wrong_footer" />
-    <string name="create_album_fail_exists">create an album failed, and the album has the same name</string>
-    <string name="create_album_fail_pecial_char">create an album failed, including special text</string>
+Чтобы начать, нажмите \"Далее\""</string>
+    <string name="lockpassword_confirm_your_pattern_header">Подтвердите ключ</string>
+    <string name="lockpattern_need_to_unlock">Начертите существующий ключ</string>
+
+
+    <string name="create_album_fail_exists">Создание альбома не удалось, название уже существует</string>
+    <string name="create_album_fail_pecial_char">Создание альбома не удалось, в названии недопустимые символы</string>
+    <string name="drm_protectioninfo_title">Защита информации</string>
+    <string name="new_sim">Новая SIM-карта</string>
+    <string name="VideoView_error_text_invalid_connection">Ошибка соединения. (Ошибка 403)</string>
+    <string name="VideoView_error_text_bad_file">Видео не может быть воспроизведено - плохой файл</string>
+    <string name="VideoView_error_text_cannot_connect_to_server">Не удается подключиться к серверу</string>
+    <string name="VideoView_error_text_type_not_supported">Тип файла не поддерживается</string>
+    <string name="VideoView_error_text_drm_not_supported">Защита DRM, не могу проиграть видео</string>
+    <string name="media_controller_buffering">Буферизация %d%%...</string>
+    <string name="media_controller_live">Live</string>
+    <string name="media_controller_playing">Воспроизведение</string>
+    <string name="media_controller_connecting">Соединение...</string>
+    <string name="activity_not_found">Приложение не установлено</string>
+    <string name="drm_protection_status">Статус защиты:</string>
+    <string name="drm_can_forward">Можно перенаправить</string>
+    <string name="drm_can_not_forward">Нельзя перенаправить</string>
+    <string name="drm_no_limitation">Без ограничений</string>
+    <string name="drm_no_license">Нет доступной лицензии DRM</string>
+    <string name="drm_begin">Начало:</string>
+    <string name="drm_end">Конец:</string>
+    <string name="drm_use_left">Осталось:</string>
+    <string name="drm_protectioninfo_renew">Возобновить</string>
+    <string name="drm_licenseacquisition_title">Приобретение лицензий DRM</string>
+    <string name="drm_licenseacquisition_message">%1$s нет доступных лицензий DRM. Вы можете нажать “Обновить” для их приобретения</string>
+    <string name="drm_toast_license_expired">Лицензия DRM просрочена</string>
+    <string name="drm_forwardforbidden_title">Перенаправление запрещено</string>
+    <string name="drm_forwardforbidden_message">Некоторые защищенные файлы не могут быть перенаправлены</string>
+    <string name="drm_license_install_success">Установка DRM лицензии прошла успешно</string>
+    <string name="drm_license_install_fail">Ошибка установки DRM лицензии</string>
+    <string name="drm_secure_timer_title">Неправильные часы безопасности DRM</string>
+    <string name="drm_secure_timer_message">Вы не можете использовать защищенные файлы DRM. Убедитесь, что передача данных доступна</string>
+    <string name="drm_consume_title">Требование прав DRM</string>
+    <string name="drm_consume_message">Ваши действия требуют прав DRM</string>
+    <string name="drm_forward_forbidden">Один или более защищенных файлов не могут быть перенаправлены</string>
+    <string name="start_camera_error">Ошибка запуска камеры</string>
+    <string name="please_install_lewa_camera">Установите Камеру от Lewa</string>
+    <string name="rename_album">Переименование альбома</string>
+    <string name="album_no_change">Название без изменений</string>
+    <string name="pref_camera_exposuremeter_title">Автомат. экспозиция</string>
+    <string name="pref_camera_exposuremeter_entry_center">Центр</string>
+    <string name="pref_camera_exposuremeter_entry_spot">Точка</string>
+    <string name="pref_camera_exposuremeter_entry_average">Среднее</string>
     <string name="create_album_fail_emptyname">Введите имя альбома</string>
     <string name="pref_camera_jpegquality_title">Качество JPEG</string>
     <string name="pref_camera_jpegquality_entry_superfine">Максим.</string>
@@ -870,8 +921,4 @@ Ready to start? Touch Next."</string>
     <string name="pref_camera_jpegquality_entry_normal">Хорошее</string>
     <string name="pref_camera_jpegquality_entry_middle">Среднее</string>
     <string name="pref_camera_jpegquality_entry_low">Низкое</string>
-    <string name="pref_camera_exposuremeter_title">Автомат. экспозиция</string>
-    <string name="pref_camera_exposuremeter_entry_center">Центр</string>
-    <string name="pref_camera_exposuremeter_entry_spot">Точка</string>
-    <string name="pref_camera_exposuremeter_entry_average">Среднее</string>
 </resources>
