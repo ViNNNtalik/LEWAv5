@@ -316,7 +316,7 @@
     <string name="category_all_video">Все видео</string>
     <string name="theme_path">LEWA/theme</string>
     <string name="apk_installed">Установлено</string>
-    <string name="apk_uninstalled">Удалено</string>
+    <string name="apk_uninstalled">Не установлено</string>
     <string name="apk_installed_update">Обновлено</string>
     <string name="apk_version">Версия:</string>
     <string name="apk_installed_unknown">Неизвестный статус</string>

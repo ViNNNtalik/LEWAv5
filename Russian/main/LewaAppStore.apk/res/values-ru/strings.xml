@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_store">Lewa Маркет</string>
     <string name="app_update">Обновление прилож.</string>
     <string name="app_download">раз</string>
@@ -86,6 +87,9 @@
     <string name="setting_update_notification">Уведомление о наличии обновления</string>
     <string name="setting_auto_update">Автообновление</string>
     <string name="setting_auto_update_summary">Автообновление по Wi-Fi</string>
+    <string name="setting_check_update">Проверить обновление</string>
+    <string name="setting_check_update_summary">Текущая версия</string>
+
     <string name="recommend_app_title">Рекомендовать приложение</string>
     <string name="drop_down_list_header_default_text">Нажмите для обновления…</string>
     <string name="drop_down_list_header_pull_text">Протяните для обновления…</string>

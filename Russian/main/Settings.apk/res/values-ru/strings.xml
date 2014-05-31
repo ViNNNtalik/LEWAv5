@@ -1348,8 +1348,8 @@
     <string name="storage_other_users">Другие пользователи</string>
     <string name="battery_status_title">Состояние батареи</string>
     <string name="battery_level_title">Уровень заряда батареи</string>
-    <string name="apn_settings">Точки доступа</string>
-    <string name="apn_edit">Настройки точки доступа</string>
+    <string name="apn_settings">Точки доступа (APN)</string>
+    <string name="apn_edit">Настройки APN</string>
     <string name="apn_not_set">Не задано</string>
     <string name="apn_name">Имя</string>
     <string name="apn_apn">APN</string>
