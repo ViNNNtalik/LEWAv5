@@ -78,7 +78,7 @@
     <string name="pref_label_settings">Настройки рабочего стола</string>
     <string name="pref_keep_resident">Держать в памяти</string>
     <string name="pref_summary_keep_resident">Не выгружать лаунчер из памяти</string>
-    <string name="pref_screen_cycle">Циклическая прокрутка рабочих столов</string>
+    <string name="pref_screen_cycle">Циклическая прокрутка экранов</string>
     <string name="folder_full_hint">Эта папка заполнена</string>
     <string name="shortcut_phone">Телефон</string>
     <string name="shortcut_contacts">Контакты</string>
