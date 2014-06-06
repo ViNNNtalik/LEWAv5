@@ -220,7 +220,6 @@
     <string name="close_settings_weather_title">Закрыть Погоду</string>
     <string name="close_settings_self_timer_title">Закрыть Таймер</string>
     <string name="delete_success">Удалено успешно</string>
-
     <string name="camera_error_title">Ошибка камеры</string>
     <string name="cannot_connect_camera">Не удалось подключиться к камере</string>
     <string name="camera_disabled">Камера отключена в соответствии с политикой безопасности</string>
@@ -448,6 +447,8 @@
     <string name="straighten">Выравнивание</string>
     <string name="crop">Кадрировать</string>
     <string name="rotate">Поворот</string>
+    <string name="done">Готово</string>
+    <string name="vignette">Виньетка</string>
 
 
 
@@ -641,7 +642,6 @@
     <string name="sharpen">Резкость</string>
     <string name="temperature">Тепло</string>
     <string name="tint">Оттенок</string>
-    <string name="vignette">Виньетка</string>
     <string name="crop_tooltip">Чтобы кадрировать фото, перетащите маркеры</string>
     <string name="doodle_tooltip">Рисуйте на фото пальцем</string>
     <string name="flip_tooltip">Чтобы отразить фото, перетащите его край</string>
@@ -735,7 +735,6 @@
     <string name="picasa_posts">Записи</string>
     <string name="make_available_offline">Офлайн-доступ</string>
     <string name="sync_picasa_albums">Обновить</string>
-    <string name="done">Готово</string>
     <string name="sequence_in_set">%1$d из %2$d:</string>
     <string name="title">Название</string>
     <string name="description">Описание</string>

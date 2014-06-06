@@ -78,17 +78,8 @@
     <string name="pref_label_settings">Настройки рабочего стола</string>
     <string name="pref_keep_resident">Держать в памяти</string>
     <string name="pref_summary_keep_resident">Не выгружать лаунчер из памяти</string>
-    <string name="pref_screen_cycle">Циклическая прокрутка рабочих столов</string>
+    <string name="pref_screen_cycle">Циклическая прокрутка</string>
     <string name="folder_full_hint">Эта папка заполнена</string>
-    <string name="shortcut_phone">Телефон</string>
-    <string name="shortcut_contacts">Контакты</string>
-    <string name="shortcut_browser">Браузер</string>
-    <string name="shortcut_messaging">Сообщения</string>
-    <string name="phone_intent">\#Intent;action=android.intent.action.DIAL;launchFlags=0x10000000;end</string>
-    <string name="contacts_intent">content://com.android.contacts/contacts#Intent;action=android.intent.action.VIEW;launchFlags=0x10000000;end</string>
-    <string name="browser_intent">http://www.google.com#Intent;action=android.intent.action.VIEW;launchFlags=0x10000000;end</string>
-    <string name="messaging_intent">\#Intent;action=android.intent.action.MAIN;type=vnd.android-dir/mms-sms;launchFlags=0x10000000;end</string>
-    <string name="lewabbs_intent">http://bbs.lewaos.com/forum.php?mobile=yes#Intent;action=android.intent.action.VIEW;end</string>
     <string name="loading_prompt">Загрузка...</string>
     <string name="uninstall_system_app_text">Системное приложение не может быть удалено</string>
     <string name="uninstall_widget_text">Виджет не может быть установлен</string>
@@ -107,8 +98,6 @@
     <string name="no_hidden_apps">Нет приложений</string>
     <string name="done">ОК</string>
     <string name="edit">Изменить</string>
-    <string name="ok">ОК</string>
-    <string name="cancel">Отмена</string>
     <string name="uninstall_done">Удаление завершено</string>
     <string name="uninstall_failed">Удаление не удалось</string>
     <string name="uninstall_failed_msg">%1$s не может быть удалено</string>
@@ -120,6 +109,17 @@
     <string name="uninstall_activity_text">%1$s является частью следующего приложения:</string>
     <string name="uninstall_update_text">Вы хотите удалить обновление и вернуться на начальную версию приложения?</string>
     <string name="app_not_found_dlg_text">Приложение отсутствует в списке установленных</string>
+    <string name="shortcut_phone">Телефон</string>
+    <string name="shortcut_contacts">Контакты</string>
+    <string name="shortcut_browser">Браузер</string>
+    <string name="shortcut_messaging">Сообщения</string>
+    <string name="phone_intent">\#Intent;action=android.intent.action.DIAL;launchFlags=0x10000000;end</string>
+    <string name="contacts_intent">content://com.android.contacts/contacts#Intent;action=android.intent.action.VIEW;launchFlags=0x10000000;end</string>
+    <string name="browser_intent">http://www.google.com#Intent;action=android.intent.action.VIEW;launchFlags=0x10000000;end</string>
+    <string name="messaging_intent">\#Intent;action=android.intent.action.MAIN;type=vnd.android-dir/mms-sms;launchFlags=0x10000000;end</string>
+    <string name="lewabbs_intent">http://bbs.lewaos.com/forum.php?mobile=yes#Intent;action=android.intent.action.VIEW;end</string>
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
     <string name="external_drop_widget_error">Невозможно добавить элемент на рабочий стол</string>
     <string name="external_drop_widget_pick_title">Выберите виджет</string>
     <string name="home">Домой</string>
