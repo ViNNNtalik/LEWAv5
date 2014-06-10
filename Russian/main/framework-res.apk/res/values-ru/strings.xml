@@ -38,7 +38,7 @@
     <string name="db_wal_sync_mode">FULL</string>
     <string name="config_useragentprofile_url" />
     <string name="config_isoImagePath" />
-    <string name="config_ntpServer">asia.pool.ntp.org</string>
+    <string name="config_ntpServer">ru.pool.ntp.org</string>
     <string name="config_wimaxServiceJarLocation" />
     <string name="config_wimaxNativeLibLocation" />
     <string name="config_wimaxManagerClassname" />
