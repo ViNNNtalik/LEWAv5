@@ -382,15 +382,11 @@
     <string name="more">Больше</string>
     <string name="id3_empty">пустой</string>
     <string name="search_bar_hint">Поиск песни</string>
-    <string name="nosdcard_title">SD-карта извлечена</string>
-    <string name="nousb_title">USB-накопитель извлечен</string>
     <string name="title_folder">Папки</string>
     <string name="title_artist_alltrack">Песни</string>
     <string name="title_artist_album">Альбомы</string>
     <string name="title_artist_info">Подробности</string>
     <string name="eq_setting">Эквалайзер</string>
-    <string name="artist_blank">   </string>
-    <string name="title_blank">   </string>
     <string name="music_exit">Выход</string>
     <string name="download_menu">Получить изображения</string>
     <string name="download_tip">"Wi-Fi не подключен. Продолжение может привести к затратам на мобильную передачу данных.
