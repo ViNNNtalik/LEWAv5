@@ -13,4 +13,13 @@
         <item>Сообщения</item>
         <item>Звонки</item>
     </string-array>
+    <integer-array name="modes_array_int">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="black_items">
+        <item>Номера для перехвата</item>
+        <item>Группы для перехвата</item>
+    </string-array>
 </resources>
