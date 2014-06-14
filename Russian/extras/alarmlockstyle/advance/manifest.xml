@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lockscreen version="1" frameRate="30" frameRateBatteryLow="20" screenWidth="720">
+	<VirtualScreen name="virtualscreen" freeze="true">
+		<Wallpaper blur="5" blurMaskGradient="#00000000|#ff000000" coverGradient="#00000000|#00000000|#bb000000"/>
+		<!--Дата время-->
+		<Group name="datetime" visibility="not(#music_control.visibility)">
+			<Var name="time_pos_y" expression="124"/>
+			<Var name="time_color" expression="#FFFFFFFF"/>
+			<Var name="time_size" expression="160"/>
+			<Var name="mon_width" expression="#mon.text_width"/>
+			<Var name="lunar_calendar_width" expression="#lunar_calendar.text_width"/>
+			<Var name="hf_width" expression="0"/>
+			<Var name="hs_width" expression="#h_s.text_width"/>
+			<Var name="dot_width" expression="#t_dot.bmp_width"/>
+			<Var name="mf_width" expression="#m_f.text_width"/>
+			<Var name="ms_width" expression="#m_s.text_width"/>
+			<Var name="time_width" expression="int(#hf_width+#hs_width+#dot_width+#mf_width+#ms_width)"/>
+			<Var name="time_pos_x" expression="(#screen_width-#time_width)/2"/>
+			<Var name="hour" expression="ifelse(eq(#time_format,0),#hour12,#hour24)" />
+			<Text name="h_s" x="#time_pos_x+#hf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(eq(#ampm,1)*eq(#hour,0),12,#hour)" typeface="NeoSans-Light.otf"/>
+			<Image name="t_dot" x="#time_pos_x+#hf_width+#hs_width" y="#time_pos_y+160" align="left" alignV="bottom" src="time_dot.png"/>
+			<Text name="m_f" x="#time_pos_x+#hf_width+#hs_width+#dot_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(digit(#minute ,2),digit(#minute ,2),0)" typeface="NeoSans-Light.otf"/>
+			<Text name="m_s" x="#time_pos_x+#hf_width+#hs_width+#dot_width+#mf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(digit(#minute ,1),digit(#minute ,1),0)" typeface="NeoSans-Light.otf"/>
+			<DateTime name="mon" x="(#screen_width-(#mon_width+#lunar_calendar_width))/2-@mon_offsetX" y="320" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="left" format="dd.MMMM" typeface="Roboto-Light.ttf"/>
+			<DateTime name="lunar_calendar" x="(#screen_width-(#mon_width+#lunar_calendar_width))/2+#mon_width" y="320" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="left" format="@chinese_calendar_format" visibility="@chinese_calendar_show"/>
+			<DateTime name="week" x="#screen_width/2+@week_offsetX" y="320+@week_offsetY" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="center" format="EEEE" typeface="@week_typeface"/>
+		</Group>
+		<Var name="guid_tips_alpha_show">
+			<VariableAnimation>
+				<AniFrame value="0" time="0"/>
+				<AniFrame value="179" time="1000"/>
+				<AniFrame value="179" time="100000000000"/>
+			</VariableAnimation>
+		</Var>
+		<Var name="guid_tips_alpha_miss">
+			<VariableAnimation>
+				<AniFrame value="179" time="0"/>
+				<AniFrame value="0" time="1000"/>
+				<AniFrame value="0" time="100000000000"/>
+			</VariableAnimation>
+		</Var>
+		<Text name="unlock_tips" x="#screen_width/2" align="center" y="#screen_height-1280+919-280" format="%s" paras="@slide_down_lock" color="#33ffffff" size="45" shadow="0|0|6|#bf000000"  />
+		<Text name="close_alarm" x="#screen_width/2" align="center" y="#screen_height-1280+919-125" format="%s" paras="@slide_close_alarm" color="#33ffffff" size="24" shadow="0|0|6|#bf000000"  />
+
+		<Group name="lock_part">
+			<Var name="unlocker_pos_centerY" expression="#screen_height-1280+919"/>
+			<Var name="lock_offsetY" expression="ifelse(lt(#unlocker_lock.move_y,-20),-20-((#unlocker_lock.move_y+20)*40/#unlocker_lock.move_y),#unlocker_lock.move_y)"/>
+			<Var name="line_ani_move_x">
+				<VariableAnimation>
+					<AniFrame value="0" time="0"/>
+					<AniFrame value="720" time="6000"/>
+				</VariableAnimation>
+			</Var>
+			<Group name="lines" alpha="ifelse(#lock_state_normal,#guide_show,#guide_miss)">
+				<Image name="line_1_norm_0" x="#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" srcExp="'line_1'+ifelse(gt(#battery_state,0)*ne(#battery_state,2),'_charge','')+'.png'"/>
+				<Image name="line_1_norm_1" x="-#line_1_norm_0.bmp_width+#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" srcExp="'line_1'+ifelse(gt(#battery_state,0)*ne(#battery_state,2),'_charge','')+'.png'"/>
+				<Image name="line_2_norm_0" x="#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" srcExp="'line_2'+ifelse(gt(#battery_state,0)*ne(#battery_state,2),'_charge','')+'.png'"/>
+				<Image name="line_2_norm_1" x="-#line_2_norm_0.bmp_width+#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" srcExp="'line_2'+ifelse(gt(#battery_state,0)*ne(#battery_state,2),'_charge','')+'.png'"/>
+				<Image name="line_3_norm_0" x="#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" srcExp="'line_3'+ifelse(gt(#battery_state,0)*ne(#battery_state,2),'_charge','')+'.png'"/>
+				<Image name="line_3_norm_1" x="-#line_3_norm_0.bmp_width+#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" srcExp="'line_3'+ifelse(gt(#battery_state,0)*ne(#battery_state,2),'_charge','')+'.png'"/>
+			</Group>
+			<!--Индикатор зарядки-->
+			<Group name="charging_light" alpha="ifelse(#lock_state_normal,#guide_show,#guide_miss)" visibility="#battery_state*ne(#battery_state,2)">
+				<Var name="battery_w" expression="#battery_level*#screen_width/100" type="number"/>
+				<Var name="granduent_width" expression="ifelse(le(#battery_level,87),92,92*(100-#battery_level)/13)" type="number"/>
+				<Var name="charging_light_width" expression="#battery_w-#granduent_width" type="number"/>
+				<Image x="0" y="#unlocker_pos_centerY" align="left" alignV="center" src="light.png" w="#charging_light_width">
+					<Mask x="-720+#line_ani_move_x" y="#unlocker_pos_centerY-55-12" align="absolute" src="line_1_mask.png"/>
+				</Image>
+				<Image x="0+#charging_light_width" y="#unlocker_pos_centerY" align="left" alignV="center" src="light_graduent.png" w="#granduent_width">
+					<Mask x="-720+#line_ani_move_x" y="#unlocker_pos_centerY-55-12" align="absolute" src="line_1_mask.png"/>
+				</Image>
+				<Image x="0" y="#unlocker_pos_centerY" align="left" alignV="center" src="light.png" w="#charging_light_width">
+					<Mask x="-720+#line_ani_move_x" y="#unlocker_pos_centerY-55-12" align="absolute" src="line_2_mask.png"/>
+				</Image>
+				<Image x="0+#charging_light_width" y="#unlocker_pos_centerY" align="left" alignV="center" src="light_graduent.png" w="#granduent_width">
+					<Mask x="-720+#line_ani_move_x" y="#unlocker_pos_centerY-55-12" align="absolute" src="line_2_mask.png"/>
+				</Image>
+				<Image x="0" y="#unlocker_pos_centerY" align="left" alignV="center" src="light.png" w="#charging_light_width">
+					<Mask x="-720+#line_ani_move_x" y="#unlocker_pos_centerY-55-12" align="absolute" src="line_3_mask.png"/>
+				</Image>
+				<Image x="0+#charging_light_width" y="#unlocker_pos_centerY" align="left" alignV="center" src="light_graduent.png" w="#granduent_width">
+					<Mask x="-720+#line_ani_move_x" y="#unlocker_pos_centerY-55-12" align="absolute" src="line_3_mask.png"/>
+				</Image>
+			</Group>
+			<Var name="lock_image_size_n">
+				<VariableAnimation>
+					<AniFrame value="#img_normal_lock.bmp_width*1.25" time="0"/>
+					<AniFrame value="#img_normal_lock.bmp_width" time="100"/>
+					<AniFrame value="#img_normal_lock.bmp_width" time="1000000000000"/>
+				</VariableAnimation>
+			</Var>
+			
+			<Var name="lock_n_con" expression="eq(#unlocker_lock.state,0)"/>
+			<Group name="lock_normal" visibility="#lock_n_con">
+				<Var name="paline_vi" expression="0" const="true"/>
+				<Var name="lock_backY_N">
+					<VariableAnimation>
+						<AniFrame value="#lock_backN_init" time="0"/>
+						<AniFrame value="-12" time="100"/>
+						<AniFrame value="0" time="130"/>
+						<AniFrame value="15" time="160"/>
+						<AniFrame value="0" time="190"/>
+						<AniFrame value="-9" time="210"/>
+						<AniFrame value="0" time="230"/>
+						<AniFrame value="12" time="250"/>
+						<AniFrame value="0" time="270"/>
+						<AniFrame value="-6" time="280"/>
+						<AniFrame value="0" time="290"/>
+						<AniFrame value="9" time="300"/>
+						<AniFrame value="0" time="310"/>
+						<AniFrame value="0" time="10000000000000"/>
+					</VariableAnimation>
+				</Var>
+				<Path name="paline" type="quad" style="stroke" width="3" color="#4dFFFFFF" fromX="0" fromY="#unlocker_pos_centerY" moveX="#screen_width/2" moveY="#unlocker_pos_centerY+(#lock_offsetY+#lock_backY_N)*1.8" toX="#screen_width" toY="#unlocker_pos_centerY" visibility="#paline_vi" alpha="255*0.2">
+					<AlphaAnimation>
+						<Alpha a="255*0.2" time="0"/>
+						<Alpha a="255*0.2" time="450"/>
+						<Alpha a="100" time="500"/>
+						<Alpha a="0" time="600"/>
+						<Alpha a="0" time="100000000000"/>
+					</AlphaAnimation>
+				</Path>
+				<Image name="img_normal_lock" x="#screen_width/2" y="#unlocker_pos_centerY+#lock_offsetY+#lock_backY_N" align="center" alignV="center" src="unlocker.png" w="#lock_image_size_n" h="#lock_image_size_n">
+				</Image>
+			</Group>
+			<Group name="lock_pressed">
+				<Var name="lock_back_init" expression="0" type="number" const="true"/>
+				<Var name="lock_backY">
+					<VariableAnimation>
+						<AniFrame value="0" time="0"/>
+						<AniFrame value="#lock_back_init-12" time="200"/>
+						<AniFrame value="#lock_back_init" time="230"/>
+						<AniFrame value="#lock_back_init+20" time="260"/>
+						<AniFrame value="#lock_back_init" time="290"/>
+						<AniFrame value="#lock_back_init-9" time="310"/>
+						<AniFrame value="#lock_back_init" time="330"/>
+						<AniFrame value="#lock_back_init+15" time="350"/>
+						<AniFrame value="#lock_back_init" time="370"/>
+						<AniFrame value="#lock_back_init-6" time="380"/>
+						<AniFrame value="#lock_back_init" time="390"/>
+						<AniFrame value="#lock_back_init+10" time="400"/>
+						<AniFrame value="#lock_back_init" time="410"/>
+						<AniFrame value="#lock_back_init" time="10000000000000"/>
+					</VariableAnimation>
+				</Var>
+				<Group name="lock_press" visibility="ne(#unlocker_lock.state,0)">
+					<Var name="lock_image_size">
+						<VariableAnimation>
+							<AniFrame value="#img_normal_lock.bmp_width" time="0"/>
+							<AniFrame value="#img_normal_lock.bmp_width*1.25" time="200"/>
+							<AniFrame value="#img_normal_lock.bmp_width*1.25" time="1000000000000"/>
+						</VariableAnimation>
+					</Var>
+					<Path type="quad" style="stroke" width="3" color="#4dFFFFFF" fromX="0" fromY="#unlocker_pos_centerY" moveX="#screen_width/2" moveY="#unlocker_pos_centerY+#lock_offsetY*1.8+#lock_backY*1.8" toX="#screen_width" toY="#unlocker_pos_centerY" alpha="255*0.2" shadow="true"/>
+					<Image x="#screen_width/2" y="#unlocker_pos_centerY+#lock_offsetY" w="#lock_image_size" h="#lock_image_size" align="center" alignV="center" src="unlocker_pressed.png" alpha="#locker_dissmis"/>
+				</Group>
+			</Group>
+		</Group>
+		<!--Анимация загрузки-->
+		<Group name="guide">
+			<Var name="guide_show">
+				<VariableAnimation>
+					<AniFrame value="#guide_miss" time="0"/>
+					<AniFrame value="255" time="500"/>
+					<AniFrame value="255" time="100000000000"/>
+				</VariableAnimation>
+			</Var>
+			<Var name="guide_miss">
+				<VariableAnimation>
+					<AniFrame value="#guide_show" time="0"/>
+					<AniFrame value="0" time="500"/>
+					<AniFrame value="0" time="100000000000"/>
+				</VariableAnimation>
+			</Var>
+			<Var name="isreached_to_pressed" expression="1" const="true"/>
+			<Var name="lock_state_pressed" expression="eq(#unlocker_lock.state,1)"/>
+			<Var name="lock_state_normal" expression="eq(#unlocker_lock.state,0)"/>
+			<Var name="lockstate" expression="#unlocker_lock.state"/>
+			<Var name="guide_ani_trigger" expression="#lockstate" threshold="1">
+				<Trigger>
+					<Command target="unlock_tips.visibility" value="true" condition="#lock_state_pressed"/>
+					<Command target="guid_tips_alpha_show.animation" value="play" condition="#lock_state_pressed"/>
+					<Command target="guid_tips_alpha_miss.animation" value="play" condition="#lock_state_normal"/>
+					<Command target="guide_show.animation" value="play" condition="eq(#lock_state_normal,1)"/>
+					<VariableCommand name="isreached_to_pressed" expression="0" const="true" condition="eq(#lockstate,2)"/>
+					<VariableCommand name="isreached_to_pressed" expression="1" const="true" condition="eq(#lockstate,0)"/>
+					<Command target="guide_miss.animation" value="play" condition="#lock_state_pressed*#isreached_to_pressed"/>
+				</Trigger>
+			</Var>
+			<Image x="#screen_width/2" y="#screen_height-234" align="center" alignV="top" src="guide_bg.png" alpha="ifelse(#lock_state_normal,#guide_show,#guide_miss)"/>
+			<Image x="#screen_width/2" y="#screen_height-234-30" align="center" src="guide_light.png" alpha="ifelse(#lock_state_normal,#guide_show,#guide_miss)">
+				<PositionAnimation>
+					<Position x="0" y="0" time="0"/>
+					<Position x="0" y="120" time="1000"/>
+					<Position x="0" y="120" time="1500"/>
+				</PositionAnimation>
+				<Mask x="#screen_width/2-8" y="#screen_height-234-55" src="guide_mask.png" align="absolute"/>
+			</Image>
+		</Group>
+	</VirtualScreen>
+
+
+	<Var name="press_back" expression="1" const="true"/>
+	<Var name="lock_back" expression="#press_back" threshold="1">
+		<Trigger>
+			<Command target="lock_backY_N.animation" value="play" condition="eq(#press_back,1)"/>
+			<VariableCommand name="paline_vi" expression="1" condition="eq(#press_back,1)"/>
+			<Command target="paline.animation" value="play" condition="eq(#press_back,1)"/>
+		</Trigger>
+	</Var>
+	<Var name="locker_dissmis_init" expression="255" const="true"/>
+	<Var name="locker_dissmis_end" expression="255" const="true"/>
+	<Var name="locker_dissmis" >
+		<VariableAnimation>
+			<AniFrame value="#locker_dissmis_init" time="0"/>
+			<AniFrame value="#locker_dissmis_end" time="300"/>
+			<AniFrame value="#locker_dissmis_end" time="100000000000"/>
+		</VariableAnimation>
+	</Var>
+	<Unlocker name="unlocker_lock" delay="500">
+		<StartPoint x="#screen_width/2-100" y="#screen_height-1280+919-100" w="200" h="200">
+			<NormalState>
+				<Trigger>
+					<VariableCommand name="press_back" expression="1" const="true"/>
+					<Command target="lock_image_size_n.animation" value="play"/>
+				</Trigger>
+			</NormalState>
+			<PressedState>
+				<Trigger>
+					<Command target="lock_image_size.animation" value="play"/>
+					<VariableCommand name="touch_state" expression="0" const="true"/>
+					<VariableCommand name="press_back" expression="0" const="true"/>
+					<VariableCommand name="lock_backN_init" expression="#lock_offsetY" type="number" const="true"/>
+				</Trigger>
+			</PressedState>
+			<ReachedState>
+				<Trigger action="up">
+					<VariableCommand name="lock_back_init" expression="-#lock_offsetY" type="number" const="true"/>
+					<Command target="lock_backY.animation" value="play"/>
+						<VariableCommand name="locker_dissmis_init" expression="255" type="number" const="true"/>
+						<VariableCommand name="locker_dissmis_end" expression="0" type="number"  const="true"/>
+					    <Command target="locker_dissmis.animation" value="play"/>
+				</Trigger>
+			</ReachedState>
+		</StartPoint>
+		<EndPoint x="-200" y="#screen_height*1000/1280" w="920" h="400">
+		<Intent action="lewa.action.stopalarm"/>
+		</EndPoint>
+	</Unlocker>
+	<Var name="press_back_1" expression="1" const="true"/>
+	<Var name="lock_back_1" expression="#press_back_1" threshold="1">
+		<Trigger>
+			<Command target="lock_backY_N.animation" value="play" condition="eq(#press_back_1,1)"/>
+			<VariableCommand name="paline_vi" expression="1" condition="eq(#press_back_1,1)"/>
+			<Command target="paline.animation" value="play" condition="eq(#press_back_1,1)"/>
+		</Trigger>
+	</Var>
+	<Button name="snooze" x="#screen_width/2-180" y="#screen_height-1280+919-400" w="360" h="250">
+		<Triggers>
+			<Trigger action="up">
+			       <IntentCommand  action="lewa.intent.action.snooze"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Var name="press_back_2" expression="1" const="true"/>
+	<Var name="lock_back_2" expression="#press_back_2" threshold="1">
+		<Trigger>
+			<Command target="lock_backY_N.animation" value="play" condition="eq(#press_back_2,1)"/>
+			<VariableCommand name="paline_vi" expression="1" condition="eq(#press_back_2,1)"/>
+			<Command target="paline.animation" value="play" condition="eq(#press_back_2,1)"/>
+		</Trigger>
+	</Var>
+</Lockscreen>

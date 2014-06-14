@@ -1,0 +1,12 @@
+<strings>
+    <string name="short_date_format" value="dd/MM EEEE" />
+    <string name="long_date_format" value="dd/MM/yyyy" />
+    <string name="slide_down" value="Вниз для разблокировки" />
+    <string name="air_quality" value="AQI:" />
+    <string name="chinese_calendar_show" value="0"/>
+    <string name="week_offsetY" value="0"/>
+    <string name="week_offsetX" value="90"/>
+    <string name="week_typeface" value="NeoSans-Light.otf"/>
+    <string name="unreadSMS" value=" непрочтенных SMS"/>
+    <string name="missCALL" value=" пропущенных вызовов"/>
+</strings>

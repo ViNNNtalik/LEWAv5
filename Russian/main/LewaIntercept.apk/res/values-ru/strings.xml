@@ -235,4 +235,6 @@
     <string name="recovering_to_calllog">Восстановление в журнал вызовов....</string>
     <string name="title_unknown_number">Неизвестный номер</string>
     <string name="ic_more">Еще</string>
+    <string name="annoy_call">Беспокоящий вызов</string>
+    <string name="ringonce_notice">Неизвестный номер звонит один раз</string>
 </resources>

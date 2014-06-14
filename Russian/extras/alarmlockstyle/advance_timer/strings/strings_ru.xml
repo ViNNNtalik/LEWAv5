@@ -1,0 +1,16 @@
+<strings>
+    <string name="short_date_format" value="dd/MM EEEE" />
+    <string name="long_date_format" value="dd/MM/yyyy" />
+    <string name="slide_down_lock" value="ТАЙМЕР" />
+    <string name="slide_close_alarm" value="Отключить таймер" />
+    <string name="slide_down_call" value="Звонки" />
+    <string name="slide_down_mess" value="СМС" />
+    <string name="air_quality" value="AQI:" />
+    <string name="chinese_calendar_show" value="0"/>
+    <string name="mon_offsetX" value="0"/>
+    <string name="week_offsetY" value="40"/>
+    <string name="week_offsetX" value="0"/>
+    <string name="week_typeface" value=""/>
+    <string name="unreadSMS" value="Пропущенных СМС"/>
+    <string name="missCALL" value="Пропущенных звонков"/>
+</strings>

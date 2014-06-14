@@ -1,0 +1,5 @@
+<strings>
+    <string name="slide_down_answer" value="Ответить" />
+    <string name="slide_down_hangup" value="Отклонить" />
+    <string name="slide_down_reply" value="Ответ СМС" />
+</strings>
