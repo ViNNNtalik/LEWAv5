@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="nosdcard_title">SD-карта отключена</string>
-    <string name="nousb_title">USB-хранилище отключено</string>
-    <string name="music_pro_def">0:00</string>
-    <string name="track_name_def">Нет песен</string>
-    <string name="artist_name_def">Нет</string>
-    <string name="artist_blank">   </string>
-    <string name="title_blank">   </string>
     <string name="Hearing_loss">Если Вы хотите снизить риск потери слуха, не слушайте музыку на высокой громкости в течение длительного времени</string>
     <string name="app_name">Музыка</string>
     <string name="action_settings">Настройки</string>
