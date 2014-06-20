@@ -68,6 +68,10 @@
     <string name="shake_degree_gentle">Мягко</string>
     <string name="shake_degree_common">Средне</string>
     <string name="shake_degree_force">Сильно</string>
+    <string name="apps_recommend_title">Рекомендованные приложения</string>
+    <string name="apps_recommend_summary">Рекомендованные приложения, схожие с находящимися в текущей папке</string>
+    <string name="apps_smart_sort_title">Умная сортировка</string>
+    <string name="apps_smart_sort_summary">Умная сортировка по папкам на рабочем столе</string>
     <string name="pref_title_lewa_lockscreen">Использовать Локскрин Lewa</string>
     <string name="pref_hide_status_bar">Спрятать строку уведомлений при заблокированном экране</string>
     <string name="pref_title_resetlauncher">Сброс настроек лаунчера</string>
@@ -79,6 +83,8 @@
     <string name="pref_keep_resident">Держать в памяти</string>
     <string name="pref_summary_keep_resident">Не выгружать лаунчер из памяти</string>
     <string name="pref_screen_cycle">Циклическая прокрутка</string>
+    <string name="pref_title_anim_scale">Шкала анимации</string>
+    <string name="pref_title_anim_duration">Длительность анимации</string>
     <string name="folder_full_hint">Эта папка заполнена</string>
     <string name="loading_prompt">Загрузка...</string>
     <string name="uninstall_system_app_text">Системное приложение не может быть удалено</string>
@@ -87,12 +93,35 @@
     <string name="cannot_delete_app_text">Приложение не может быть удалено</string>
     <string name="system_tool_folder">Утилиты</string>
     <string name="system_secrity_folder">Система</string>
+    <string name="system_game_folder">Игры</string>
+    <string name="system_lifestyle_folder">Отдых</string>
+    <string name="system_others_folder">Разное</string>
     <string name="new_rom_hint">Новый</string>
     <string name="onekey_lockscreen">Локскрин</string>
     <string name="other_widgets">Другие виджеты</string>
     <string name="admin_description">Разрешить виджету запускать экран блокировки</string>
     <string name="add_widget">Добавить виджет</string>
     <string name="folder_not_empty_hint">Папка не пустая. Пожалуйста, попробуйте позже после ее очистки</string>
+    <string name="server_game_category">Моя игра</string>
+    <string name="server_lifestyle_category">Советы</string>
+    <string name="server_secrity_category">Система</string>
+    <string name="server_others_category">Разное</string>
+    <string name="app_recommend_title">Рекомендованное</string>
+    <string name="confirm_smart_sort">Умная сортировка по папкам</string>
+    <string name="restore_smart_sort">Восстановление сортированных приложений на рабочее место</string>
+    <string name="sorting_prompt">Сортировка, ожидайте...</string>
+    <string name="sorting_complete">Умная сортировка завершена</string>
+    <string name="restore_complete">Восстановление сортированных приложений завершено</string>
+    <string name="no_available_network">Нет доступа к сети, попробуйте позже</string>
+    <string name="download_prompt_title">Подтверждение загрузки</string>
+    <string name="download_prompt_message">Вы используете 3G-соединение. Дальнейшая загрузка может привести к дополнительным затратам. Продолжить?</string>
+    <string name="download_start_hint">%s начало...</string>
+    <string name="download_end_hint">%s загружено...</string>
+    <string name="download_failed_hint">%s не загружено</string>
+    <string name="download_failed_nospace">Нет места для загрузки</string>
+    <string name="download_failed_other">Загрузка не удалась, попробуйте позже</string>
+    <string name="noti_install_success_text">Установка завершена, нажмите для запуска</string>
+    <string name="noti_install_failed_text">Установка не удалась</string>
     <string name="hidden_app_title">Скрытые</string>
     <string name="select_app_title">Выбор приложений</string>
     <string name="no_hidden_apps">Нет приложений</string>
@@ -109,29 +138,4 @@
     <string name="uninstall_activity_text">%1$s является частью следующего приложения:</string>
     <string name="uninstall_update_text">Вы хотите удалить обновление и вернуться на начальную версию приложения?</string>
     <string name="app_not_found_dlg_text">Приложение отсутствует в списке установленных</string>
-    <string name="shortcut_phone">Телефон</string>
-    <string name="shortcut_contacts">Контакты</string>
-    <string name="shortcut_browser">Браузер</string>
-    <string name="shortcut_messaging">Сообщения</string>
-    <string name="phone_intent">\#Intent;action=android.intent.action.DIAL;launchFlags=0x10000000;end</string>
-    <string name="contacts_intent">content://com.android.contacts/contacts#Intent;action=android.intent.action.VIEW;launchFlags=0x10000000;end</string>
-    <string name="browser_intent">http://www.google.com#Intent;action=android.intent.action.VIEW;launchFlags=0x10000000;end</string>
-    <string name="messaging_intent">\#Intent;action=android.intent.action.MAIN;type=vnd.android-dir/mms-sms;launchFlags=0x10000000;end</string>
-    <string name="lewabbs_intent">http://bbs.lewaos.com/forum.php?mobile=yes#Intent;action=android.intent.action.VIEW;end</string>
-    <string name="ok">ОК</string>
-    <string name="cancel">Отмена</string>
-    <string name="external_drop_widget_error">Невозможно добавить элемент на рабочий стол</string>
-    <string name="external_drop_widget_pick_title">Выберите виджет</string>
-    <string name="home">Домой</string>
-    <string name="uid_name">Приложения Android</string>
-    <string name="menu_item_add_item">Добавить на рабочий стол</string>
-    <string name="hotseat_out_of_space">Нет места в избранном</string>
-    <string name="invalid_hotseat_item">Этот виджет слишком большой для избранного</string>
-    <string name="cab_menu_delete_app">Удаление приложения</string>
-    <string name="cab_menu_app_info">Детали приложения</string>
-    <string name="cab_app_selection_text">выбрано 1 приложение</string>
-    <string name="cab_widget_selection_text">выбран 1 виджет</string>
-    <string name="cab_folder_selection_text">выбрана 1 папка</string>
-    <string name="cab_shortcut_selection_text">выбран 1 ярлык</string>
-    <string name="image_content">содержание изображения</string>
 </resources>

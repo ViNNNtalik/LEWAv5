@@ -84,8 +84,8 @@
     <string name="pref_camera_coloreffect_entry_redtint">Красный оттенок</string>
     <string name="pref_camera_coloreffect_entry_bluetint">Синий оттенок</string>
     <string name="pref_camera_coloreffect_entry_greentint">Зеленый оттенок</string>
-    <string name="pref_camera_coloreffect_entry_sepiablue">Зеленая сепия</string>
-    <string name="pref_camera_coloreffect_entry_sepiagreen">Синяя сепия</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Синяя сепия</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Зеленая сепия</string>
     <string name="pref_camera_exposure_default">0</string>
     <string name="pref_camera_selftimer_default">0</string>
     <string name="pref_camera_selftimer_title">Автоспуск</string>
@@ -246,8 +246,6 @@
     <string name="pref_camera_id_entry_front">Передняя</string>
     <string name="pref_camera_recordlocation_title">Геотеги</string>
     <string name="pref_camera_recordlocation_default">on</string>
-
-
     <string name="pref_camera_mute_shutter_title">Выкл.звук затвора</string>
     <string name="pref_camera_mute_shutter_default">off</string>
     <string name="pref_camera_power_shutter_title">Длинное нажатие затвора</string>
@@ -449,19 +447,6 @@
     <string name="rotate">Поворот</string>
     <string name="done">Готово</string>
     <string name="vignette">Виньетка</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
     <string name="camera_roll_tab">Камера</string>
     <string name="phone_pictures_tab">Изображения</string>
     <string name="today">Сегодня</string>
@@ -657,8 +642,6 @@
     <string name="save">Сохранить</string>
     <string name="app_name">Галерея</string>
     <string name="gadget_title">Рамка фотографии</string>
-
-
     <string name="movie_view_label">Видеопроигрыватель</string>
     <string name="loading_video">Загрузка видео...</string>
     <string name="loading_image">Загрузка изображения...</string>
@@ -803,7 +786,6 @@
     <string name="folder_imported">Импортированные</string>
     <string name="folder_screenshot">Скриншоты</string>
     <string name="help">Справка</string>
-
     <string name="no_external_storage_title">Накопитель не найден</string>
     <string name="no_external_storage">Нет внешних накопителей</string>
     <string name="switch_photo_filmstrip">Кинолента</string>
@@ -823,16 +805,6 @@
     <string name="f360_Retro_Yellow">Ретро</string>
     <string name="f360_HDR_Soft">Мягкий HDR</string>
     <string name="f360_BW_Normal">Норм. Ч/Б</string>
-
-
-
-
-
-
-
-
-
-
     <string name="set_as_wallpaper">Локскрин</string>
     <string name="set_as_lockscreen">Раб. стол</string>
     <string name="set_as_both">Все</string>
@@ -868,8 +840,6 @@
 Чтобы начать, нажмите \"Далее\""</string>
     <string name="lockpassword_confirm_your_pattern_header">Подтвердите ключ</string>
     <string name="lockpattern_need_to_unlock">Начертите существующий ключ</string>
-
-
     <string name="create_album_fail_exists">Создание альбома не удалось, название уже существует</string>
     <string name="create_album_fail_pecial_char">Создание альбома не удалось, в названии недопустимые символы</string>
     <string name="drm_protectioninfo_title">Защита информации</string>
@@ -920,4 +890,29 @@
     <string name="pref_camera_jpegquality_entry_normal">Хорошее</string>
     <string name="pref_camera_jpegquality_entry_middle">Среднее</string>
     <string name="pref_camera_jpegquality_entry_low">Низкое</string>
+    <string name="toast_mav_how_to_capture">Нажмите кнопку спуска затвора и поверните камеру вправо</string>
+    <string name="accessibility_switch_to_camera_setting">Настроки</string>
+    <string name="accessibility_switch_to_video_setting">Видеонастроки</string>
+    <string name="pref_camera_normal_capture_title">Режим захвата</string>
+    <string name="pref_camera_burstshot_4">4 кадра</string>
+    <string name="pref_camera_burstshot_8">8 кадров</string>
+    <string name="pref_camera_burstshot_16">16 кадров</string>
+    <string name="savingImage">Сохранение изображения…</string>
+    <string name="pref_camera_focusmeter_title">Фокус</string>
+    <string name="pref_camera_focusmeter_dialogtitle">Режим фокуса</string>
+    <string name="pref_camera_focusmeter_entry_spot">Одиночная зона</string>
+    <string name="pref_camera_focusmeter_entry_multi">Мультизона</string>
+    <string name="pref_camera_video_duration_title">Длина видео</string>
+    <string name="pref_camera_video_duration_entry_mms">%1$d сек.</string>
+    <string name="pref_camera_video_duration_entry_10">10 мин.</string>
+    <string name="pref_camera_video_duration_entry_30">30 мин.</string>
+    <string name="pref_camera_video_duration_entry_60">60 мин.</string>
+    <string name="toast_video_recording_pause_hint">Длительное нажатие кнопки спуска затвора ставит запись на видео</string>
+    <string name="toast_autorama_how_to_capture_ics">Нажмите кнопку затвора, чтобы сделать первый снимок, а затем переместите камеру в одном направлении, чтобы наложить зону фокусировки на синий квадрат</string>
+    <string name="toast_autorama_how_to_capture">Нажмите кнопку затвора, чтобы сделать первый снимок, а затем переместите камеру в одном направлении, чтобы наложить зону фокусировки на желтый квадрат</string>
+    <string name="savingvideo">Сохранение видео…</string>
+    <string name="pref_camera_video_hd_recording_normal">normal</string>
+    <string name="pref_camera_video_hd_recording_indoor">indoor</string>
+    <string name="pref_camera_capturemode_entry_continuous">Непрерывная съемка</string>
+    <string name="accessibility_switch_to_common">Переключение на общие настройки</string>
 </resources>

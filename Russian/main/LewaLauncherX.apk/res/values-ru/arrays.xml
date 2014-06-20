@@ -62,5 +62,29 @@
         <item>5|5</item>
         <item>5|6</item>
     </string-array>
+    <string-array name="app_category">
+        <item>Жизнь</item>
+        <item>Общение</item>
+        <item>Соц.сети</item>
+        <item>Безопасность</item>
+        <item>Аудио/чтение</item>
+        <item>Темы/обои</item>
+        <item>Просмотр</item>
+        <item>Обучение</item>
+        <item>Свои игры</item>
+        <item>Прочее</item>
+    </string-array>
+    <string-array name="game_second_category">
+        <item>Стратегии</item>
+        <item>Экшн</item>
+        <item>Полет</item>
+        <item>Приключения</item>
+        <item>Симуляторы</item>
+        <item>Прочее</item>
+        <item>Моб.игры</item>
+        <item>Спорт</item>
+        <item>Пазлы</item>
+        <item>Настольные</item>
+    </string-array>
     <array name="wallpapers" />
 </resources>
