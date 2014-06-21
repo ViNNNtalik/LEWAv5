@@ -2758,6 +2758,14 @@
     <string name="data_summary">Выбор подписки для передачи данных</string>
     <string name="new_band_mode_failed">В режиме полета</string>
     <string name="tethered_ipv6_yulong_title">Настройки раздачи</string>
+    <string name="navigation_bar">Навигационная панель</string>
+    <string name="navigation_bar_settings">Настройки навигационной панели</string>
+    <string name="menu_key_title">Клавиша МЕНЮ</string>
+    <string name="menu_custom_action_title">Долгое нажатие клавиши МЕНЮ вызывает голосового помощника</string>
+    <string name="menu_custom_action_summary">Зажмите клавишу МЕНЮ для вызова голосового помощника</string>
+    <string name="float_ball">Дополнительная функция</string>
+    <string name="float_ball_title">Вспомогательная функция сенсорных клавиш</string>
+    <string name="float_ball_summary">Использовать сенсорные клавиши</string>
     <string name="eng_mode">Инженерное меню</string>
     <string name="eng_mode_summary">Сбор информации, статистика, тонкие настройки всевозможных параметров устройства</string>
     <string name="factory_mode">Заводское меню</string>
