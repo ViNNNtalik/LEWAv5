@@ -128,8 +128,8 @@
     <string name="pref_camera_continuous_number_default">40</string>
     <string name="pref_camera_continuous_number_normal">40 снимков</string>
     <string name="pref_camera_continuous_number_large">99 снимков</string>
-    <string name="panorama_guide_shutter">Нажмите кнопку спуска для панорамного снимка в режиме</string>
-    <string name="panorama_guide_capture">Переместите устройство для перекрывания двух белых прямоугольников</string>
+    <string name="panorama_guide_shutter">Нажмите кнопку спуска для панорамного снимка</string>
+    <string name="panorama_guide_capture">Переместите устройство для перекрывания двух линий</string>
     <string name="pref_camera_image_properties_default">По умолчанию</string>
     <string name="pref_camera_image_properties_title">Параметры изображения</string>
     <string name="pref_camera_antibanding_entry_off">@string/pref_camera_hdr_off</string>
@@ -171,8 +171,8 @@
     <string name="saving">@string/pano_review_saving_indication_str</string>
     <string name="smileshot_guide_capture">Автоматическая съемка при обнаружении улыбки</string>
     <string name="toast_video_recording_not_available">Перед использованием видеокамеры остановите другие приложения записи</string>
-    <string name="video_bad_performance_auto_stop">Недостаточно памяти, автоматически останавливать запись</string>
-    <string name="video_bad_performance_drop_quality">Недостаточно памяти, автоматически снижать качество записи</string>
+    <string name="video_bad_performance_auto_stop">Недостаточно памяти, запись автоматически останавлена</string>
+    <string name="video_bad_performance_drop_quality">Недостаточно памяти, автоматически снижено качество записи</string>
     <string name="video_encoder_error">Ошибка кодирования!</string>
     <string name="video_recording_error">@string/video_live_effect_error</string>
     <string name="voice_guide">Вы можете сказать \"%1$s\" или \"%2$s\", чтобы сделать снимок</string>
@@ -907,7 +907,7 @@
     <string name="pref_camera_video_duration_entry_10">10 мин.</string>
     <string name="pref_camera_video_duration_entry_30">30 мин.</string>
     <string name="pref_camera_video_duration_entry_60">60 мин.</string>
-    <string name="toast_video_recording_pause_hint">Длительное нажатие кнопки спуска затвора ставит запись на видео</string>
+    <string name="toast_video_recording_pause_hint">Долгое нажатие кнопки затвора ставит запись видео на паузу</string>
     <string name="toast_autorama_how_to_capture_ics">Нажмите кнопку затвора, чтобы сделать первый снимок, а затем переместите камеру в одном направлении, чтобы наложить зону фокусировки на синий квадрат</string>
     <string name="toast_autorama_how_to_capture">Нажмите кнопку затвора, чтобы сделать первый снимок, а затем переместите камеру в одном направлении, чтобы наложить зону фокусировки на желтый квадрат</string>
     <string name="savingvideo">Сохранение видео…</string>
