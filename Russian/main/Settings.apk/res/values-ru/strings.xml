@@ -508,29 +508,6 @@
     <string name="audio_profile_bes_loudness_summary">Volume booster for speaker</string>
     <string name="adupsfota_software_update_string_ext">Беспроводное обновление</string>
     <string name="gemini_sim_management_title">Управление SIM-картами</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="create">Создать</string>
@@ -2402,7 +2379,7 @@
     <string name="upload_debug_log_summary">Помочь нам улучшить продукт с помощью отсылки информации об использовании</string>
     <string name="root_title">Менеджер безопасности</string>
     <string name="root_access">Доступ с правами root</string>
-
+    <string name="baidu_location_neighborhood_level">"Разрешить приложениям использовать местоположение Baidu?"</string>
     <string name="root_access_warning_title">Разрешить доступ с правами Суперпользователя?</string>
     <string name="root_access_warning_message">Позволяя приложениям запрашивать доступ с правами Суперпользователя, Вы рискуете нарушить безопасность системы!</string>
     <string name="frequent_settings_notice_title">Скрыть настройки ниже</string>
@@ -2643,12 +2620,12 @@
     <string name="sensor_voice_summary">В режиме громкой связи для возврата в нормальный режим поднесите устройство к уху</string>
     <string name="sensor_smart_call">Умный вызов</string>
     <string name="sensor_smart_call_summary">Для вызова контакта при просмотре данных и сообщений, поднесите устройство к уху</string>
-    <string name="sensor_shake_degree_gentle">Легко</string>
+    <string name="sensor_shake_degree_gentle">Мягко</string>
     <string name="sensor_shake_degree_normal">Нормально</string>
     <string name="sensor_shake_degree_strength">Сильно</string>
-    <string name="shake_degree_title">Сила встряхивания</string>
-    <string name="shake_degree_summary">Отрегулируйте силу встряхивания</string>
-    <string name="sensor_shake_ok">Ok</string>
+    <string name="shake_degree_title">Чувствительность встряхивания</string>
+    <string name="shake_degree_summary">Настройка чувствительности встряхивания</string>
+    <string name="sensor_shake_ok">ОК</string>
     <string name="sensor_shake_cancel">Отмена</string>
     <string name="activity_rounded_corner_title">Скругленные углы окон</string>
     <string name="led_settings">Индикация</string>
@@ -2673,6 +2650,7 @@
     <string name="never">никогда</string>
     <string name="done">Принять</string>
     <string name="revert">Отклонить</string>
+    <string name="vibrate_on_ring_title">Вибрация при вызове</string>
     <string name="proximity_title">Калибровка датчика приближения</string>
     <string name="proximity_dialog_title">Калибровка</string>
     <string name="proximity_summary">Обратите внимание на то, что датчик не может быть заблокирован в пределах более 2 см. Также следует избегать прямых солнечных лучей!</string>
@@ -2691,8 +2669,61 @@
     <string name="bluetooth_visibility">Обнаружение разрешено</string>
     <string name="bluetooth_not_discoverable">Разрешить обнаружение устройства</string>
     <string name="bluetooth_visibility_timeout_summary">Установка продолжительности периода разрешения обнаружения</string>
+    <string name="bluetooth_pbap_connection_permission_request">Запрос Pbap-соединения</string>
+    <string name="bluetooth_ftp_connection_permission_request">Запрос Ftp-соединения</string>
+    <string name="bluetooth_map_connection_permission_request">Запрос Map-соединения</string>
+    <string name="bluetooth_sap_connection_permission_request">Запрос Sap-соединения</string>
+    <string name="bluetooth_dun_connection_permission_request">Запрос Dun-соединения</string>
+    <string name="bluetooth_ftp_request">Запрос FTP</string>
+    <string name="bluetooth_ftp_acceptance_dialog_text">%1$s хочет получить доступ к папкам и файлам. Разрешить?</string>
+    <string name="bluetooth_ftp_remember_choice">Не спрашивать опять</string>
+    <string name="bluetooth_mas_request">Запрос доступа к сообщениям</string>
+    <string name="bluetooth_mas_acceptance_dialog_text">%1$s хочет получить доступ к сообщениям. Разрешить?</string>
+    <string name="bluetooth_mas_remember_choice">Не спрашивать опять</string>
+    <string name="bluetooth_sap_request">Запрос SAP</string>
+    <string name="bluetooth_sap_acceptance_dialog_text">%1$s хочет получить доступ к SIM. Разрешить?</string>
+    <string name="bluetooth_sap_remember_choice">Не спрашивать опять</string>
+    <string name="bluetooth_dun_request">Запрос DUN</string>
+    <string name="bluetooth_dun_acceptance_dialog_text">%1$s хочет получить доступ к DUN. Разрешить?</string>
+    <string name="bluetooth_dun_remember_choice">Не спрашивать опять</string>
     <string name="date_time_12_hour_sample">1:00 PM</string>
     <string name="date_time_24_hour_sample">13:00</string>
+    <string name="bluetooth_enter_pin_msg_hs">"
+Введите PIN для сопряжения с \"%1$s\". [Включен высокий уровень безопасности: требуется 16 символов]"</string>
+    <string name="bluetooth_profile_sap">Доступ к SIM</string>
+    <string name="bluetooth_profile_dun">Доступ к Dial-up</string>
+    <string name="bluetooth_sap_profile_summary_connected">Подключено к SIM Access Server</string>
+    <string name="bluetooth_dun_profile_summary_connected">Подключено к DUN Server</string>
+    <string name="bluetooth_sap_profile_summary_not_connected">Не подключено к SIM Access Server</string>
+    <string name="bluetooth_dun_profile_summary_not_connected">Не подключено к DUN Server</string>
+    <string name="bluetooth_sap_profile_summary_use_for">Используется для SIM Access</string>
+    <string name="bluetooth_dun_profile_summary_use_for">Используется для Dial-up Network Access</string>
+    <string name="please_type_passphrase">Беспроводной пароль</string>
+    <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
+    <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
+    <string name="wifi_wapi_psk_type">WAPI PSK Type</string>
+    <string name="wifi_security_WAPI_PSK">WAPI PSK</string>
+    <string name="wifi_security_WAPI_CERT">WAPI CERT</string>
+    <string name="wlan_advanced_titlebar">Дополнительно</string>
+    <string name="wlan_p2p_settings_title">Wi-Fi Direct</string>
+    <string name="wifi_p2p_menu_create_group">Создать новую группу</string>
+    <string name="wifi_p2p_menu_remove_group">Удалить группу</string>
+    <string name="wifi_hotspot_name">Портативная точка доступа</string>
+    <string name="testing_FMC">FMC</string>
+    <string name="testing_FMC_set">Задать настройки FMC</string>
+    <string name="FMC_notify_title">Wi-Fi от China Telecom подключен</string>
+    <string name="FMC_notify_text">Wi-Fi от China Telecom успешно подключен, для проверки счета наберите 10000 или посетите ближайшее бизнес-лоби</string>
+    <string name="config_maually">Настройки SIP Server</string>
+    <string name="sip_server_config">Настройки SIP Server</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="server_address">Адрес сервера</string>
+    <string name="server_port">Порт</string>
+    <string name="proxy_server_address">Адрес прокси-сервера</string>
+    <string name="proxy_server_port">Порт прокси-сервера</string>
+    <string name="connect_failed">Соединение не удалось. Проверьте настройки</string>
+    <string name="auto_connect_title">Автоподключение</string>
+    <string name="auto_connect_enable_summary">Автоподключение включено</string>
+    <string name="auto_connect_disable_summary">Автоподключение выключено</string>
     <string name="skip_button_label">Отклонить</string>
     <string name="next_button_label">Далее</string>
     <string name="lock_title">Обеспечение безопасности устройства</string>
@@ -2729,7 +2760,38 @@
     <string name="screensaver_timeout_zero_summary">Никогда</string>
     <string name="screensaver_test">Попробуй!</string>
     <string name="screensaver_activate_on_dock_title">Запускать в док-станции</string>
+    <string name="sim_absent">Нет SIM</string>
+    <string name="sim_change_failed_enable_sim_lock">"Не удалось сменить PIN-код.
+ Включен SIM LOCK."</string>
+    <string name="sim_lock_change_not_supported">"Не удалось изменить SIM Lock.
+ SIM не поддерживает."</string>
+    <string name="sim_pin_attempts">"
+Попыток осталось :"</string>
+    <string name="sim_pin_enabled">PIN1 включен!</string>
+    <string name="sim_pin_disabled">PIN1 выключен!</string>
+    <string name="device_additional_status_summary">Номер телефона, уровень сигнала, IMEI и т.д.</string>
+    <string name="device_additional_status">Доп. информация</string>
+    <string name="status_esn_number">ESN</string>
     <string name="read_only">" (только для чтения)"</string>
+    <string name="usb_sdcard_title">Монтирование SD-карты</string>
+    <string name="usb_sdcard_summary">Позволяет передавать файлы на SD-карту</string>
+    <string name="usb_charging_title">Зарядка</string>
+    <string name="usb_charging_summary">Позволяет только заряжать устройство</string>
+    <string name="apn_new">Новая точка доступа</string>
+    <string name="usb_media_format_title">Очистить внутренее хранилище</string>
+    <string name="usb_media_format_desc">Очистить внутреннее хранилище. Данные будут утеряны безвозвратно!</string>
+    <string name="usb_media_format_button_text">Очистить внутреннее хранилище</string>
+    <string name="usb_media_format_final_desc">Удалить с SD все файлы без возможности восстановления?</string>
+    <string name="location_access_google_service_title">Доступ к местоположению</string>
+    <string name="location_access_google_service_text">Разрешить местоположению Google собирать анонимную информацию о Вашем местоположении?</string>
+    <string name="location_access_google_service_agree">Да</string>
+    <string name="location_access_google_service_disagree">Нет</string>
+    <string name="no_sdcard">Не удается переместить приложение. Нет SD-карты</string>
+    <string name="user_dict_settings_toast_success">Фраза добавлена успешно</string>
+    <string name="testing_slot_choose">Выбор слота</string>
+    <string name="testing_wlan_info">Wi-Fi</string>
+    <string name="enable_fast_poweron_title">Быстрое включение</string>
+    <string name="enable_fast_poweron_summary">Включение/выключение быстрого включения</string>
     <string name="accessibility_toggle_large_text_title">Крупный текст</string>
     <string name="accessibility_power_button_ends_call_title">Клавиша питания завершает вызов</string>
     <string name="accessibility_speak_password_title">Озвучивать пароли</string>
@@ -2737,6 +2799,12 @@
     <string name="accessibility_script_injection_title">Специальные веб-скрипты</string>
     <string name="accessibility_service_state_on">Вкл.</string>
     <string name="accessibility_service_state_off">Выкл.</string>
+    <string name="sound_category_calls_and_notification_title">Мелодии вызова и уведомления</string>
+    <string name="data_usage_tab_slot1">Слот 1</string>
+    <string name="data_usage_tab_slot2">Слот 2</string>
+    <string name="data_usage_enable_mobile_statistics">Статистика передачи данных</string>
+    <string name="data_usage_disable_mobile_statistics_dialog">При выключении этой опции сбор статистики передачи данных не будет производиться</string>
+    <string name="data_usage_enable_mobile_statistics_dialog">Включение этой опции может привести к повышенной разрядке батареи...</string>
     <string name="user_details_title">Редактировать</string>
     <string name="user_information_heading">Информация о пользователе</string>
     <string name="user_name_title">Имя</string>
@@ -2761,11 +2829,129 @@
     <string name="navigation_bar">Навигационная панель</string>
     <string name="navigation_bar_settings">Настройки навигационной панели</string>
     <string name="menu_key_title">Клавиша МЕНЮ</string>
+    <string name="sms_title">SMS/MMS</string>
+    <string name="sms_summary">Выбор подписки для отправки SMS</string>
+    <string name="set_data_subscription_progress">Установка подписки на данные в процессе</string>
+    <string name="set_dds_success">Установка подписки на данные завершена успешно</string>
+    <string name="set_dds_failed">Установка подписки на данные не удалась. Очистите подписку и попробуйте заново</string>
+    <string name="set_dds_error">Установка подписки на данные не удалась</string>
+    <string name="set_sms_error">Ошибка в SMS-подписке. Подписка не активна.</string>
+    <string name="set_voice_error">Ошибка в голосовой подписке. Подписка не активна.</string>
+    <string name="subscription_01_title">SUB 1</string>
+    <string name="subscription_01_summary">Опции для сети SUB1</string>
+    <string name="subscription_02_title">SUB 2</string>
+    <string name="subscription_02_summary">Опции для сети SUB2</string>
+    <string name="china_union_net_apn_name">China Unicom NET</string>
+    <string name="china_union_wap_apn_name">China Unicom WAP</string>
+    <string name="china_union_mms_apn_name">China Unicom MMS</string>
+    <string name="china_union_supl_apn_name">China Unicom AGPS</string>
+    <string name="mobile_network_setting">Настройки мобильной сети</string>
+    <string name="call_settings">Настройки вызова</string>
+    <string name="preferred_subs_settings_title">Предпочтительные настройки SIM</string>
+    <string name="countdown_time_title">Обратный отсчет времени</string>
+    <string name="no_wait_time">не ждать</string>
+    <string name="infinite_wait_time">всегда ждать</string>
+    <string name="wait_time_unit">сек.</string>
+    <string name="subscription_invalid">Карта отсутствует или отключена</string>
+    <string name="preferred_callback_title">Предпочтительный обратный вызов</string>
+    <string name="callback_enable_summary">Предпочтительный обратный вызов вкл.</string>
+    <string name="callback_disable_summary">Предпочтительный обратный вызов выкл.</string>
+    <string name="close_dialog">ОК</string>
+    <string name="sim_naming_title">Имя SIM-карты</string>
+    <string name="summary_network_settings">Настройки сети, APN</string>
+    <string name="summary_call_settings">Выбор голосовой почты, опции вызова для дуал-SIM</string>
+    <string name="sim_enabler_title">SIM-карта</string>
+    <string name="sim_enabler">SIM-карта</string>
+    <string name="sim_enabler_summary">SIM %1$s</string>
+    <string name="sim_enabled">вкл.</string>
+    <string name="sim_disabled">выкл.</string>
+    <string name="sim_missing">отсутствует или не работает</string>
+    <string name="sim_enabler_need_enable_sim">Включить?</string>
+    <string name="sim_enabler_need_disable_sim">Выключить?</string>
+    <string name="sim_enabler_airplane_on">ОШИБКА, включен режим полета!</string>
+    <string name="sim_enabler_in_call">ОШИБКА, режим вызова!</string>
+    <string name="sim_enabler_both_inactive">Ошибка, нельзя выключить одновременно</string>
+    <string name="sim_enabler_enabling">Включение</string>
+    <string name="sim_enabler_disabling">Выключение</string>
+    <string name="sub_activate_success">Акцивация прошла успешно</string>
+    <string name="sub_activate_failed">Акцивация не удалась</string>
+    <string name="sub_deactivate_success">Деакцивация прошла успешно</string>
+    <string name="sub_deactivate_failed">Деакцивация прошла успешно</string>
+    <string name="sub_deactivate_not_supported">Деакцивация не поддерживается</string>
+    <string name="sub_activate_not_supported">Акцивация не поддерживается</string>
+    <string name="sub_not_changed">Статус не изменен</string>
+    <string name="title_sim_alias">Имя</string>
+    <string name="same_name_alert">Нельзя назвать две SIM одним именем!</string>
+    <string name="normal_brightness_title">Регулировка яркости</string>
+    <string name="normal_brightness_summary">Регулировка яркости и выбор ее режимов</string>
+    <string name="enhanced_brightness_title">Расширенные настройки яркости</string>
+    <string name="enhanced_brightness_summary">Используется для улучшения качества видео и энергосбережения</string>
+    <string name="cabl_levels_summary">Меньшее значение означает лучшее сохранение энергии, но может привести к артефактам на экране</string>
+    <string name="brightness_settings_category">Яркость</string>
+    <string name="normal_brightness">Нормальная яркость</string>
+    <string name="enhanced_brightness">Динамическая яркость</string>
+    <string name="choose_brightness_settings">Выбор типа яркости</string>
+    <string name="theme_settings_title">Настройки темы</string>
+    <string name="google_theme">Google-тема</string>
+    <string name="qrd_theme">QRD-тема</string>
+    <string name="apply_theme">Применение темы ...</string>
+    <string name="save_theme">Сохранение темы</string>
+    <string name="save_theme_message">Сохранить текущую тему?</string>
+    <string name="saving_theme">Сохранение темы ...</string>
+    <string name="default_theme">по умолчанию</string>
+    <string name="preload_theme">Предзагрузка</string>
+    <string name="external_theme">вненяя</string>
+    <string name="switch_theme_warning">Переключиться на тему: %s?</string>
+    <string name="summary_storage_manage">Сервис SD-карты: %1$s</string>
+    <string name="external_sd">Внешняя SD-карта</string>
+    <string name="internal_sd">Внутренняя SD-карта</string>
+    <string name="prlversion">PRL Info Display</string>
+    <string name="device_type">Телефон:</string>
+    <string name="hw_version">Версия оборудования:</string>
+    <string name="sw_version">Версия ПО:</string>
+    <string name="prl_ver">Версия PRL-файла:</string>
+    <string name="uimid">UIM ID:</string>
+    <string name="esn_num">ESN:</string>
+    <string name="password_confirmation_dismatch">!!! Новый пароль и подтверждение не совпадают !!!</string>
+    <string name="new_password_set">!!! Новый пароль резервирования задан !!!</string>
+    <string name="failure_backup_password">!!! Неправильные настройки резервирования !!!</string>
+    <string name="backup_password_empty">Пароль резервирования не может быть пустым</string>
+    <string name="new_password_empty">Новый пароль резервирования не может быть пустым</string>
+    <string name="confirmation_password_empty">Пароль подтверждения резервирования не может быть пустым</string>
+    <string name="select_ringtone_title">Выбор мелодии вызова</string>
+    <string name="system_ringtone_item">Системная мелодия вызова</string>
+    <string name="external_ringtone_item">Внешняя мелодия вызова</string>
+    <string name="apn_PPP_number">PPP номер</string>
+    <string name="label_global_roaming_settings">Настройки глобальнго роуминга</string>
+    <string name="message_waiting_true">true</string>
+    <string name="message_waiting_false">false</string>
+    <string name="message_callredirect_true">true</string>
+    <string name="message_callredirect_false">false</string>
+    <string name="smsc_update_error">Обновить ошибку</string>
+    <string name="smsc_refresh_error">Обновить ошибку</string>
+    <string name="dns_allowed">0.0.0.0 разрешен</string>
+    <string name="dns_not_allowed">0.0.0.0 не разрешен</string>
+    <string name="language_selection_title">Языки ввода</string>
+    <string name="china_telecom_net_apn_name">CTNET</string>
+    <string name="china_telecom_wap_apn_name">CTWAP</string>
+    <string name="icc_card_absent">ICC-карта отсутствует</string>
+    <string name="select_slot_always_ask">Всегда спрашивать</string>
+    <string name="slot_name">Слот %d</string>
+    <string name="internal_storage_turn_on">Внутреннее хранилище включено</string>
+    <string name="internal_storage_turn_off">Внутреннее хранилище выключено</string>
+    <string name="external_storage_turn_on">Внешнее хранилище включено</string>
+    <string name="external_storage_turn_off">Внешнее хранилище выключено</string>
+    <string name="default_sim1_name">СЛОТ 1</string>
+    <string name="default_sim2_name">СЛОТ 2</string>
     <string name="menu_custom_action_title">Долгое нажатие клавиши МЕНЮ вызывает голосового помощника</string>
     <string name="menu_custom_action_summary">Зажмите клавишу МЕНЮ для вызова голосового помощника</string>
+    <string name="input_settings">Настройки ввода</string>
+    <string name="show_magnifier_when_input">Увеличительное стекло для текста</string>
     <string name="float_ball">Дополнительная функция</string>
     <string name="float_ball_title">Вспомогательная функция сенсорных клавиш</string>
     <string name="float_ball_summary">Использовать сенсорные клавиши</string>
+    <string name="advanced_settings_title">Расширенные</string>
+    <string name="input _settings">Входящие настройки</string>
     <string name="eng_mode">Инженерное меню</string>
     <string name="eng_mode_summary">Сбор информации, статистика, тонкие настройки всевозможных параметров устройства</string>
     <string name="factory_mode">Заводское меню</string>
