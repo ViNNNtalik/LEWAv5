@@ -3,7 +3,7 @@
     <string name="app_name">Облако Lewa</string>
     <string name="action_settings">Настройки</string>
     <string name="app_summary">Счетчик трафика© LeWaTek Limited.</string>
-    <string name="lw_login_text_power_by">При поддержке</string>
+    <string name="lw_login_text_power_by"></string>
     <string name="lw_login_login_btn_login">Вход</string>
     <string name="lw_login_login_text_description">" "<Data> &lt;font color=#ffffff> Облачный сервис для создания &lt;br/> резервных копий контактов, &lt;br/> сообщений и журнала звонков. &lt;br/> Для входа требуется &lt;br/> учетная запись QQ.&lt;/font> </Data>" "</string>
     <string name="lw_login_login_btn_relogin">Введите логин и пароль еще раз</string>
@@ -31,28 +31,28 @@
     <string name="lw_home_account_text_several_people">" "<Data> Контактов: %1$d </Data>" "</string>
     <string name="lw_home_account_text_several_seal">" "<Data> Сообщений: %1$d </Data>" "</string>
     <string name="lw_home_account_text_several_item">" "<Data> Записей журнала: %1$d </Data>" "</string>
-    <string name="lw_contact_backup_text_remote_empty">Данное устройство еще не было синхронизировано</string>
-    <string name="lw_contact_backup_text_contant_changed">Расхождение облака и локального</string>
-    <string name="lw_contact_backup_text_contant_same">Локальные и облачные контакты идентичны, синхронизация не требуется</string>
-    <string name="lw_contact_backup_text_contant_local_added">Добавлены контакты, синхронизируйтесь</string>
+    <string name="lw_contact_backup_text_remote_empty">Это устройство еще не синхронизировано</string>
+    <string name="lw_contact_backup_text_contant_changed">Синхронизируйте изменения</string>
+    <string name="lw_contact_backup_text_contant_same">Cинхронизация не требуется</string>
+    <string name="lw_contact_backup_text_contant_local_added">Синхронизируйте новые контакты</string>
     <string name="lw_contact_backup_btn_backup">" "<Data> Синхронизация </Data>" "</string>
-    <string name="lw_contact_backup_text_help">" "<Data> &lt;font color=#a6aab3>Облачный сервис предоставлен &lt;/font>&lt;font color=#088cff>QQ&lt;/font>&lt;br/> &lt;font color=#a6aab3>Для изменения или восстановления&lt;br/>случайно удаленных контактов&lt;br/>воспользуйтесь http://ic.qq.com&lt;/font></Data>" "</string>
+    <string name="lw_contact_backup_text_help">" "<Data> &lt;font color=#a6aab3> Для управления облачным сервисом &lt;br/> воспользуйтесь http://ic.qq.com &lt;/font>&lt;br/> </Data>" "</string>
     <string name="lw_contact_backup_text_backup_at">" "<Data> &lt;font color=#7fffffff>Последняя синхронизация %1$s&lt;/font> </Data>" "</string>
     <string name="lw_backup_text_backup_at">" "<Data> &lt;font color=#7fffffff>Последний бэкап %1$s&lt;/font></Data>" "</string>
     <string name="lw_restore_text_restore_at">" "<Data> &lt;font color=#7fffffff>Последнее восстановление %1$s&lt;/font></Data>" "</string>
-    <string name="lw_contact_backup_text_backup_local_contact">Локальные контакты</string>
-    <string name="lw_contact_backup_text_backup_remote_contact">Облачные контакты</string>
-    <string name="lw_sms_backup_text_backup_local_sms">Локальные SMS/MMS</string>
-    <string name="lw_sms_backup_text_backup_remote_sms">Облачные SMS/MMS</string>
-    <string name="lw_call_backup_text_backup_local_call">Локальные вызовы</string>
-    <string name="lw_call_backup_text_backup_remote_call">Облачные вызовы</string>
+    <string name="lw_contact_backup_text_backup_local_contact">Контакты в телефоне</string>
+    <string name="lw_contact_backup_text_backup_remote_contact">Контакты в облаке</string>
+    <string name="lw_sms_backup_text_backup_local_sms">SMS/MMS в телефоне</string>
+    <string name="lw_sms_backup_text_backup_remote_sms">SMS/MMS в облаке</string>
+    <string name="lw_call_backup_text_backup_local_call">Вызовы в телефоне</string>
+    <string name="lw_call_backup_text_backup_remote_call">Вызовы в облаке</string>
     <string name="lw_sms_backup_text_backup_local_pick_none">Вы не выбрали элементов для восстановления</string>
     <string name="lw_sms_backup_text_backup_remote_pick_none">Вы не выбрали элементов для резервного копирования</string>
     <string name="lw_backup_btn_backup_cloud">" "<Data> Передать в облако </Data>" "</string>
-    <string name="lw_backup_btn_backup_local">" "<Data> Восстановить из облака </Data>" "</string>
-    <string name="lw_sms_backup_text_help">" "<Data> &lt;font color=#a6aab3>Облачный сервис предоставлен &lt;/font>&lt;font color=#088cff>QQ&lt;/font>&lt;br/> &lt;font color=#a6aab3> Для управления сообщениями &lt;br/> воспользуйтесь http://ic.qq.com &lt;/font> </Data>" "</string>
+    <string name="lw_backup_btn_backup_local">" "<Data> Восстановить в телефон </Data>" "</string>
+    <string name="lw_sms_backup_text_help">" "<Data> &lt;font color=#a6aab3> Для управления облачным сервисом &lt;br/> воспользуйтесь http://ic.qq.com &lt;/font> </Data>" "</string>
     <string name="lw_contact_backup_dlg_msg_people_selected">Выбрано %d месяц(ев)</string>
-    <string name="lw_call_backup_text_help">" "<Data> &lt;font color=#a6aab3>Облачный сервис предоставлен &lt;/font>&lt;font color=#088cff>QQ&lt;/font>&lt;br/> &lt;font color=#a6aab3> Для управления журналом звонков &lt;br/> воспользуйтесь http://ic.qq.com &lt;/font> </Data>" "</string>
+    <string name="lw_call_backup_text_help">" "<Data> &lt;font color=#a6aab3> Для управления облачным сервисом &lt;br/> воспользуйтесь http://ic.qq.com &lt;/font> </Data>" "</string>
     <string name="lw_sync_by_people">По контактам</string>
     <string name="lw_sync_by_time">По времени</string>
     <string name="lw_sms_sync_button">Бэкап</string>
@@ -63,15 +63,15 @@
     <string name="lw_sms_last_year">" "<Data> &lt;font color=#38445c>За год&lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
     <string name="lw_sms_sync_all">" "<Data> &lt;font color=#38445c>Все&lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
     <string name="lw_menu_backup_done">" "<Data> &lt;font color=#38445c>В облако &lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
-    <string name="lw_menu_restore_done">" "<Data> &lt;font color=#38445c>Восстановить &lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
+    <string name="lw_menu_restore_done">" "<Data> &lt;font color=#38445c>В телефон &lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
     <string name="lw_sync_progress">" "<Data> %1$d%% </Data>" "</string>
     <string name="lw_contact_backup_dlg_msg_contact_head">Синхронизация контактов</string>
     <string name="lw_contact_backup_dlg_msg_contact_backuping">Идет синхронизация...</string>
     <string name="lw_contact_backup_dlg_msg_contact_finish">Синхронизация завершена</string>
     <string name="lw_contact_backup_dlg_msg_contact_result_head">Список изменений:</string>
-    <string name="lw_contact_backup_dlg_msg_contact_result_local">Локально</string>
-    <string name="lw_contact_backup_dlg_msg_contact_result_remote">В облаке</string>
-    <string name="lw_contact_backup_dlg_msg_contact_result_info">" "<Data>&lt;br/>Новых: %1$d&lt;br/>Удалено: %2$d&lt;br/>Изменено: %3$d&lt;br/></Data>" "</string>
+    <string name="lw_contact_backup_dlg_msg_contact_result_local">Телефон</string>
+    <string name="lw_contact_backup_dlg_msg_contact_result_remote">Облако</string>
+    <string name="lw_contact_backup_dlg_msg_contact_result_info">" "<Data>&lt;br/>Нов: %1$d&lt;br/>Удл: %2$d&lt;br/>Изм: %3$d&lt;br/></Data>" "</string>
     <string name="lw_sms_backup_dlg_msg_sms_head">Синхронизация SMS/MMS</string>
     <string name="lw_sms_backup_dlg_msg_sms_backuping">Идет синхронизация...</string>
     <string name="lw_sms_backup_dlg_msg_sms_result_head">Синхронизация завершена</string>
