@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_albums_name">
+        <item>Семья</item>
+        <item>Друзья</item>
+        <item>Путешествия</item>
+        <item>Коллеги</item>
+    </string-array>
+    <string-array name="default_albums_name_v5">
+        <item>Видео</item>
+        <item>Фото</item>
+    </string-array>
+    <string-array name="proxy_error">
+        <item>Поле хоста не может быть пустым</item>
+        <item>Поле порта не может быть пустым</item>
+        <item>Неверный хост</item>
+        <item>Неверный порт</item>
+    </string-array>
+    <string-array name="week_string">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+</resources>

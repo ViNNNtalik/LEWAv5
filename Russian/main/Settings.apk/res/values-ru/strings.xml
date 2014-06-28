@@ -2952,6 +2952,8 @@
     <string name="float_ball_summary">Использовать сенсорные клавиши</string>
     <string name="advanced_settings_title">Расширенные</string>
     <string name="input _settings">Входящие настройки</string>
+    <string name="boot_music_control">Звук загрузки</string>
+    <string name="boot_music_control_summary">С помощью этого параметра можно вкл. или выкл. звук загрузки</string>
     <string name="eng_mode">Инженерное меню</string>
     <string name="eng_mode_summary">Сбор информации, статистика, тонкие настройки всевозможных параметров устройства</string>
     <string name="factory_mode">Заводское меню</string>

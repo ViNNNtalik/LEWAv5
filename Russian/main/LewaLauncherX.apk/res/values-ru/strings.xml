@@ -138,4 +138,7 @@
     <string name="uninstall_activity_text">%1$s является частью следующего приложения:</string>
     <string name="uninstall_update_text">Вы хотите удалить обновление и вернуться на начальную версию приложения?</string>
     <string name="app_not_found_dlg_text">Приложение отсутствует в списке установленных</string>
+    <string name="extra_tiny_icon_size">Крошечный</string>
+    <string name="tiny_icon_size">Мелкий</string>
+    <string name="big_icon_size">Большой</string>
 </resources>
