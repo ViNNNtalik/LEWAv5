@@ -891,6 +891,9 @@
     <string name="pref_camera_jpegquality_entry_middle">Среднее</string>
     <string name="pref_camera_jpegquality_entry_low">Низкое</string>
     <string name="toast_mav_how_to_capture">Нажмите кнопку спуска затвора и поверните камеру вправо</string>
+    <string name="pref_camera_whitebalance_entry_daylight_cmcc">Дневной свет</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent_cmcc">Лампа дневного света</string>
+    <string name="pref_camera_whitebalance_entry_incandescent_cmcc">Лампа накаливания</string>
     <string name="accessibility_switch_to_camera_setting">Настроки</string>
     <string name="accessibility_switch_to_video_setting">Видеонастроки</string>
     <string name="pref_camera_normal_capture_title">Режим захвата</string>
