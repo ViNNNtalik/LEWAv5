@@ -58,4 +58,5 @@
     <string name="confirm_slot_locked_message">Гнездо заблокировано навсегда</string>
     <string name="button_yes">Да</string>
     <string name="button_no">Нет</string>
+    <string name="confirm_disable_lbutton">запрещено</string>    
 </resources>
