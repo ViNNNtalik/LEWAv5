@@ -231,7 +231,7 @@
     <string name="lockscreen_expanded_comman">Панель уведомлений может быть открыта в заблокированном состоянии</string>
     <string name="title_toggle_gemini_data">Инет SIM 1/2</string>
     <string name="recent_noapp">Нет запущенных приложений</string>
-    <string name="notifilter_cloud">Уведомления перехватчика</string>
+    <string name="notifilter_cloud">Перехват уведомлений</string>
     <string name="notifilter_addtoblack">Добавить в черный список</string>
     <string name="notifilter_del">Удалить из черного списка</string>
     <string name="notifilter_allow">Разрешить</string>
