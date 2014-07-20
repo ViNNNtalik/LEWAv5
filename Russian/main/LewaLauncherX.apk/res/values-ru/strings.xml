@@ -105,6 +105,8 @@
     <string name="server_game_category">Моя игра</string>
     <string name="server_lifestyle_category">Советы</string>
     <string name="server_secrity_category">Система</string>
+    <string name="server_game_recommend1">Рекомендуемые</string>
+    <string name="server_game_recommend2">Пазлы</string>
     <string name="server_others_category">Разное</string>
     <string name="app_recommend_title">Рекомендованное</string>
     <string name="confirm_smart_sort">Умная сортировка по папкам</string>

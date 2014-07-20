@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="yellowpages_activity_title">Желтые страницы</string>
+    <string name="yellowpages_correct_activity_title">Желтые страницы</string>
+    <string name="list_loading">Загрузка...</string>
+    <string name="load_more_data">Загрузить еще</string>
+    <string name="hint_find_yellowpages">Поиск желтых страниц</string>
+    <string name="hint_findCity">Поиск города</string>
+    <string name="frequently_phone">Частые телефоны</string>
+    <string name="living_service">Служба проживания</string>
+
+    <string name="label_auto_city">Местоположение</string>
+    <string name="label_hot_city">Горячие города</string>
+    <string name="menu_search_title">Поиск</string>
+    <string name="prompt_no_match_city">Для этого города нет желтых страниц</string>
+    <string name="prompt_no_match_yellowpages">"Не удается найти желтых стрниц"</string>
+    <string name="prompt_no_any_favorite_phone">Нет избранных телефонов</string>
+    <string name="title_switch_city">Переключение городов</string>
+    <string name="prompt_content_switch_city">Вы в городе %s, переключиться на текущий город?</string>
+    <string name="button_switch">Переключение</string>
+    <string name="err_msg_network">Ошибка сети</string>
+    <string name="err_msg_no_data">Нет данных</string>
+    <string name="network_setting">Настройки сети</string>
+    <string name="refresh_retry">Обновить</string>
+    <string name="unit_meter">%s м.</string>
+    <string name="unit_kilometer">%s км.</string>
+</resources>

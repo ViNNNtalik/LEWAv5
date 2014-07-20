@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="yellowpages_group_items_frequently_phone">
+        <item>Избранное</item>
+        <item>Доставка</item>
+        <item>Логистика</item>
+        <item>Банк</item>
+        <item>Автомобильный сервис</item>
+        <item>Торговля</item>
+        <item>Авиация</item>
+        <item>Телефоны</item>
+        <item>Жалобы</item>
+        <item>Полиция</item>
+    </string-array>
+    <string-array name="yellowpages_group_items_living_service">
+        <item>Переезд</item>
+        <item>Домохозяйство</item>
+        <item>Ремонт техники</item>
+        <item>Ремонт телефонов</item>
+        <item>Службы</item>
+        <item>Вакансии</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="hot_cities">
+        <item>Пекин</item>
+        <item>Чунцин</item>
+        <item>Чэнду</item>
+        <item>Гуанчжоу</item>
+        <item>Ханчжоу</item>
+        <item>Нанкин</item>
+        <item>Шанхай</item>
+        <item>Шэньчжэнь</item>
+        <item>Сучжоу</item>
+        <item>Шэньян</item>
+        <item>Тяньцзинь</item>
+        <item>Ухань</item>
+        <item>Сиань</item>
+    </string-array>
+</resources>
