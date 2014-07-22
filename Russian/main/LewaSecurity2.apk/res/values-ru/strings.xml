@@ -47,7 +47,7 @@
     <string name="dialog_finish">Выйти немедленно</string>
     <string name="dialog_continue_scan">Продолжить</string>
     <string name="dialog_continue_optimize">Продолжить</string>
-    <string name="optimized_complete_hint">Поздравляем, Ваше устройство в отличном состоянии!</string>
+    <string name="optimized_complete_hint">Устройство в отличном состоянии!</string>
     <string name="complte_hint_safe">Проверка завершена. Безопасность обеспечена</string>
     <string name="complte_hint_risk">Проверка завершена. Пожалуйста, оптимизируйте</string>
     <string name="complte_hint_danger">Проверка завершена. Пожалуйста, оптимизируйте!</string>
