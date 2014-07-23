@@ -48,9 +48,9 @@
     <string name="dialog_continue_scan">Продолжить</string>
     <string name="dialog_continue_optimize">Продолжить</string>
     <string name="optimized_complete_hint">Устройство в отличном состоянии!</string>
-    <string name="complte_hint_safe">Проверка завершена. Безопасность обеспечена</string>
-    <string name="complte_hint_risk">Проверка завершена. Пожалуйста, оптимизируйте</string>
-    <string name="complte_hint_danger">Проверка завершена. Пожалуйста, оптимизируйте!</string>
+    <string name="complte_hint_safe">Устройство в безопасности</string>
+    <string name="complte_hint_risk">Необходимо провести оптимизацию</string>
+    <string name="complte_hint_danger">Проведите оптимизацию!</string>
     <string name="security_protect">Параметры</string>
     <string name="logo_notice">Техническая поддержка: Tencent mobile</string>
 </resources>
