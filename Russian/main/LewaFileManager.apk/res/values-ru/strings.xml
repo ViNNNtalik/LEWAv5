@@ -95,6 +95,7 @@
     <string name="isloading">" Загрузка"</string>
     <string name="target_name_is_not_allow_null">Имя не может быть пустым</string>
     <string name="rename_fail">Имя содержит недопустимые символы</string>
+    <string name="rename_fail_secret">Секретный файл не может быть переименован</string>
     <string name="sure">ОК</string>
     <string name="feedback_confirm">"Wi-Fi в настоящее время недоступен. Одно из изображений больше 300 кб, что может привести к дополнительным расходам на Интернет.
 
@@ -346,6 +347,14 @@
     <string name="usbotg_name">USB OTG</string>
     <string name="sdcard_io_error">Ошибка SD-карты</string>
     <string name="FileListDateFormat">dd.MM.yyyy</string>
-    <string name="file_move_failed">перемещение не удалось</string>
-    <string name="file_not_found">файл не найден</string>
+    <string name="file_move_failed">Перемещение не удалось</string>
+    <string name="file_not_found">Файл не найден</string>
+    <string name="space_limit_create_new_folder_failed">Недостаточно места</string>
+    <string name="max_input_create_folder">Ввод достиг максимума</string>
+    <string name="encrypt_success">Шифрование завершено</string>
+    <string name="encrypt_failed">Шифрование не удалось</string>
+    <string name="decrypt_success">Дешифрование завершено</string>
+    <string name="decrypt_failed">Дешифрование не удалось</string>
+    <string name="encrypt_input_password">Введите пароль</string>
+    <string name="decrypt_error_folder">Нельзя зашифровать папку</string>
 </resources>

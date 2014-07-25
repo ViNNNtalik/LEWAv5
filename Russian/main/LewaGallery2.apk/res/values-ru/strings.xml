@@ -493,6 +493,11 @@
     <string name="ic_more">Еще</string>
     <string name="select_files">Выбор файла</string>
     <string name="brightness">Яркость</string>
+    <string name="filter_show_control_adjust">Регулировка</string>
+    <string name="filter_show_control_crop">Обрезать</string>
+    <string name="filter_show_control_rotate">Перевернуть</string>
+    <string name="filter_show_control_beautify">Красота</string>
+    <string name="filter_show_control_makeup">Макияж</string>
     <string name="filter_image_crop_normal">Оригинал</string>
     <string name="filter_image_crop_free">Польз.</string>
     <string name="filter_image_crop_11">1x1</string>
