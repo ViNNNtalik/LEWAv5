@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unknown_artist_name">Неизвестный исполнитель</string>
+    <string name="tell_save_record_success">Сохранение выполнено</string>
+    <string name="save_record">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="recording_format_high">Высокая</string>
+    <string name="recording_format_mid">Срелдняя</string>
+    <string name="recording_format_low">Низкая</string>
+    <string name="three_mins_avail_total">доступно всего 3 мин.</string>
+    <string name="alert_delete_multiple">Эти элементы будут удалены</string>
+    <string name="alert_delete_single">Этот элемент будет удален</string>
+    <string name="ok">OK</string>
+    <string name="delete">Удалить</string>
+    <string name="deleting">Удаление..</string>
+    <string name="no_recording_file">(нет файлов записи)</string>
+    <string name="recording_file_list">Список записанных файлов</string>
+    <string name="recording_paused">Запись приостановлена</string>
+    <string name="voice_quality">Качество</string>
+    <string name="recording_mode">Режим записи</string>
+    <string name="recording_effect">Эфекты записи</string>
+    <string name="select_voice_quality">Выберите качество</string>
+    <string name="select_recording_mode">Выберите режим записи</string>
+    <string name="select_recording_effect">Выберите эффекты записи</string>
+    <string name="recording_mode_nomal">Нормальный</string>
+    <string name="time_available" formatted="false">%d мин. %ds доступно</string>
+    <string name="recording_mode_meeting">Совещание</string>
+    <string name="recording_mode_lecture">Лекция</string>
+    <string name="sd_unmounted">SD карта отключена.</string>
+    <string name="storage_low">Память используемая по умолчанию заполнена, освободите или смените место хранения</string>
+    <string name="storage_full">Память заполнена</string>
+    <string name="sd_no">Вставьте SD-карту.</string>
+    <string name="recording_fail">Ошибка в записи</string>
+    <string name="recorder_occupied">Микрофон занят другим приложением</string>
+    <string name="playing_fail">Ошибка в проигрывании</string>
+    <string name="player_occupied">Плеер занята другим приложением.</string>
+    <string name="recording_doc_deleted">Записанный файл был удален.</string>
+    <string name="saving_fail">Сбой записи</string>
+    <string name="deleting_fail">Сбой удаления</string>
+    <string name="accessing_db_fail">Ошибка при доступе к базе данных.</string>
+    <string name="recording_effect_AGC">Автоматическая регулировка усиления</string>
+    <string name="recording_effect_AEC">Эхоподавление</string>
+    <string name="recording_effect_NS">Подавление шума</string>
+    <string name="app_name">Звукозапись</string>
+    <string name="recording">Запись</string>
+    <string name="recording_stopped">Запись остановлена</string>
+    <string name="storage_is_full">Память заполнена</string>
+    <string name="max_length_reached">Достигнута максимальная длина</string>
+    <string name="min_available">%d мин. доступно</string>
+    <string name="sec_available">%ds доступно</string>
+    <string name="accept">Выполнить</string>
+    <string name="discard">Отменить</string>
+    <string name="button_ok">OK</string>
+    <string name="audio_db_album_name">Аудио записи</string>
+    <string name="audio_db_playlist_name">Мои записи</string>
+    <string name="error_sdcard_access">"Не удается получить доступ к SD-карте."</string>
+    <string name="error_mediadb_new_record">"Не удается сохранить записанный звук."</string>
+    <string name="insert_sd_card">Вставьте SD-карту</string>
+    <string name="audio_db_title_format">dd-MM-yyyy HH:mm:ss</string>
+    <string name="record_your_message">Запишите ваше сообщение</string>
+    <string name="message_recorded">Сообщение записанно</string>
+    <string name="review_message">Отзыв сообщения</string>
+    <string name="timer_format" formatted="false">%02d:%02d</string>
+    <string name="audio_db_artist_name">Ваши записи</string>
+    <string name="error_app_internal">Внутренняя ошибка приложения.</string>
+</resources>
