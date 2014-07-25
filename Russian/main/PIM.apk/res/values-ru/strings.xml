@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<resources>
     <string name="config_import_vcard_type">По умолчанию</string>
     <string name="config_export_vcard_type">По умолчанию</string>
     <string name="config_export_file_prefix" />
