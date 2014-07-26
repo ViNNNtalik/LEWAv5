@@ -4,9 +4,9 @@
     <string name="tell_save_record_success">Сохранение выполнено</string>
     <string name="save_record">Сохранить</string>
     <string name="cancel">Отмена</string>
-    <string name="recording_format_high">Высокая</string>
-    <string name="recording_format_mid">Срелдняя</string>
-    <string name="recording_format_low">Низкая</string>
+    <string name="recording_format_high">Высокое</string>
+    <string name="recording_format_mid">Среднее</string>
+    <string name="recording_format_low">Низкое</string>
     <string name="three_mins_avail_total">доступно всего 3 мин.</string>
     <string name="alert_delete_multiple">Эти элементы будут удалены</string>
     <string name="alert_delete_single">Этот элемент будет удален</string>
