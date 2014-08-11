@@ -918,4 +918,6 @@
 "</string>
     <string name="menu_more">"Ещё
 "</string>
+    <string name="strange_number">Неизвестный номер</string>
+    <string name="mark_string">%d людей отмечено</string>
 </resources>

@@ -1,9 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<resources>
     <string name="app_name">FM-радио</string>
+    <string name="tx_app_name">FM-трансмиттер</string>
+
+    <string name="menu_add_to_preset">Добавить в предустановки</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_record_start">Запись</string>
+    <string name="menu_record_stop">Стоп</string>
+    <string name="menu_all_channels">Все станции</string>
+    <string name="app_label_all_channels">Все станции</string>
+    <string name="button_ok">ОК</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="button_delete">Удалить</string>
+    <string name="error_sdcard_access">Нет доступа к SD-карте</string>
+    <string name="fm_service_started">FM-сервис</string>
+    <string name="menu_sleep">Режим сна</string>
+    <string name="menu_sleep_cancel">Отменить режим сна</string>
+    <string name="menu_wired_headset">Проводная гарнитура</string>
+    <string name="menu_speaker_on">Динамик</string>
+    <string name="menu_speaker_off">Гарнитура</string>
+    <string name="menu_scan_start">Сканировать</string>
+    <string name="menu_scan_stop">Остановить</string>
+    <string name="menu_stats">Статистика FM RF</string>
+    <string name="button_text_stop">Стоп</string>
+    <string name="msg_seeking">Поиск FM-станций…</string>
+    <string name="msg_scanning">Сканирование всех FM-станций</string>
+    <string name="msg_scanning_pty">Сканирование %1$s</string>
+
+    <string name="msg_searching">Поиск станций для создания списка предустановок</string>
+    <string name="msg_searching_title">Автовыбор предустановок</string>
+    <string name="msg_weak_searching">Поиск частот</string>
+    <string name="msg_noantenna">Подключите гарнитуру для использования FM-радио</string>
+    <string name="msg_headset_plug_out">Гарнитура отключена, FM-радио выключается</string>
+    <string name="msg_headsetpluggedin">Отключите гарнитуру для использования FM Tx</string>
+    <string name="msg_callactive">Функция FM Tx недоступна во время вызова</string>
+    <string name="dialog_sleep_title">Режим сна</string>
+    <string name="preset_select_name">Выбрать %1$s</string>
+    <string name="presetlist_select_name">Выбрать %1$s</string>
+    <string name="presetlist_add_new">Добавить список</string>
+    <string name="dialog_presetlist_title">Список предустановок</string>
+
+    <string name="dialog_presetlist_rename_title">Введите имя</string>
+    <string name="dialog_preset_rename_title">Введите имя</string>
+    <string name="presetlist_delete_name">Удалить %1$s и все станции?</string>
+    <string name="presetlist_autoselect_title">Подтвердить автовыбор</string>
+    <string name="presetlist_autoselect_name">Автовыбор удалит все предустановки в списке %1$s. Продолжить?</string>
+    <string name="fmtx_autoselect_name">Автовыбор удалит все предустановки. Продолжить?</string>
+    <string name="enter_frequency">Найти станцию</string>
+    <string name="enter_new_frequency_title">Ввести частоту</string>
+    <string name="preset_now_playing">Воспроизведение</string>
+
+    <string name="preset_delete_title">Удалить предустановку</string>
+    <string name="preset_delete_name">Удалить %1$s из %2$s</string>
+    <string name="preset_confirm_delete_name">Удалить %1$s из %2$s?</string>
+    <string name="preset_name_dialog_title">Введите название</string>
+
+    <string name="preset_name_title">Переименовать</string>
+    <string name="preset_search_title">Поиск</string>
+    <string name="preset_search_name">Поиск %1$s</string>
+    <string name="preset_preference_title">Станции в %1$s</string>
+    <string name="preset_empty_title">Нет станций</string>
+    <string name="preset_empty_add_summary">Добавить станции</string>
+    <string name="preset_add">Добавить</string>
+    <string name="preset_replace">Заменить</string>
+    <string name="preset_tune">Настроить</string>
+    <string name="preset_rename">Переименовать</string>
+    <string name="preset_delete">Удалить</string>
+    <string name="preset_search">Поиск %1$s</string>
+    <string name="stat_notif_frequency">FM-cтанция %1$s</string>
+    <string name="stat_notif_tx_frequency">Радиовещание: %1$s</string>
+    <string name="sel_band_menu">Региональные станции</string>
+    <string name="test_menu">Тест</string>
+    <string name="settings_menu">Настройки</string>
+    <string name="regional_band">Регион</string>
+    <string name="aud_output_mode">Режим вывода звука</string>
+    <string name="sel_audio_output">Выберите аудио выход</string>
+    <string name="record_dur">Длительность записи</string>
+    <string name="sel_rec_dur">Выберите длительность записи</string>
+    <string name="auto_select_af">Альтернативная частота</string>
+    <string name="auto_select_af_enabled">Включить альтернативную частоту</string>
+    <string name="auto_select_af_disabled">Выключить альтернативную частоту</string>
+    <string name="fac_defaults">Сброс настроек</string>
+    <string name="revert_to_fac">Сбросить настройки</string>
+    <string name="settings_back">Назад</string>
+    <string name="settings_revert_confirm_title">Подтверждение сброса</string>
+    <string name="settings_revert_confirm_msg">При сбросе настроек будут удалены все предустановки</string>
+    <string name="settings_back_summary">Сбросить все настройки и очистить данные</string>
+    <string name="settings_revert_defaults_title">Восстановить настройки по умолчанию</string>
+    <string name="settings_revert_defaults_summary">Сброс всех настроек</string>
+    <string name="audio_type_stereo">Стерео</string>
+    <string name="audio_type_mono">Моно</string>
+    <string name="default_band">США</string>
+    <string name="default_audio">Стерео</string>
+    <string name="default_record_duration">5 минут</string>
+    <string name="factory_reset_dialog_title">Подтвердить</string>
+    <string name="factory_reset_dialog_message">При сбросе настроек будут удалены все предустановки</string>
+    <string name="station_move">Переместить</string>
+    <string name="station_edit">Изменить</string>
+    <string name="no_storage">Подключите SD-карту перед записью</string>
+    <string name="preparing_sd">Подготовка SD-карты</string>
+    <string name="access_sd_fail">SD-карта недоступна</string>
+    <string name="spaceIsLow_content">SD-карта недоступна</string>
+    <string name="FMRecording_reach_size_limit">SD-карта заполнена</string>
+    <string name="delete_station_title">Удалить</string>
+    <string name="find_af_station">Поиск</string>
+    <string name="menu_add_list">Добавить список</string>
+    <string name="menu_rename_list">Переименовать список</string>
+    <string name="menu_reorder_list">Список записей</string>
+    <string name="menu_scan_for_preset">Сканирование предустановок</string>
+    <string name="menu_delete_list">Удалить список</string>
+    <string name="alert_dialog_ok">ОК</string>
+    <string name="alert_dialog_cancel">Отмена</string>
+    <string name="search_dialog_title">Сканирование станций</string>
+
+    <string name="search_category">Тип поиска</string>
+    <string name="search_category_title">Тип поиска</string>
+    <string name="default_search_category">Поиск</string>
+    <string name="search_category_tune">Настройка</string>
+
+    <string name="search_category_type">Тип программного поиска</string>
+    <string name="search_category_type_title">Тип программного поиска</string>
+    <string name="default_search_category_type">Все станции</string>
+    <string name="presets_back">Назад</string>
+    <string name="presets_back_summary">Вернуться назад</string>
+    <string name="nav_mode_presets">Предустановки</string>
+    <string name="nav_mode_stations">Станции</string>
+
+    <string name="radio_text_string">Эту строку радио можно прокручивать</string>
 
 
-    <string name="delete_station_title">Удаление канала</string>
+
+    <string name="fm_command_timeout_title">Время ожидания</string>
+    <string name="fm_tune_timeout_msg">Ответ FM-радио не получен</string>
+    <string name="fm_command_failed_title">Ошибка радио</string>
+    <string name="fm_cmd_failed_msg">Ошибка FM-радио. Если ошибка повторится, попробуйте перезапустить приложение</string>
+    <string name="fm_cmd_failed_msg_hdmi">Ошибка FM-радио. FM и HDMI не поддерживаются</string>
+    <string name="fm_cmd_failed_call_on">Ошибка FM-радио. Невозможно использовать радио во время разговора</string>
+
+
+    <string name="default_preset_list_name">Список FM</string>
+
+
+
+    <string name="stop_scanning">Остановить сканирование</string>
+    <string name="transmit_msg_string">Вещание:</string>
+    <string name="audio_db_title_format">dd.M.yyyy HH:mm:ss</string>
+    <string name="audio_db_artist_name">Мои записи</string>
+    <string name="audio_db_album_name">Записи FM</string>
+    <string name="audio_db_playlist_name">Записи FM</string>
+    <string name="test_prompt">Тест</string>
+    <string name="test_run">Начать тест</string>
+    <string name="set_rmmsi_delta">Настройки RMSSI Delta</string>
+    <string name="set_sigth">Настройки Signal Th</string>
+
+    <string name="srch_params">Настройки RMSSI Delta</string>
+    <string name="srch_params_1">Настройки Signal Th</string>
+    <string name="enter_rssi">Ввод RMSSI Delta</string>
+    <string name="enter_sigth">Ввод Signal Th</string>
+    <string name="station_name">Станция:</string>
+    <string name="station_exists">Эта частота уже существует!</string>
+    <string name="station_empty_text">Пустой список станций, вначале запустите поиск</string>
+    <string name="cannot_startup_during_call">Нельзя запустить FM-радио во время вызова!</string>
+    <string name="cannot_startup_during_airplane">Нельзя запустить FM-радио в режиме полета!</string>
+    <string name="station_list_delete_station">Удаление: %s</string>
+    <string name="station_list_delete_station_prompt">Вы уверены, что хотите удалить %s？</string>
+    <string name="sdcard_no_space_cannot_recording">Нет места на SD-карте</string>
+    <string name="recording_stop_no_space">Нет места на SD-карте, запись установлена</string>
+    <string name="station_name_empty">Имя станции пустое, введите заново</string>
+    <string name="station_name_exist">Уже есть станция с именем \"%s\". Введите другое имя</string>
+    <string name="save_record_file">Файл с записью сохранен в %1$s</string>
+    <string name="start_fm_wait">Пожалуйста, ожидайте</string>
+    <string name="starting_fm">FM-радио запускается...</string>
     <string name="favorite_manager">Список каналов</string>
     <string name="add_to_favorite">Добавить в Избранное</string>
     <string name="add_to_favorite1">Добавить в настроенные каналы</string>

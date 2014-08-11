@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Камера Meika</string>
+<string name="ids_btn_close">Выкл.</string>
+    <string name="ids_selfportrait_capture_tip">automatic face recognition to start the countdown after pictures </string>
+    <string name="ids_selfportrait_toast_mode">Enabled Smart Self-timer mode </string>
+    <string name="ids_timer_toast_mode">Self-timer mode is enabled</string>
+    <string name="ids_auto_toast_mode">Self-capture mode is enabled</string>
+    <string name="ids_touch_shot_on">Click Capture mode is enabled</string>
+    <string name="ids_touch_shot_off">Click Capture mode is turned off</string>
+    <string name="ids_slience_shot_on">Mute may not work on some models oh ~</string>
+    <string name="ids_slience_shot_off">Closed mute pictures</string>
+    <string name="ids_btn_shot_mode_smart">Smart</string>
+    <string name="ids_btn_shot_mode_auto">Normal</string>
+    <string name="ids_btn_shot_mode_timer">Delay</string>
+    <string name="ids_timer_1s">1 сек.</string>
+    <string name="ids_timer_2s">2 сек.</string>
+    <string name="ids_timer_3s">3 сек.</string>
+    <string name="ids_common_sdcard_not_ready">SD card is full or SD card is not available</string>
+    <string name="timer_caputure_str">delay three seconds</string>
+    <string name="touch_screen_str">touch-screen camera</string>
+    <string name="slience_caputure_str">Mute camera</string>
+    <string name="scale_caputure_str">photographs proportion</string>
+    <string name="switching">being switched in ...</string>
+    <string name="lewa_close_beauty">Turn off Beauty</string>
+    <string name="self_shot_time">Self-timer</string>
+    <string name="close_self_shot_time">Turn off Self-timer</string>
+    <string name="touch_shot_on">Click Capture</string>
+    <string name="touch_shot_off">Turn off Click Capture</string>
+    <string name="btn_error_text">"Warning:
+The camera has been occupied by a
+third-party program,please restart your phone。"</string>
+    <string name="btn_errot_donot_save">Ignore</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="back">Returns</string>
+    <string name="mainpage">Home</string>
+    <string name="save_share">Save and Share</string>
+    <string name="next">Next</string>
+    <string name="finish">complete</string>
+    <string name="beautytitle">magic beauty</string>
+    <string name="beautyskin">skin</string>
+    <string name="beautyface">suyan</string>
+    <string name="gallery">Album</string>
+    <string name="contrast">B|A</string>
+    <string name="submit_exit_edit">Are you sure you want to quit the current make up?</string>
+    <string name="save_success">Сохранено!</string>
+    <string name="adjust_key_point_tip">Please long press the point</string>
+    <string name="weak">weak</string>
+    <string name="normal">normal</string>
+    <string name="strong">strong</string>
+    <string name="face">Face</string>
+    <string name="left_eye">Left Eye</string>
+    <string name="right_eye">Right Eye</string>
+    <string name="nose">Nose</string>
+    <string name="mouth">Mouth</string>
+    <string name="no_images">Не удается найти фото</string>
+    <string name="loading">Loading…</string>
+    <string name="attentioning">Обработка...</string>
+    <string name="processing_beauty">Being beauty…</string>
+    <string name="processing">Putting on make-up…</string>
+    <string name="onprocessing">Processing…</string>
+    <string name="select_photos">select photos</string>
+    <string name="wait_scanning">Scanning SD card ...</string>
+    <string name="not_enough_space">SD card is full.</string>
+    <string name="camera_images">Camera</string>
+    <string name="place_unknown">unknown location</string>
+    <string name="setting">Settings</string>
+    <string name="setting_home">Home</string>
+    <string name="setting_feedback">comments and suggestions</string>
+    <string name="setting_about">About Us</string>
+    <string name="setting_recommend">Tell a friend</string>
+    <string name="setting_weibo">official microblogging:</string>
+    <string name="setting_weixin">micro-channel public platform</string>
+    <string name="setting_offical">\@camera</string>
+    <string name="setting_save">Auto Save Original</string>
+    <string name="setting_camera_fix">Camera Calibration</string>
+    <string name="setting_direct_to_camera">directly into the self-timer after a beautiful start</string>
+    <string name="camera_fix_title">your camera direction needed to correct it?</string>
+    <string name="camera_fix_content1">your camera viewfinder camera orientation may be incorrect</string>
+    <string name="camera_fix_content2">recommended correction.</string>
+    <string name="camera_fix_start">start correcting</string>
+    <string name="preview_fix_question">currently viewing direction is correct?</string>
+    <string name="capture_fix_question">direction of the current picture is correct?</string>
+    <string name="camera_fix_right">right</string>
+    <string name="camera_fix_wrong">Incorrect</string>
+    <string name="camera_fix_success">camera calibration success</string>
+    <string name="wheel_cancel">Cancel</string>
+    <string name="wheel_confirm">complete</string>
+    <string name="sns">Share association</string>
+    <string name="sns_sina">Sina Weibo</string>
+    <string name="sns_tencent">Tencent microblogging</string>
+    <string name="sns_qzone">QQ space</string>
+    <string name="sns_renren">Renren</string>
+    <string name="sns_name">Name</string>
+    <string name="sns_bind">Configuration</string>
+    <string name="sns_unbind">Cancel</string>
+    <string name="feedback">dialogue small coffee</string>
+    <string name="feedback_pm">small coffee</string>
+    <string name="feedback_customer">pro</string>
+    <string name="feedback_first_message">I am a little coffee, what can help you do?</string>
+
+    <string name="feedback_send">send</string>
+    <string name="feedback_send_empty">can not send an empty message</string>
+    <string name="feedback_nt_timeout">pro, the network is not to force Oh, Come back to play while</string>
+    <string name="feedback_hint">Reply small coffee:</string>
+    <string name="about">About</string>
+    <string name="about_version">version number:</string>
+    <string name="about_update">Check for updates</string>
+    <string name="update_now">Update Now</string>
+    <string name="about_welcome">Watch the welcome page</string>
+    <string name="about_attention">Watch Sina Weibo</string>
+    <string name="attention_success">Watch Sina Weibo</string>
+    <string name="already_attention">has been concern</string>
+    <string name="weibo">\@camera</string>
+    <string name="weibo_close">Turn off</string>
+    <string name="unnamed">unnamed _</string>
+    <string name="untagged">Ungrouped</string>
+    <string name="face_detect_title">facial recognition</string>
+    <string name="face_detect_reselect">re-election</string>
+    <string name="face_detect_reshoot">remake</string>
+    <string name="face_detect_entry_makeuproom">enter Beauty</string>
+    <string name="face_detect_begin_mz">start landscaping</string>
+    <string name="face_detect_back_to_home">Home</string>
+    <string name="face_detect_process">is recognition ...</string>
+    <string name="face_detect_select_tip">Please select a face began to Beauty</string>
+    <string name="face_detect_panel_no_face">people? People? Where are people?</string>
+    <string name="face_detect_panel_no_face_detail1">(in my experience) not recognize there are so few possibilities:</string>
+    <string name="face_detect_panel_no_face_detail2">"1, insufficient light, or blurred pictures.
+2, beat the wrong angle, preferably frontal view.
+3, his face obscured objects, glasses, masks are considered. "</string>
+    <string name="face_detect_panel_no_network">Network not to force, may be less accurate identification.</string>
+    <string name="face_detect_panel_no_network_detail">"1, check your network it, try the network unimpeded once!
+After two manual fine-tuning, or you've worked hard "to enter the United States and makeup" look! "</string>
+    <string name="face_detect_panel_pic_blur">Photos little fuzzy, not to re-elect one?</string>
+    <string name="face_detect_panel_pic_blur_detail1">"You can go to select an album clearer.
+But if I were you, I would immediately self-timer one! "</string>
+    <string name="face_detect_panel_pic_blur_detail2">(to own the whole beautiful is a serious matter!)</string>
+    <string name="face_detect_panel_too_far">stops too far, a little closer to shoot it!</string>
+    <string name="face_detect_panel_self_timer">poor front camera photo effects, it is recommended ...</string>
+    <string name="face_detect_open_failed">Failed to open the image!</string>
+    <string name="save_share_save">Save to album</string>
+    <string name="save_share_has_saved">has been saved to the album</string>
+    <string name="save_share_share">Share immediately</string>
+    <string name="share_content_default">high-grade atmosphere on camera # # America coffee, love na. Tell a pro, Mengchuo here: http: //m.meikaxiangji.com</string>
+    <string name="share_content_qzone">high-grade atmosphere on camera # # America coffee, love na. Tell a pro, Mengchuo here: http: //m.meikaxiangji.com/ f=qz</string>
+    <string name="share_content_sina">high-grade atmosphere on camera # # America coffee, love na. Tell a pro, Mengchuo here: http: //m.meikaxiangji.com/ f=wb</string>
+    <string name="save_share_title">America coffee camera</string>
+    <string name="save_share_back_dialog">Photos are not saved to the album, whether to return home?</string>
+    <string name="save_share_no_sdcard">Please insert the SD card</string>
+    <string name="err_account_already_exist">The mailbox has been registered.</string>
+    <string name="err_account_or_password">ID or password is incorrect.</string>
+    <string name="err_network">Network not to force ah, check to see your network configuration it.</string>
+    <string name="err_no_sdcard">can not find the SD card, many features will not be well supported.</string>
+    <string name="err_time_out">network connection timed out, please try again later.</string>
+    <string name="err_not_wifi">no wifi connection, only updates  under the wif</string>
+    <string name="err_auth">Send failed! Please share association authorization.</string>
+    <string name="msg_dialog_clear_ok">OK</string>
+    <string name="msg_dialog_clear_cancel">Cancel</string>
+    <string name="web_close">off</string>
+    <string name="save_share_sina">Sina Weibo</string>
+    <string name="save_share_tencent">Tencent microblogging</string>
+    <string name="save_share_qzone">QQ space</string>
+    <string name="save_share_renren">Renren</string>
+    <string name="save_share_weixin">micro-channel</string>
+    <string name="save_share_mail">More</string>
+    <string name="save_share_cancel">Cancel</string>
+    <string name="save_share_weixin_install">not installed micro letter, please install again after sharing.</string>
+    <string name="save_share_qq_install">did not install QQ, please install again after sharing.</string>
+    <string name="save_change_head_pic_qq_install">did not install QQ, re-create avatar Please install.</string>
+    <string name="save_share_weixin_version">micro-channel version is low, update the program after re-share.</string>
+    <string name="save_share_email_chooser">Please select a sharing program</string>
+    <string name="save_share_weixin_timeline_not_support">micro-channel version is low, does not support circle of friends to share, please update the micro-channel.</string>
+    <string name="save_share_weixin_err_ok">returns the correct</string>
+    <string name="save_share_weixin_err_user_cancel">User canceled</string>
+    <string name="save_share_weixin_err_auth_denied">certification was rejected</string>
+    <string name="shareto_title">Share</string>
+    <string name="shareto_send">send</string>
+    <string name="shareto_hint">\#camera #</string>
+    <string name="shareto_text_count">140</string>
+    <string name="shareto_shareto">Name:</string>
+    <string name="sharing">Sending ...</string>
+    <string name="shareto_success">share success!</string>
+    <string name="stareto_failed">Share failed!</string>
+    <string name="update_is_new_version">is already the newest version!</string>
+    <string name="start_page_back_confirm">press again to exit the US coffee camera!</string>
+    <string name="save_and_share">Save / Share</string>
+    <string name="saving_to_system_album">Saving ...</string>
+    <string name="saved_to_meika_album">has been saved to "beauty cafe camera" directory</string>
+    <string name="saved_to_system_album">camera has been saved to the system directory</string>
+    <string name="image_saved">picture has been saved</string>
+    <string name="saved_frist_tip">"America coffee Camera" directory located in the phones "Album" or "Gallery" in</string>
+    <string name="more_clear_with_sharing">coffee camera to share photos using America will be more clear Oh!</string>
+    <string name="share_to_sina_weibo">Share to Sina Weibo</string>
+    <string name="share_to_weixin">Send to a micro-channel friend</string>
+    <string name="share_to_friends">Share on letter circle of friends</string>
+    <string name="share_to_qzone">Share to QQ space</string>
+    <string name="share_to_tencent">Send to QQ friends</string>
+    <string name="share_to_tencent_weibo">Share to Tencent microblogging</string>
+    <string name="share_to_Qq_friends">Send to QQ friends</string>
+    <string name="share_to_renren">Share on Facebook</string>
+    <string name="share_to_more">Share More</string>
+    <string name="way_share_to">Share way:</string>
+    <string name="albums">Album</string>
+    <string name="minute_adjustment">Key Points</string>
+    <string name="detect_error">Photos undetectable human face, no way to make-up yo!</string>
+    <string name="tip_undo">long press "cancel", you can return to original state</string>
+    <string name="start_download">start downloading</string>
+    <string name="pull_to_refresh_pull_label">pulldown can refresh</string>
+    <string name="pull_to_refresh_release_label">release can refresh</string>
+    <string name="pull_to_refresh_refreshing_label">Refreshing ...</string>
+    <string name="pull_to_refresh_loading_label">Loading ...</string>
+    <string name="year">years</string>
+    <string name="month">Month</string>
+    <string name="date">Day</string>
+    <string name="cancel">Cancel</string>
+    <string name="share_cancel">Share cancel!</string>
+    <string name="auth_cancel">authorized to cancel!</string>
+    <string name="network_error">Network not to force ah, wait and then try it ~</string>
+    <string name="upload_success">uploaded successfully</string>
+    <string name="change_head_pic_success">Modify QQ picture success</string>
+    <string name="computing">current cache (being calculated ...)</string>
+    <string name="cleaning">current cache (being clear ...)</string>
+    <string name="weixin_share_failed">Share failed!</string>
+    <string name="weixin_share_succeed">share success!</string>
+    <string name="weixin_share_cancel">Share cancel!</string>
+    <string name="sorry_for_sd_card">Please install the SD card!</string>
+    <string name="remain">left</string>
+    <string name="day">days</string>
+    <string name="hour">hours</string>
+    <string name="minute">minutes</string>
+    <string name="second">s</string>
+    <string name="makeup">Cosmetics</string>
+    <string name="charm_makeup">glamor makeup</string>
+    <string name="adjust">Key Points</string>
+    <string name="about_product">"Yung Choi Technology Co., Ltd. in Hangzhou
+Official QQ: 2976441580 "</string>
+    <string name="feedback_good">flowers</string>
+    <string name="feedback_bad">tucao</string>
+    <string name="feedback_advice">recommendation</string>
+    <string name="feedback_normal">Consulting</string>
+    <string name="feedback_good_tip">directed at you this bouquet, small coffee decided to work overtime until dawn.</string>
+    <string name="feedback_bad_tip">pro, which is unhappy with the small coffee immediately change still does not work?</string>
+    <string name="feedback_advice_tip">your comments and suggestions, is the direction of the small coffee efforts.</string>
+    <string name="feedback_normal_tip">What small coffee can help you do?</string>
+    <string name="feedback_good_reply">small coffee received flowers, really happy today.</string>
+    <string name="feedback_bad_reply">pro, Xiaoxiao Huo ~ ~. Small coffee will handle your feedback as soon as possible.</string>
+    <string name="feedback_advice_reply">Thank you for your beauty care and love coffee cameras, we will deal with your feedback as soon as possible.</string>
+    <string name="feedback_normal_reply">Thank you for your advice, small coffee will give you feedback.</string>
+    <string name="setting_part_share">Share Account Management</string>
+    <string name="setting_part_camera">Camera Settings</string>
+    <string name="setting_part_photo">Photo Settings</string>
+    <string name="setting_part_about">About America coffee camera</string>
+    <string name="save_photo_to">Photos saved to</string>
+    <string name="mobile_album">Mobile Album</string>
+    <string name="meika_album">America coffee camera</string>
+    <string name="snap_tip">Goddess Cheats</string>
+    <string name="text01_detection_fails">"Make your face full in the screen,
+the makeup will be more amazing!"</string>
+    <string name="text02_detection_fails">"Make your face full in the screen,
+the makeup will be more amazing!"</string>
+    <string name="text03_detection_fails">"Make your face full in the screen,
+the makeup will be more amazing!"</string>
+    <string name="recommend">Tell a friend</string>
+    <string name="recommend_weixin">Tell a friend micro-channel</string>
+    <string name="recommend_friends">recommended to the micro-channel circle of friends</string>
+    <string name="recommend_qzone">recommended to the QQ space</string>
+    <string name="recommend_qq">Tell QQ friends</string>
+    <string name="recommend_sina">recommended to the Sina microblogging</string>
+    <string name="recommend_sms">via SMS recommendation</string>
+    <string name="puzzle_title">Fun puzzle</string>
+    <string name="puzzle_temp_title">Template Manager</string>
+    <string name="app_recommend">small coffee Favorites</string>
+    <string name="recommend_title">This application is fun</string>
+    <string name="recommend_summary">Here I am thin, I am here to be blunt, I am here to become beautiful. .</string>
+    <string name="recommend_content_qzone">\camera# high nose, thin face, big eyes, skin rejuvenation, automatic processing, do not say. The key is still a must makeup, super fun ~ http:? //m.meikaxiangji.com/ F=qz</string>
+    <string name="recommend_content_sina">\#camera# high nose, thin face, big eyes, skin rejuvenation, automatic processing, do not say. The key is still a must makeup, super fun ~ http:? //m.meikaxiangji.com/ F=wb</string>
+    <string name="recommend_content_sms">\#camera# high nose, thin face, big eyes, skin rejuvenation, automatic processing, do not say. The key is still a must makeup, super fun ~ http:? //m.meikaxiangji.com/ F=sms</string>
+    <string name="recommend_content_default">\#camera# high nose, thin face, big eyes, skin rejuvenation, automatic processing, do not say. The key is there an absolute makeup, super fun ~ http: //m.meikaxiangji.com</string>
+    <string name="already_selected_tip">has been selected% 1 $ d photos (up to six)</string>
+    <string name="select_tip">Please add 2-6 photos</string>
+    <string name="open_puzzle_template_error">Unable to open the puzzle template file</string>
+    <string name="puzzle_template_downloading">Templates are downloading</string>
+    <string name="puzzle_template_downloaded_failed">Templates download failed</string>
+    <string name="puzzle_template_downloaded_success">Templates download success</string>
+    <string name="downloading_progress">Downloading% 1 $ d %%</string>
+    <string name="puzzle_simple_text">Simple</string>
+    <string name="puzzle_cartoon_text">Cartoon</string>
+    <string name="puzzle_magazine_text">Magazine</string>
+    <string name="puzzle_personality_text">personality</string>
+    <string name="checking_update">Checking for updates information</string>
+    <string name="no_update">you are already using the latest version of it! Have any comments or suggestions, please feel free to say with a small coffee Oh</string>
+    <string name="give_advice">suggestions</string>
+    <string name="version_not_match">The current version is not compatible with your phone Oh! Small coffee has been prepared with the version that matches your system for you, welcome experience.</string>
+    <string name="download_version">download a compatible version</string>
+    <string name="check_mobile">currently you are using the mobile network, download the template will consume a few hundred K of traffic, whether to continue?</string>
+    <string name="continuance">Continue</string>
+    <string name="custom_issue">FAQ</string>
+    <string name="downloading">Download ...</string>
+    <string name="download_failed">download failed</string>
+    <string name="camera_facing_front">front camera</string>
+    <string name="camera_facing_back">rear camera</string>
+    <string name="choose_camera_facing">select camera</string>
+    <string name="intelligent_beauty">Smart landscaping</string>
+    <string name="share_description_third">nice to use and recommend it to everyone!</string>
+    <string name="tooltip_title">Tips</string>
+    <string name="tooltip_content">"Thank you for using America coffee cameras, camera coffee to the United States to bring you a better user experience, we need to get some of your license, including:
+1 in the course, the United States needs to be networked camera coffee, we need your permission to access the terminal communication module. In the absence of wifi, which may produce a small amount of traffic and cost.
+2 in the photo, we will mark the location for your photo information, so we need your permission to access the GPS module, we promised not to collect any of your GPS information. "</string>
+    <string name="tooltip_ok">permission to access, continue to use</string>
+    <string name="tooltip_no">Access Denied, stop using</string>
+    <string name="tooltip_not_show">After not prompt</string>
+    <string name="cameta_is_usedby_other">cameras are third-party applications occupy it!</string>
+    <string name="manual_points">Manually frame a face</string>
+    <string name="face_detect_failed_all">"No face detected
+Please long press the point and move it
+to Left Eye, Right Eye,Mouth Center"</string>
+    <string name="face_detect_failed">No face detected</string>
+    <string name="face_detect_moved1">Please long press the point and move it</string>
+    <string name="face_detect_moved2">Left Eye, Right Eye,Mouth</string>
+    <string name="face_detect_moved3">Center</string>
+    <string name="face_detect_auto">Face detecting</string>
+    <string name="face_beauty_title">Beauty</string>
+    <string name="face_beauty_level">Beauty Strength</string>
+    <string name="face_beauty_weak">weak</string>
+    <string name="face_beauty_middle">normal</string>
+    <string name="face_beauty_strong">strong</string>
+    <string name="choose_beauty">Please select the beauty effects</string>
+    <string name="choose_makeup">Please select the make-up effects</string>
+    <string name="pic_save_success">The photo has been saved successfully!</string>
+    <string name="pic_save_failed">Failed to save the photo!</string>
+    <string name="point_is_very_near">The eyes and mouth position are too close,please reset and try again.</string>
+    <string name="paint_eyebrow">Brows</string>
+    <string name="repair_eyebrow">Thickness</string>
+    <string name="makeup_flash">Hot Styles</string>
+    <string name="help_by_meikaxiangji">The technical support is provided by Meika camera</string>
+    <string name="change_pic">Please try another photo</string>
+    <string name="want_mock">I want to mock</string>
+    <string name="skin_whiten">Brighten Skin</string>
+    <string name="skin_soften">Soften Skin</string>
+    <string name="deblemish">Blemishes</string>
+    <string name="depoush">Circles</string>
+    <string name="fundation">Foundation</string>
+    <string name="blush">Blush</string>
+    <string name="eye_liner">Liners</string>
+    <string name="eye_shadow">Shadow</string>
+    <string name="eyebrow">Brow</string>
+    <string name="iris">Eye Color</string>
+    <string name="eyelash">Lashes</string>
+    <string name="lipstick">Lipstick</string>
+    <string name="t_zone">Enhance Nose</string>
+    <string name="slender_face">Slim Face</string>
+    <string name="eye_enlarger">Enlarge Eyes</string>
+    <string name="eye_brighten">Brighten Eyes</string>
+    <string name="smile">Deepen Smile</string>
+    <string name="teeth_whiten">Whiten Teeth</string>
+    <string name="original">Original</string>
+    <string name="magic">Magic</string>
+    <string name="holly">Holly</string>
+    <string name="cat">Cat</string>
+    <string name="veil">Veil</string>
+    <string name="spider">Spider</string>
+    <string name="goth">Goth</string>
+    <string name="fairy">Fairy</string>
+    <string name="ocean">Ocean</string>
+    <string name="princess">Princess</string>
+    <string name="velvet">Velvet</string>
+    <string name="winter">Winter</string>
+    <string name="charm">Charm</string>
+    <string name="romance">Romance</string>
+    <string name="smoky">Smoky</string>
+    <string name="angel">Angel</string>
+    <string name="candy">Candy</string>
+    <string name="petal">Petal</string>
+    <string name="doll">Doll</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_download_notification_prefix">Downloading:</string>
+    <string name="umeng_common_start_download_notification">Download start.</string>
+    <string name="umeng_common_start_patch_notification">Patch start.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_common_download_failed">Download Failed!</string>
+    <string name="umeng_common_download_finish">Download finished,click to install it.</string>
+    <string name="umeng_common_patch_finish">Patch finished,click to install it.</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMUpdateTitle">New version found</string>
+    <string name="UMNewVersion">Latest version:</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateSize">Update size:</string>
+    <string name="UMTargetSize">Target size:</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMIgnore">Ingore this</string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+</resources>

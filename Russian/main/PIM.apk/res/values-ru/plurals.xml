@@ -49,6 +49,10 @@
         <item quantity="other">Результатов по запросу \"%2$s\": %1$s</item>
         <item quantity="one">Результатов по запросу \"%2$s\": %1$s</item>
     </plurals>
+    <plurals name="message_count_notification_overflow">
+        <item quantity="other">+%1$s других сообщений</item>
+        <item quantity="one">+%1$s другое сообщение</item>
+    </plurals>
     <plurals name="recipient_count">
         <item quantity="other">Контактов: %1$s</item>
     </plurals>

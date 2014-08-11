@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ster_mon_entries">
+        <item>Стерео</item>
+        <item>Моно</item>
+    </string-array>
+
+
+
+
+    <string-array name="record_durations_entries">
+        <item>5 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>До остановки</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="sleep_duration_values">
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>1 час</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="search_category_rbds_entries">
+        <item>Все станции</item>
+        <item>Старые хиты</item>
+        <item>Классика</item>
+        <item>Классический рок</item>
+        <item>Колледж</item>
+        <item>Страна</item>
+        <item>Чрезвычайное положение</item>
+        <item>Аварийный тест</item>
+        <item>Иностранный язык</item>
+        <item>Информация</item>
+        <item>Джаз</item>
+        <item>Новости</item>
+        <item>Ностальгия</item>
+        <item>Старая музыка</item>
+        <item>Личное</item>
+        <item>Общественное</item>
+        <item>Религиозная музыка</item>
+        <item>Религиозные разговоры</item>
+        <item>Ритм и блюз</item>
+        <item>Рок</item>
+        <item>Легкая музыка</item>
+        <item>Легкий рок</item>
+        <item>Легкий ритм и блюз</item>
+        <item>Спорт</item>
+        <item>Разговор</item>
+        <item>Топ 40</item>
+        <item>Погода</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="search_category_rds_entries">
+        <item>Все станции</item>
+        <item>Культура</item>
+        <item>Текущие события</item>
+        <item>Детские программы</item>
+        <item>Кантри</item>
+        <item>Документалистика</item>
+        <item>Драма</item>
+        <item>Легкая музыка</item>
+        <item>Образование</item>
+        <item>Чрезвычайное положение</item>
+        <item>Экстренный тест</item>
+        <item>Финансы</item>
+        <item>Народная музыка</item>
+        <item>Информация</item>
+        <item>Джаз</item>
+        <item>Легкая классика</item>
+        <item>Досуг</item>
+        <item>Новости</item>
+        <item>Национальная музыка</item>
+        <item>Другая музыка</item>
+        <item>Старая музыка</item>
+        <item>Звонок</item>
+        <item>Поп-музыка</item>
+        <item>Религия</item>
+        <item>Рок</item>
+        <item>Наука</item>
+        <item>Серьезная классика</item>
+        <item>Социальный вопрос</item>
+        <item>Спорт</item>
+        <item>Путешествия</item>
+        <item>Разноe</item>
+        <item>Погода</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="presetlist_edit_category">
+        <item>Переименовать</item>
+        <item>Автовыбор</item>
+        <item>Удалить</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="rf_cfg">
+        <item>Получить текущие параметры станции</item>
+        <item>Получить параметры станции с повторением в 20 раз</item>
+        <item>Получить параметры поиска станций</item>
+        <item>Получить параметры развертки диапазона</item>
+        <item>Настроить поисковые параметры радио</item>
+    </string-array>
+    <string-array name="cfg_rf">
+        <item>Установить FM RSSI Delta</item>
+        <item>Установить порог сигнала</item>
+        <item>RF статистика</item>
+    </string-array>
+    <string-array name="stats_options">
+        <item>Выберите опцию</item>
+        <item>Настройка FM-поиска</item>
+        <item>RF-статистика</item>
+    </string-array>
+</resources>

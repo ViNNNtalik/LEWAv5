@@ -41,6 +41,8 @@
     <string name="recording_effect_AGC">Автоматическая регулировка усиления</string>
     <string name="recording_effect_AEC">Эхоподавление</string>
     <string name="recording_effect_NS">Подавление шума</string>
+    <string name="recording_format_standard">СТандарт</string>
+    <string name="not_available">Недоступно</string>
     <string name="app_name">Звукозапись</string>
     <string name="recording">Запись</string>
     <string name="recording_stopped">Запись остановлена</string>

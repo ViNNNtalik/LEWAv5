@@ -594,6 +594,7 @@
     <string name="label_contactsframent">Контакты</string>
     <string name="label_mmsframent">Сообщения</string>
     <string name="label_calllogframent">Вызовы</string>
+    <string name="label_calllogframent1">Запись вызовов</string>
     <string name="prompt_quick_position">Фамилия</string>
     <string name="contacts_show_option_label">Параметры отображения</string>
     <string name="label_show_only_phones">Только контакты с телефонами</string>
@@ -909,7 +910,11 @@
     <string name="custom_version_fmt" formatted="false">"ВЕРСИЯ: %s
 ВРЕМЯ: %s
 "</string>
-    <string name="more_string">+%1$s</string>
+    <string name="yellowpages_entry_item">Желтые страницы</string>
+    <string name="yellowpages_detail_error_label">Ошибка</string>
+    <string name="yellowpages_detail_error_description">Помощь обеспечивается по телефонному номеру</string>
+    <string name="label_yellowpages_mark">%s людей отмечено</string>
+
     <string name="copy_email">Копировать адрес эл.почты</string>
     <string name="copy_number">Копировать номер телефона</string>
     <string name="done">Готово</string>

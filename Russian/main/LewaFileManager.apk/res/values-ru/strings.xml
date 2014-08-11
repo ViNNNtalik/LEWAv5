@@ -191,6 +191,7 @@
     <string name="confirm_know">OK</string>
     <string name="error_info_cant_send_folder">Невозможно отправить папку</string>
     <string name="fail_to_create_folder">Ошибка создания папки</string>
+    <string name="fail_to_rename_file">Ошибка переименования</string>
     <string name="fail_to_create_folder_invalid_name">Ошибка создания папки, неверное имя</string>
     <string name="name_too_long">Слишком длинное имя!</string>
     <string name="fail_to_rename">Невозможно переименовать папку или файл</string>
