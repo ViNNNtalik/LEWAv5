@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
     <string name="config_import_vcard_type">По умолчанию</string>
     <string name="config_export_vcard_type">По умолчанию</string>
     <string name="config_export_file_prefix" />
@@ -282,7 +284,7 @@
     <string name="vcard_export_will_start_message">Экспорт %s начнется в ближайшее время.</string>
     <string name="vcard_export_request_rejected_message">Запрос на экспорт данных vCard отклонен. Повторите попытку позже.</string>
     <string name="vcard_unknown_filename">контакт</string>
-    <string name="percentage">%s%%</string>
+
     <string name="confirm_export_title">Экспорт контактов</string>
     <string name="confirm_export_message">Список контактов будет экспортирован в файл \"%s\".</string>
     <string name="exporting_contact_failed_title">Сбой экспорта</string>
@@ -487,13 +489,13 @@
     <string name="menu_settings">Настройки</string>
     <string name="menu_help">Помощь</string>
     <string name="preference_displayOptions">Варианты отображения</string>
-    <string name="organization_company_and_title">%2$s, %1$s</string>
+
     <string name="hint_findContacts">Найти контакты</string>
     <string name="non_phone_caption">Номер телефона</string>
     <string name="non_phone_add_to_contacts">Добавить к контактам</string>
     <string name="activity_title_confirm_add_detail">Добавление данных</string>
     <string name="non_phone_close">Закрыть</string>
-    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
+
     <string name="date_year_toggle">Указать год</string>
     <string name="social_widget_label">Контакт</string>
     <string name="social_widget_loading">Загрузка...</string>
@@ -514,7 +516,7 @@
     <string name="enter_contact_name">Имя контакта</string>
     <string name="view_updates_from_group">Обновления</string>
     <string name="notification_action_voicemail_play">Воспроизведение</string>
-    <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
+
     <string name="notification_new_voicemail_ticker">Новое гол. сообщение: %1$s</string>
     <string name="voicemail_playback_error">Не удалось воспроизвести сообщение.</string>
     <string name="voicemail_buffering">Буферизация...</string>
@@ -537,7 +539,7 @@
     <string name="voicemail_speed_normal">Средняя скорость</string>
     <string name="voicemail_speed_faster">Высокая скорость</string>
     <string name="voicemail_speed_fastest">Максимальная скорость</string>
-    <string name="call_log_item_count_and_date">(%1$d) %2$s</string>
+
     <string name="group_name_hint">Название группы</string>
     <string name="nfc_vcard_file_name">Получено по NFC</string>
     <string name="menu_show_outgoing_only">Показать только исходящие вызовы</string>
@@ -561,7 +563,7 @@
     <string name="description_send_message">Отправить SMS/MMS: %1$s</string>
     <string name="description_dial_phone_number">Позвонить, контакт: %1$s</string>
     <string name="description_quick_contact_for">Быстрый вызов, контакт: %1$s</string>
-    <string name="call_log_empty_gecode">-</string>
+
     <string name="user_profile_contacts_list_header">Я</string>
     <string name="local_profile_title">Мой профиль</string>
     <string name="external_profile_title">Мой профиль %1$s</string>
@@ -611,7 +613,7 @@
     <string name="import_export_title">Импорт/Экспорт</string>
     <string name="title_contacts_settings">Настройка</string>
     <string name="menu_add_to_contacts">Добавить к контактам</string>
-    <string name="t9_default_sort">1</string>
+
     <string name="t9_sort_title">T9-сортировка</string>
     <string name="t9_sort_summary">Выберите режим результатов T9-сортировки</string>
     <string name="t9_sort_name">Сначала совпадение имен</string>
@@ -639,9 +641,9 @@
     <string name="label_loaderframents">Контакт</string>
     <string name="title_stick_photo">Изменить фото контакта</string>
     <string name="message_sd_card_min_size">Недостаточно места на SD-карте</string>
-    <string name="sim_china_mobile">CMCC</string>
-    <string name="sim_china_telecom">CTCC</string>
-    <string name="sim_china_unicom">CUCC</string>
+
+
+
     <string name="menu_del_contacts">Удаление контактов</string>
     <string name="move">Переместить</string>
     <string name="OK">ОК</string>
@@ -735,7 +737,7 @@
     <string name="deleteConfirmation_title">Удалить контакт</string>
     <string name="prompt_contact_dual_control_1">Нажмите и сдвигайте влево</string>
     <string name="prompt_contact_dual_control_2">Переключиться на другую SIM</string>
-    <string name="gemini_3g_indic">3G</string>
+
     <string name="dialpad_empty_text">Список вызовов пуст</string>
     <string name="group_member">Члены группы</string>
     <string name="no_visible_groups">У Вас нет видимых групп</string>
@@ -831,9 +833,9 @@
     <string name="auto_ip_call_description">Автоматически добавлять IP-номер во время обычного вызова</string>
     <string name="my_number_location_description">Мой порядковый номер</string>
     <string name="other_ip_prefix">Другие IP-префиксы</string>
-    <string name="sim_card">simcard</string>
-    <string name="sim_card_1">sim1</string>
-    <string name="sim_card_2">sim2</string>
+    <string name="sim_card">SIM-карта</string>
+    <string name="sim_card_1">SIM1</string>
+    <string name="sim_card_2">SIM2</string>
     <string name="ip_call_prefix">Операторский префикс IP-вызова:</string>
     <string name="ims_ip_call_description">Умный IP-вызов</string>
     <string name="not_use_ip_call_description">Не использовать IP-номера</string>
@@ -876,8 +878,8 @@
     <string name="call_ip_dial">IP-вызов</string>
     <string name="gemini_sim_management_title">Управление SIM-картами</string>
     <string name="menu_call_log_filter">Фильтр журнала вызовов</string>
-    <string name="sim1">SIM1</string>
-    <string name="sim2">SIM2</string>
+
+
     <string name="all_resources">Все ресурсы</string>
     <string name="all_calls">Все вызовы</string>
     <string name="received_calls">Входящие</string>
@@ -977,7 +979,7 @@
     <string name="replace">Заменить</string>
     <string name="remove">Удалить</string>
     <string name="send">Отправить</string>
-    <string name="mms">MMS</string>
+
     <string name="send_mms">Послать MMS</string>
     <string name="all_threads">Все цепочки</string>
     <string name="type_to_compose_text_enter_to_send">Введите сообщение</string>
@@ -990,7 +992,7 @@
     <string name="failed_to_add_media">Невозможно добавить %1$s к сообщению.</string>
     <string name="failed_to_resize_image">Не удалось изменить размер изображения.</string>
     <string name="resize_image_error_information">Изображение слишком большое даже после уменьшения. Его нельзя отправить.</string>
-    <string name="forward_prefix">"Fwd: "</string>
+
     <string name="discard_message_reason">Сообщение будет удалено, так как не указан ни один реальный получатель.</string>
     <string name="has_invalid_recipient">Недопустимые получатели: &lt;%1$s></string>
     <string name="invalid_destination">Неверный адрес получателя.</string>
@@ -1191,7 +1193,7 @@
     <string name="sending_message">Отправка...</string>
     <string name="pick_too_many_recipients">Слишком много получателей</string>
     <string name="adding_recipients">Добавление получателей...</string>
-    <string name="draft_separator">", "</string>
+
     <string name="message_count_format">%1$s</string>
     <string name="message_count_notification">Новых сообщений: %1$s</string>
     <string name="error_state">Ошибочное состояние</string>
@@ -1202,15 +1204,15 @@
     <string name="attachment_slideshow">Слайд-шоу</string>
     <string name="attachment_video">Видео</string>
     <string name="attachment_picture">Изображение</string>
-    <string name="notification_separator">"  "</string>
-    <string name="enumeration_comma">", "</string>
-    <string name="message_timestamp_format">%1$s - %2$s</string>
+
+
+
     <string name="message_empty_text">Нет содержимого</string>
     <string name="sms_recommend_message">Шаблоны SMS</string>
     <string name="message_early">Ранее</string>
     <string name="message_today">Сегодня</string>
     <string name="message_yesterday">Вчера</string>
-    <string name="twelve_hour_time_format">h:mma</string>
+
     <string name="notify_type_message">Сообщение уведомления</string>
     <string name="menu_unread_all">Все непрочитано</string>
     <string name="menu_actionbar_selected_items">%s Выбрано</string>
@@ -1228,7 +1230,7 @@
     <string name="pref_title_import_msg">Импорт SMS</string>
     <string name="pref_summary_export_msg">Экспорт SMS на SD-карту</string>
     <string name="pref_title_export_msg">Экспорт SMS</string>
-    <string name="mms_fei_xing_title">[Fei Xing]</string>
+
     <string name="hint">Строка для ответа...</string>
     <string name="alter_title">Полезные советы</string>
     <string name="alter_message">Вы уверены, что хотите удалить это сообщение?</string>
@@ -1244,7 +1246,7 @@
     <string name="menu_mms_timer_text">Таймер</string>
     <string name="mms_menu_quick_text">Быстрый текст</string>
     <string name="mms_timer_dialog_title">Установить время отправки SMS</string>
-    <string name="mms_timer_text_formart" formatted="false">%sYear%sMonth%sDay</string>
+
     <string name="mms_timer_add_error">Ошибка таймера, не раньше системного времени</string>
     <string name="mms_nomal_message">Текст сообщения</string>
     <string name="attach_select_local_video">Локальное видеo</string>
@@ -1304,7 +1306,7 @@
     <string name="menu_insert_text_vcard">Добавить контакт</string>
     <string name="contact_organization">Организация</string>
     <string name="contact_address">Адрес</string>
-    <string name="mms_load_contacts_name">﻿...</string>
+
     <string name="message_compose_menu_resend_label">Перепослать</string>
     <string name="save_message_to_sim">Сохранить сообщение на SIM</string>
     <string name="max_recipients_title">Достигнут предел</string>
@@ -1324,7 +1326,7 @@
     <string name="mms_too_big_to_download">Сообщение слишком большое для загрузки из сети</string>
     <string name="error_unsupported_scheme">В настоящее время это действие не поддерживается.</string>
     <string name="discard_message">Отменить</string>
-    <string name="file_attachment_vcard_name">vCard(%s)</string>
+
     <string name="file_attachment_import_vcard">Импорт vCard</string>
     <string name="attach_vcard">Контакт</string>
     <string name="failed_to_parse_vcard">Не удалось обработать файл vCard!</string>

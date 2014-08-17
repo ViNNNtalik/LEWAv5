@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Вы в %1$d шагах от статуса разработчика</item>
+        <item quantity="one">Вы в %1$d шаге от статуса разработчика</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль должен содержать не менее %d букв</item>
+        <item quantity="one">Пароль должен содержать не менее 1 буквы</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль должен содержать не менее %d строчных букв</item>
+        <item quantity="one">Пароль должен содержать не менее 1 строчной буквы</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль должен содержать не менее %d заглавных букв</item>
+        <item quantity="one">Пароль должен содержать не менее 1 заглавной буквы</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль должен содержать не менее %d единичных цифр</item>
+        <item quantity="one">Пароль должен содержать не менее 1 единичной цифры</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль должен содержать не менее %d специальных символов</item>
+        <item quantity="one">Пароль должен содержать не менее 1 специального символа</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль должен содержать не менее %d небуквенных символов</item>
+        <item quantity="one">Пароль должен содержать не менее 1 небуквенного символа</item>
+    </plurals>
+</resources>

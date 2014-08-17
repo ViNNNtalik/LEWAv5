@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="selectNone">Отмена</string>
-    <string name="android_ringtone_unknown">@*android:string/ringtone_unknown</string>
-    <string name="android_ringtone_silent">@*android:string/ringtone_silent</string>
-    <string name="android_emergency_call_dialog_number_for_display">@*android:string/emergency_call_dialog_number_for_display</string>
-    <string name="android_gigabyteShort">@*android:string/gigabyteShort</string>
-    <string name="android_megabyteShort">@*android:string/megabyteShort</string>
-    <string name="android_PinMmi">@*android:string/PinMmi</string>
-    <string name="android_report">@*android:string/report</string>
-    <string name="android_ssl_certificate">@*android:string/ssl_certificate</string>
-    <string name="android_wifi_tether_configure_ssid_default">@*android:string/wifi_tether_configure_ssid_default</string>
-    <string name="android_fast_scroll_alphabet">@*android:string/fast_scroll_alphabet</string>
+
+
+
+
+
+
+
+
+
+
     <string name="title_actionbar_selected_items">%s выбрано</string>
     <string name="back_killed_message">закрыто</string>
-    <string name="config_deviceKeyHandlerClass" />
-    <string name="config_deviceKeyHandlerLib" />
-    <string name="config_longPressOnMenuAction">android.intent.action.ASSIST</string>
+
+
+
     <string name="data_usage_warning_body">Осторожно, по тарифному плану осталось только %s</string>
     <string name="global_actions_toggle_airplane_mode">Режим полета</string>
     <string name="global_action_power_off">Выключение</string>
@@ -28,19 +28,19 @@
     <string name="power_off">Выключение</string>
     <string name="shutdown_progress">Выключение…</string>
     <string name="shutdown_confirm">Устройство будет выключено</string>
-    <string name="android_upgrading_title">@*android:string/android_upgrading_title</string>
-    <string name="android_lockscreen_access_pattern_cell_added">@*android:string/lockscreen_access_pattern_cell_added</string>
-    <string name="android_lockscreen_access_pattern_cleared">@*android:string/lockscreen_access_pattern_cleared</string>
-    <string name="android_lockscreen_access_pattern_detected">@*android:string/lockscreen_access_pattern_detected</string>
-    <string name="android_lockscreen_access_pattern_start">@*android:string/lockscreen_access_pattern_start</string>
-    <string name="android_usb_storage_activity_title">@*android:string/usb_storage_activity_title</string>
-    <string name="android_lockscreen_password_wrong">@*android:string/lockscreen_password_wrong</string>
-    <string name="android_lockscreen_too_many_failed_attempts_countdown">@*android:string/lockscreen_too_many_failed_attempts_countdown</string>
-    <string name="android_lockscreen_forgot_pattern_button_text">@*android:string/lockscreen_forgot_pattern_button_text</string>
-    <string name="android_lockscreen_pattern_wrong">@*android:string/lockscreen_pattern_wrong</string>
-    <string name="android_lockscreen_pattern_instructions">@*android:string/lockscreen_pattern_instructions</string>
-    <string name="config_initial_charge_times_ac">10,20,16,8,6,7,10,19,15,26,30,25,25,19,29,30,18,15, 30,40,15,20,25,30,19,15,25,25,45,40,10,45,35,40,45, 45,45,45,45,45,45,45,60,90,60,90,14,29,16,14,16,14, 60,15,43,60,46,59,74,76,163,106,104,89,105,60,193, 16,60,103,106,104,119,76,119,134,136,59,105,74,59, 75,90,29,30,43,15,44,29,30,29,30,29,46,29,44,15, 30,30,180,2429</string>
-    <string name="config_initial_charge_times_usb">74, 74, 74, 74, 74, 74, 74, 74, 74, 64, 169, 169, 129, 190, 230, 150, 180, 190, 150, 170, 210, 138, 89, 89, 150, 169, 150, 140, 150, 150, 160, 160, 160, 170, 130, 100, 259, 100, 149, 200, 199, 140, 180, 170, 100, 200, 70, 140, 99, 100, 79, 170, 160, 150, 140, 200, 160, 150, 179, 180, 88, 210, 179, 150, 179, 110, 200, 169, 160, 130, 190, 179, 70, 150, 60, 60, 210, 170, 150, 160, 160, 169, 150, 169, 159, 170, 150, 160, 149, 179, 169, 149, 138, 140, 70, 130, 110, 80, 330, 200, 3446</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string name="data_usage_warning_title">Трафик не имеет достаточных уведомлений</string>
     <string name="fixed_line">Фикс. линия</string>
     <string name="hour">час.</string>
@@ -152,8 +152,8 @@
     <string name="lock_screen_drag_here">Потяните сюда для разблокировки</string>
     <string name="lock_screen_dismiss">Отклонить</string>
     <string name="lock_screen_snooze">Сон</string>
-    <string name="lock_screen_pm">PM</string>
-    <string name="lock_screen_am">AM</string>
+
+
     <string name="ringtone_custom">Польз.</string>
     <string name="ringtone_silent_summary">Тихий</string>
     <string name="capital_on">ВКЛ.</string>
@@ -161,17 +161,17 @@
     <string name="storage_phone">Внутреннее хранилище</string>
     <string name="text_pastelist">Буфер обмена</string>
     <string name="select">Выбор</string>
-    <string name="lewa_date_picker_label_day" />
-    <string name="lewa_date_picker_label_month" />
-    <string name="lewa_date_picker_label_year" />
-    <string name="lewa_time_picker_label_hour" />
-    <string name="lewa_time_picker_label_minute" />
+
+
+
+
+
     <string name="inadvertmode_title">Предотвращение нажатий</string>
     <string name="inadvertmode_tip_msg1">Не закрывайте верх экрана</string>
     <string name="inadvertmode_force_quit">Для выхода нажмите Вкл. + Громкость вверх</string> 
     <string name="translate">Перевод</string>
     <string name="add">добав.</string>
     <string name="call">Вызов</string>
-    <string name="sms">SMS</string>
+
     <string name="mail">Эл.почта</string>
 </resources>
