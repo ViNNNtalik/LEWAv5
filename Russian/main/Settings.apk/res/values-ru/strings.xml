@@ -14,9 +14,9 @@
     <string name="mtp_transfer_erase_error_text">SD-карта не может быть очищена во время передачи файлов</string>
     <string name="launch_error">Не удалось запустить приложение!</string>
     <string name="dlg_confirm_unmount_usb_title">Отключить USB-накопитель?</string>
-    <string name="dlg_confirm_unmount_usb_text">Если Вы отключите USB-накопитель, некоторые приложения остановятся и станут недоступны, пока Вы не подключите USB-накопитель.</string>
+    <string name="dlg_confirm_unmount_usb_text">Если вы отключите USB-накопитель, некоторые приложения остановятся и станут недоступны, пока вы не подключите USB-накопитель.</string>
     <string name="dlg_error_unmount_usb_title" />
-    <string name="dlg_error_unmount_usb_text">Не удается отмонтировать USB-накопитель. Попробуйте позже.</string>
+    <string name="dlg_error_unmount_usb_text">Не удается отключить USB-накопитель. Попробуйте позже.</string>
     <string name="unmount_usb_inform_text">USB-накопитель будет отключен.</string>
     <string name="sd_eject_usbstorage">Отключить USB-накопитель</string>
     <string name="sd_eject_usbstorage_summary">Отключить USB-накопитель для его безопасного удаления</string>
@@ -92,7 +92,7 @@
     <string name="about_agps_title">Что такое A-GPS</string>
     <string name="about_agps_message">"\u0009 A-GPS (Assisted-GPS) является системой, которая позволяет улучшить характеристики запуска и время первого определения местоположения (TTFF) GPS-спутников. 
 \u0009 Устройство с поддержкой A-GPS можно подключать к серверам местоположения для запроса вспомогательных данных с помощью мобильного подключения к сетевым данным. 
-\u0009 Обратите внимание, что может потребоваться дополнительная оплата трафика данных в режиме сетевого роуминга. За подробной информацией обращайтесь к операторам сети."</string>
+\u0009 Обратите внимание, что может потребоваться дополнительная оплата трафика данных в режиме роуминга. За подробной информацией обращайтесь к операторам сети."</string>
     <string name="epo_auto_download_title">Автозагрузка</string>
     <string name="epo_auto_download_summary">Автоматически загружать данные о положении спутников</string>
     <string name="epo_info_title">Сведения о файлах EPO</string>
@@ -108,9 +108,9 @@
     <string name="Network_Local_and_Roaming_Summary">Использование A-GPS в локальной сети и в роуминге</string>
     <string name="Network_Only_Local_Summary">Использование A-GPS только в локальной сети</string>
     <string name="MobileNetwork_DataConn_off">Передача данных выключена</string>
-    <string name="MobileNetwork_off_Summary">Перед использованием A-GPS включите соединение передачи данных</string>
+    <string name="MobileNetwork_off_Summary">Перед использованием A-GPS включите соединение для передачи данных</string>
     <string name="WiFiNetwork_on_title">Wi-Fi активен</string>
-    <string name="MobileNetwork_on_Summary">A-GPS требуется доступ к мобильной сети посредством передачи данных</string>
+    <string name="MobileNetwork_on_Summary">A-GPS требуется доступ к передаче данных посредством мобильной сети</string>
     <string name="MobileNetwork_SIM_Active">SIM активна</string>
     <string name="Network_Roaming_dialog_title">Внимание</string>
     <string name="Network_Roaming_dialog_content">Если сеть используется в режиме роуминга, передача данных для A-GPS может потребовать дополнительных затрат на роуминг.</string>
@@ -192,7 +192,7 @@
     <string name="hdmi_settings_summary">Щелкните для настройки HDMI</string>
     <string name="hdmi_audio_toggler">Аудио</string>
     <string name="hdmi_video_toggler">Видео</string>
-    <string name="hdmi_video_resolution">Видеоразрешение</string>
+    <string name="hdmi_video_resolution">Разрешение видео</string>
     <string name="hdmi_auto">AUTO</string>
     <string name="hdmi_replace_hdmi">HDMI</string>
     <string name="hdmi_replace_mhl">MHL</string>
@@ -205,7 +205,7 @@
     <string name="sim_remain">(Осталось: %d)</string>
     <string name="gps_time_sync_attention_gps_on">"Получение обновления GPS займет около минуты. Кроме этого, GPS может не предоставить время из-за слабого сигнала.
 
-Вы уверены, что хотите испоьзовать GPS?"</string>
+Вы уверены, что хотите использовать GPS?"</string>
     <string name="gps_time_sync_attention_gps_off">"Для использования времени GPS вы должны включить GPS. Получение обновления GPS займет около минуты. Кроме этого, GPS может не предоставить время из-за слабого сигнала. 
 
 Вы уверены, что хотите включить GPS сейчас и ждать когда GPS заработает?"</string>
@@ -217,10 +217,10 @@
     <string name="gemini_default_sim_title">SIM-карта по умолчанию</string>
     <string name="gemini_general_settings_title">Общие настройки</string>
     <string name="gemini_roaming_settings_title">Роуминг</string>
-    <string name="gemini_data_roaming_title">Роуминг передачи данных</string>
+    <string name="gemini_data_roaming_title">Передача данных в роуминге</string>
     <string name="gemini_data_roaming_summary">Подключать услуги передачи данных в роуминге</string>
     <string name="gemini_roaming_reminder_title">Показывать напоминание о роуминге</string>
-    <string name="gemini_roaming_reminder_summary">Предлагать SIM-карту в зависимости от использования SIM-карты</string>
+    <string name="gemini_roaming_reminder_summary">Предлагать SIM-карту в зависимости от использования SIM-карт</string>
     <string name="gemini_contacts_sim_title">Контакты и SIM-карта</string>
     <string name="gemini_contacts_sim_summary">Привязка контактов к определенной SIM-карте</string>
     <string name="gemini_voice_call">Голосовые вызовы</string>
@@ -310,7 +310,7 @@
     <string name="wifi_WEP_transmit_key">Ключ передачи</string>
     <string name="wifi_WEP_secury_key">Ключ безопасности</string>
     <string name="wifi_tether_auto_disable_title">Сохранять точку доступа Wi-Fi</string>
-    <string name="wifi_disconnect">Откючить</string>
+    <string name="wifi_disconnect">Отключить</string>
     <string name="wifi_menu_disconnect">Отключение от сети</string>
     <string name="trust_access_points">Доверенная точка доступа по умолчанию</string>
     <string name="configed_access_points">Доверенные точки доступа</string>
@@ -363,7 +363,7 @@
     <string name="wifi_ap_wps_dialog_title">Подключение WPS</string>
     <string name="wifi_ap_wps_mode_title">Режим WPS</string>
     <string name="wifi_ap_wps_pin_title">Введите PIN-код клиента</string>
-    <string name="wifi_ap_reset_OOB_title">Восстановить настройки по умолчанию для сети SSID, защиты и пароля (заводская конфигурация WPS)</string>
+    <string name="wifi_ap_reset_OOB_title">Восстановить настройки сети по умолчанию: SSID, защита и пароль (заводская конфигурация WPS)</string>
     <string name="wifi_ap_reset_OOB">Сбросить OOB</string>
     <string name="wifi_ap_max_connection_title">Максимальное число подключений</string>
     <string name="wifi_ap_connected_title">Подключенные пользователи</string>
@@ -376,7 +376,7 @@
     <string name="usb_sharing_title">USB-интернет</string>
     <string name="usb_sharing_summary">Совместное использование интернета на компьютере и телефоне через USB-кабель</string>
     <string name="usb_sharing_info_title">Сквозное подключение к интернету</string>
-    <string name="usb_sharing_info_step_1">1. Откройте сетевые подключения на вашем Windows PC</string>
+    <string name="usb_sharing_info_step_1">1. Откройте сетевые подключения на Вашем Windows PC</string>
     <string name="usb_sharing_info_step_2">2. Щелкните правой кнопкой подключение, которое Вы хотите использовать совместно, а затем щелкните кнопку Свойства</string>
     <string name="usb_sharing_info_step_3">"3. Перейдите на вкладку совместного использования и выберите 'Разрешить другим пользователям сети подключаться с помощью Интернет-подключения данного компьютера'(выберите недавно добавленную сеть, которая работает с помощью устройства USB, если отображается сообщение 'Подключение к домашней сети')."</string>
     <string name="wifi_ap_bandwidth_title">Пропускная способность</string>
