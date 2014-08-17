@@ -2972,4 +2972,6 @@
     <string name="flip_2_mute_summary">Доступ к дополнительным настройкам</string>
     <string name="level">G-сенсор</string>
     <string name="level_summary">Калибровка G-сенсора/акселерометра</string>
+    <string name="em_settings_title">Инженерное меню</string>
+    <string name="em_settings_adb_title">Тонкая настройка параметров телефона</string>
 </resources>
