@@ -1194,7 +1194,7 @@
     <string name="dock_sounds_enable_title">Звук при установке в док-станцию</string>
     <string name="dock_sounds_enable_summary_on">Воспроизводить звук при установке или извлечении устройства</string>
     <string name="dock_sounds_enable_summary_off">Не воспроизводить звук при установке или извлечении устройства</string>
-    <string name="account_settings">Учетные записи</string>
+    <string name="account_settings">Аккаунты</string>
     <string name="search_settings">Поиск</string>
     <string name="search_settings_summary">Настроить параметры и управлять историей поиска</string>
     <string name="display_settings">Экран</string>
