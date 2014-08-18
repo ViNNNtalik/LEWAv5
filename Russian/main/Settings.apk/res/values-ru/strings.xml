@@ -449,8 +449,8 @@
     <string name="card_emulation_switch_error_title">Ошибка</string>
     <string name="card_emulation_switch_error_message">Ошибка переключения на %1$s</string>
     <string name="card_emulation_sim_not_supported_message">%1$s не поддерживает функции эмуляции NFC-карты</string>
-    <string name="voice_unlock_backup_info_summary">Что следует делать, если функция включения голоса не распознает Ваш голос?</string>
-    <string name="unlock_set_unlock_mode_voice_weak">Голосовая разблокировка</string>
+    <string name="voice_unlock_backup_info_summary">Что следует делать, если функция разблокировки голосом не распознает Ваш голос?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Разблокировка голосом</string>
     <string name="voice_ui_title">Голосовое управление</string>
     <string name="voice_ui_app_category">Для настроек приложения</string>
     <string name="voice_ui_setting_category">Настройки</string>
@@ -460,7 +460,7 @@
     <string name="camera_app_name">Камера</string>
     <string name="music_app_name">Музыка</string>
     <string name="incomming_command_summary_format">Вы можете сказать %1$s или %2$s, чтобы ответить на входящий вызов или отклонить его.</string>
-    <string name="alarm_command_summary_format">Можно сказать %1$s или %2$s для управления сигналом.</string>
+    <string name="alarm_command_summary_format">Можно сказать %1$s или %2$s для управления будильником.</string>
     <string name="camera_command_summary_format">Вы можете сказать %1$s или %2$s, чтобы произвести запись.</string>
     <string name="music_command_summary_format">Вы можете сказать %1$s и %2$s для управления воспроизведением музыки.</string>
     <string name="lock_screen_notifications_title">Уведомления при блокировке</string>
@@ -573,7 +573,7 @@
     <string name="battery_info_temperature_units">° C</string>
     <string name="battery_info_uptime">Время после загрузки:</string>
     <string name="battery_info_awake_battery">Время работы от батареи:</string>
-    <string name="battery_info_awake_plugged">Время работы при зарядке:</string>
+    <string name="battery_info_awake_plugged">Время работы от сети:</string>
     <string name="battery_info_screen_on">Время работы экрана:</string>
     <string name="battery_info_status_unknown">Неизвестно</string>
     <string name="battery_info_status_charging">Идет зарядка</string>
@@ -618,8 +618,8 @@
     <string name="bluetooth_disable_profile_message">Будет отключен:</string>
     <string name="bluetooth_connected">Подключено</string>
     <string name="bluetooth_connected_no_headset">Подключено (нет телефона)</string>
-    <string name="bluetooth_connected_no_a2dp">Подключено (нет среды)</string>
-    <string name="bluetooth_connected_no_headset_no_a2dp">Подключено (нет телефона или среды)</string>
+    <string name="bluetooth_connected_no_a2dp">Подключено (нет носителя)</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">Подключено (нет телефона или носителя)</string>
     <string name="bluetooth_disconnected">Отключено</string>
     <string name="bluetooth_disconnecting">Отключение…</string>
     <string name="bluetooth_connecting">Подключение…</string>
@@ -635,10 +635,10 @@
     <string name="device_picker">Выбор Bluetooth-устройства</string>
     <string name="bluetooth_permission_request">Запрос разрешения на включение Bluetooth</string>
     <string name="bluetooth_ask_enablement">Приложение запрашивает разрешение включить Bluetooth. Разрешить?</string>
-    <string name="bluetooth_ask_discovery">Одному из приложений нужно, чтобы Ваше устройство было доступно для поиска на других устройствах в течение %1$d сек. Включить Bluetooth?</string>
-    <string name="bluetooth_ask_lasting_discovery">Одному из приложений нужно, чтобы Ваше устройство было доступно для поиска на других устройствах. Включить Bluetooth?</string>
-    <string name="bluetooth_ask_enablement_and_discovery">Одному из приложений нужно, чтобы Ваше устройство было доступно для поиска на других устройствах в течение %1$d сек. Включить Bluetooth?</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery">Одному из приложений нужно, чтобы Ваше устройство было доступно для поиска на других устройствах. Включить Bluetooth?</string>
+    <string name="bluetooth_ask_discovery">Одному из приложений нужно, чтобы Ваше устройство было видимым для других устройств в течение %1$d сек. Включить Bluetooth?</string>
+    <string name="bluetooth_ask_lasting_discovery">Одному из приложений нужно, чтобы Ваше устройство было видимым для других устройств. Включить Bluetooth?</string>
+    <string name="bluetooth_ask_enablement_and_discovery">Одному из приложений нужно, чтобы Ваше устройство было видимым для других устройств в течение %1$d сек. Включить Bluetooth?</string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery">Одному из приложений нужно, чтобы Ваше устройство было видимым для других устройств. Включить Bluetooth?</string>
     <string name="bluetooth_turning_on">Включение Bluetooth…</string>
     <string name="bluetooth_turning_off">Выключение Bluetooth…</string>
     <string name="bluetooth_auto_connect">Автоматическое подключение</string>
@@ -792,11 +792,11 @@
     <string name="security_passwords_title">Пароли</string>
     <string name="crypt_keeper_settings_title">Шифрование</string>
     <string name="crypt_keeper_encrypt_title">Зашифровать устройство</string>
-    <string name="crypt_keeper_encrypt_summary">Запрос числового PIN-кода или пароля для дешифрования при каждом включении</string>
+    <string name="crypt_keeper_encrypt_summary">Запрос PIN-кода или пароля для дешифрования при каждом включении</string>
     <string name="crypt_keeper_encrypted_summary">Зашифровано</string>
-    <string name="crypt_keeper_desc">"Шифрование доступно для аккаунтов, настроек, загруженных приложений и их данных, а также для мультимедийных и прочих файлов. После шифрования данных при каждом включении устройства необходимо будет вводить числовой PIN-код или пароль, чтобы выполнить дешифрование данных. Единственный способ отключить шифрование – сброс настроек, в результате которого все данные будут потеряны.
+    <string name="crypt_keeper_desc">"Шифрование доступно для аккаунтов, настроек, загруженных приложений и их данных, а также для мультимедийных и прочих файлов. После шифрования данных при каждом включении устройства необходимо будет вводить PIN-код или пароль, чтобы выполнить дешифрование данных. Единственный способ отключить шифрование – сброс настроек, в результате которого все данные будут утеряны.
 
-Шифрование займет не менее одного часа. Перед его запуском необходимо подключить зарядное устройство и не отключать его до окончания операции. В случае прерывания шифрования будут потеряны все данные или часть из них"</string>
+Шифрование займет не менее одного часа. Перед его запуском необходимо подключить зарядное устройство и не отключать его до окончания операции. В случае прерывания шифрования будут утеряны все данные или их часть"</string>
     <string name="crypt_keeper_button_text">Зашифровать устройство</string>
     <string name="crypt_keeper_low_charge_text">Зарядите батарею и повторите попытку</string>
     <string name="crypt_keeper_unplugged_text">Подключите зарядное устройство и повторите попытку</string>
@@ -851,7 +851,7 @@
     <string name="lockpassword_press_continue">После завершения нажмите \"Продолжить\"</string>
     <string name="lockpassword_continue_label">Продолжить</string>
     <string name="lockpassword_password_too_long">Не более %d символов</string>
-    <string name="lockpassword_pin_too_long">В PIN-коде должно быть не более %d зн.</string>
+    <string name="lockpassword_pin_too_long">PIN-код должен содержать не более %d символов</string>
     <string name="lockpassword_pin_contains_non_digits">PIN-код должен состоять только из цифр от 0 до 9</string>
     <string name="lockpassword_pin_recently_used">Администратор устройства запрещает использование последнего PIN-кода</string>
     <string name="lockpassword_illegal_character">Пароль содержит недопустимые символы</string>
@@ -1013,12 +1013,12 @@
     <string name="wifi_show_advanced">Дополнительно</string>
     <string name="wifi_wps_setup_title">Настройка WPS</string>
     <string name="wifi_wps_setup_msg">Включение WPS…</string>
-    <string name="wifi_wps_onstart_pbc">Нажмите кнопку защищенного Wi-Fi на вашем роутере. Она может быть названа \"WPS\" или содержать этот символ:</string>
+    <string name="wifi_wps_onstart_pbc">Нажмите кнопку Wi-Fi Protected Setup на вашем роутере. Она может быть названа \"WPS\" или содержать этот символ:</string>
     <string name="wifi_wps_onstart_pin">Введите PIN-код: %1$s в вашем Wi-Fi роутере. Настройка может занять до двух минут</string>
-    <string name="wifi_wps_complete">WPS успешно. Соединение с сетью…</string>
+    <string name="wifi_wps_complete">WPS: успешно. Соединение с сетью…</string>
     <string name="wifi_wps_connected">Соединено с сетью Wi-Fi %s</string>
     <string name="wifi_wps_in_progress">WPS уже используется, для завершения потребуется около минуты</string>
-    <string name="wifi_wps_failed_generic">WPS ошибка. Повторите попытку через несколько минут</string>
+    <string name="wifi_wps_failed_generic">Ошибка WPS. Повторите попытку через несколько минут</string>
     <string name="wifi_wps_failed_wep">Настройки безопасности роутера (WEP) не поддерживаются</string>
     <string name="wifi_wps_failed_tkip">Настройки безопасности роутера (TKIP) не поддерживаются</string>
     <string name="wifi_wps_failed_auth">Ошибка авторизации. Попробуйте позже</string>
@@ -1109,7 +1109,7 @@
     <string name="wifi_p2p_failed_connect_message">Нет соединения</string>
     <string name="wifi_p2p_failed_rename_message">Ошибка переименования</string>
     <string name="wifi_p2p_disconnect_title">Разъединить?</string>
-    <string name="wifi_p2p_disconnect_message">Если отключиться, то ваше соединение с %1$s будет разорвано</string>
+    <string name="wifi_p2p_disconnect_message">Если отключиться, то Ваше соединение с %1$s будет разорвано</string>
     <string name="wifi_p2p_disconnect_multiple_message">Если отключиться, то Ваше соединение с %1$s и %2$s другими устройствами будет разорвано</string>
     <string name="wifi_p2p_cancel_connect_title">Отменить приглашение?</string>
     <string name="wifi_p2p_cancel_connect_message">Вы хотите отменить приглашение к соединению с %1$s?</string>
@@ -1194,7 +1194,7 @@
     <string name="dock_sounds_enable_title">Звук при установке в док-станцию</string>
     <string name="dock_sounds_enable_summary_on">Воспроизводить звук при установке или извлечении устройства</string>
     <string name="dock_sounds_enable_summary_off">Не воспроизводить звук при установке или извлечении устройства</string>
-    <string name="account_settings">Аккаунты</string>
+    <string name="account_settings">Учетные записи</string>
     <string name="search_settings">Поиск</string>
     <string name="search_settings_summary">Настроить параметры и управлять историей поиска</string>
     <string name="display_settings">Экран</string>
