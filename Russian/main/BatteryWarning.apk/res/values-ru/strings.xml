@@ -17,4 +17,5 @@
     <string name="btn_cancel_msg">Отключить</string>
     <string name="title_power_weak">Неподходящее зарядное устройство</string>
     <string name="msg_power_weak">Для избежания повреждений используйте только подходящие зарядные устройства!</string>
+    <string name="title_battery_below_temperature">Температура слишком низкая</string>
 </resources>

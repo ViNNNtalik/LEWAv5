@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+
     <string name="game_center">Игровой центр</string>
     <string name="game_update">Обновление игр</string>
     <string name="app_download">раз</string>
@@ -48,7 +49,7 @@
     <string name="update_no_more">Версия Вашей игры самая последняя~</string>
     <string name="noti_noti_update_suffix">Игровой центр может обновить %1$s игр</string>
     <string name="noti_noti_update_suffix2">Возможно обновление</string>
-    <string name="source_official">Lewa</string>
+
     <string name="app_praise">Нравится %1$s</string>
     <string name="app_praise_topic">%1$s лайков</string>
     <string name="app_status_download">Загрузить</string>
@@ -80,9 +81,9 @@
     <string name="update_all_tip">Обновляемые игры</string>
     <string name="update_all_text">%1$s игры можно обновить</string>
     <string name="menu_setting">Настройки</string>
-    <string name="setting_key_delete_apk">delete_apk</string>
-    <string name="setting_key_update_noti">update_noti</string>
-    <string name="setting_key_auto_update">auto_update</string>
+
+
+
     <string name="setting_delete_apk">Удалять apk после успешной установки</string>
     <string name="setting_update_notification">Уведомление об обновлении</string>
     <string name="setting_auto_update">Автообновление</string>
@@ -101,4 +102,53 @@
     <string name="app_manage">Игровой менеджер</string>
     <string name="search_tip">Нажмите для поиска</string>
 
+
+    <string name="user_sign">Логин</string>
+    <string name="my_collection">Избранное</string>
+    <string name="my_share">Поделиться</string>
+    <string name="share_without_flow">Поделиться без трафика</string>
+    <string name="app_backup">Бэкап</string>
+    <string name="check_update">Проверить обновления</string>
+    <string name="setting">Настройки</string>
+    <string name="current_version">"Текущая версия: "</string>
+    <string name="update_manager">Менеджер обновления</string>
+    <string name="goody_bag">пакет.</string>
+    <string name="change_another">Заменить</string>
+    <string name="history_record">История</string>
+    <string name="remove_history">Очистить историю</string>
+    <string name="user_center">Польз. Центр</string>
+    <string name="app_downloads">%1$s загрузок</string>
+    <string name="app_type">"Тип: "</string>
+    <string name="good_packs">Хорошие пакеты</string>
+    <string name="packs_rec_dl">Загрузка получена</string>
+    <string name="packs_recieve">Получение</string>
+    <string name="packs_recieved">Получено</string>
+    <string name="packs_remain_time">Осталось</string>
+    <string name="packs_remain_day">дн.</string>
+    <string name="packs_remain_hour">час.</string>
+    <string name="packs_remain_minute">мин.</string>
+    <string name="packs_content_head">"Содержимое пакета: "</string>
+    <string name="packs_usage_head">"Исп.: "</string>
+    <string name="packs_rule_head">"Ограничения: "</string>
+    <string name="copy">Копировать</string>
+    <string name="packs_act">Активация</string>
+    <string name="packs_act_info_1">Вы уже могли получить хорошие пакеты</string>
+    <string name="packs_act_info_2">Использование: в настройках игры</string>
+    <string name="safe">Безопасно</string>
+    <string name="free">Бесплатно</string>
+    <string name="no_ads">Без рекламы</string>
+    <string name="app_update_time">"Время обновления: "</string>
+    <string name="app_tag">Название</string>
+    <string name="app_recommend">Рекомендации</string>
+    <string name="app_intro">Профиль приложения</string>
+    <string name="activation_code">Код активации:</string>
+    <string name="packs_recieving">Получение</string>
+    <string name="packs_receive_fail">Получение не удалось</string>
+    <string name="copy_success">Код активации успешно скопирован</string>
+    <string name="packs_view_gift">Просмотр пакета</string>
+    <string name="packs_receive_again">Получить заново</string>
+    <string name="new_version">Новая версия</string>
+    <string name="my_goody_null_text">Вы еще не загрузили пакет!</string>
+    <string name="receive_now">Загрузить сейчас</string>
+    <string name="new_goody_null_text">Нет новых пакетов!</string>
 </resources>

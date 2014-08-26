@@ -9,12 +9,12 @@
     <string name="confirm_radio_msg">%1$s сейчас выключена. Включить эту SIM-карту?</string>
     <string name="confirm_radio_msg_uim">%1$s сейчас выключена. Включить эту UIM-карту?</string>
     <string name="confirm_radio_msg_card">%1$s сейчас выключена. Включить эту карту?</string>
-    <string name="confirm_radio_flight_mode_on_and_msg">Режим полета включен и</string>
-    <string name="confirm_radio_flight_mode_on_sim_off_msg">%1$s сейчас выкл. Выключить режим полета и включить эту SIM-карту?</string>
+    <string name="confirm_radio_flight_mode_on_and_msg">Режим \"В полете\" включен и</string>
+    <string name="confirm_radio_flight_mode_on_sim_off_msg">%1$s сейчас выключена. Вы хотите выключить режим \"В полете\" и включить в эту SIM-карту?</string>
     <string name="confirm_radio_flight_mode_on_sim_off_msg_uim">%1$s сейчас выкл. Выключить режим полета и включить эту UIM-карту?</string>
     <string name="confirm_radio_flight_mode_on_sim_off_msg_card">%1$s сейчас выкл. Выключить режим полета и включить эту карту?</string>
-    <string name="confirm_radio_flight_mode_on_sim_on_msg">Режим полета включен. Выключить режим полета?</string>
-    <string name="confirm_radio_msg_single">Сейчас включен режим полета, отключить его?</string>
+    <string name="confirm_radio_flight_mode_on_sim_on_msg">Сейчас включен режим \"В полете\". Включить?</string>
+    <string name="confirm_radio_msg_single">Режим \"В полете\" включен. Отключить его?</string>
     <string name="confirm_pin_title">SIM-карта заблокирована</string>
     <string name="confirm_pin_title_uim">UIM-карта заблокирована</string>
     <string name="confirm_pin_title_card">Карта заблокирована</string>
@@ -42,9 +42,9 @@
     <string name="confirm_roamingWithPrefer_rbutton">SIM-карта в роуминге</string>
     <string name="confirm_roamingWithPrefer_rbutton_uim">UIM-карта в роуминге</string>
     <string name="confirm_roamingWithPrefer_rbutton_card">Карта в роуминге</string>
-    <string name="confirm_roaming_for3Sims_msg">SIM-карта, которую вы собираетесь использовать, в роуминге. Вы хотите продолжить?</string>
-    <string name="confirm_roaming_for3Sims_msg_uim">UIM-карта, которую вы собираетесь использовать, в роуминге. Вы хотите продолжить?</string>
-    <string name="confirm_roaming_for3Sims_msg_card">Карта, которую вы собираетесь использовать, в роуминге. Вы хотите продолжить?</string>
+    <string name="confirm_roaming_for3Sims_msg">SIM-карта, которую Вы собираетесь использовать, в роуминге. Продолжить?</string>
+    <string name="confirm_roaming_for3Sims_msg_uim">UIM-карта, которую Вы собираетесь использовать, в роуминге. Продолжить?</string>
+    <string name="confirm_roaming_for3Sims_msg_card">Карта, которую Вы собираетесь использовать, в роуминге. Продолжить?</string>
     <string name="confirm_radio_lbutton">Включить</string>
     <string name="confirm_unlock_lbutton">Разблокировать</string>
     <string name="confirm_unlock_fail">Операция отменена</string>
@@ -55,8 +55,8 @@
     <string name="confirm_sim_locked_message">SIM-карта безвозвратно заблокирована</string>
     <string name="confirm_sim_locked_message_uim">UIM-карта безвозвратно заблокирована</string>
     <string name="confirm_sim_locked_message_card">Карта безвозвратно заблокирована</string>
-    <string name="confirm_slot_locked_message">Гнездо заблокировано навсегда</string>
+    <string name="confirm_slot_locked_message">Слот навсегда заблокирован</string>
     <string name="button_yes">Да</string>
     <string name="button_no">Нет</string>
-    <string name="confirm_disable_lbutton">запрещено</string>    
+    <string name="confirm_disable_lbutton">запрещено</string>   
 </resources>

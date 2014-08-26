@@ -123,36 +123,36 @@
     <string name="setting_downlrc_summary">Загружать тексты песен</string>
     <string name="setting_downlrc_key">isdownlrc</string>
     <string name="setting_downimg_title">Изображения</string>
-    <string name="setting_downimg_key">isdownimg</string>
-    <string name="setting_downInfo_key">isdownInfo</string>
-    <string name="setting_flowhint_key">isflowhint</string>
-    <string name="setting_filtersongs_key">isfiltersongs</string>
+
+
+
+
     <string name="setting_download_title">Загрузка и онлайн-воспроизведение</string>
     <string name="setting_download_summary">Только Wi-Fi</string>
-    <string name="setting_download_key">downloadmethod</string>
+
     <string name="musicsettings">Настройки приложения Музыка</string>
     <string name="setting_download">Параметры загрузки</string>
     <string name="setting_basic">Базовая настройка</string>
     <string name="setting_bg_title">Изменить фон</string>
-    <string name="setting_bg_key">bgchanging</string>
+
     <string name="setting_shake_title">Встряхнуть, чтобы пропустить</string>
     <string name="setting_shake_summary">Встряхивание устройства, чтобы перейти к следующей песне</string>
-    <string name="setting_shake_key">isshake</string>
+
     <string name="shake_degree_title">Чувствительность встряхивания</string>
     <string name="shake_degree_summary">Настроить силу встряхивания для пропуска песни</string>
-    <string name="shake_degree_key">shakedegree</string>
-    <string name="setting_fade_key">isfade</string>
+
+
     <string name="shake_degree_gentle">Слабее</string>
-    <string name="shake_degree_easy" />
-    <string name="shake_degree_common" />
-    <string name="shake_degree_excited" />
+
+
+
     <string name="shake_degree_force">Сильнее</string>
     <string name="setting_show_spectrum">Показать спектр</string>
     <string name="setting_show_spectrum_summary">Показывать ритм музыки, его закрытие повысит производительность</string>
-    <string name="setting_show_spectrum_key">isShowSpectrum</string>
+
     <string name="onesong">1 песня</string>
-    <string name="durationformatshort">%2$d:%5$02d</string>
-    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
+
+
     <string name="goto_start">Библиотека</string>
     <string name="party_shuffle">Ди-джей микс</string>
     <string name="party_shuffle_off">Ди-джей микс выкл.</string>
@@ -165,11 +165,11 @@
     <string name="delete_album_desc_nosdcard">Альбомы \"%s\" будут навсегда удалены из USB-хранилища</string>
     <string name="delete_song_desc">\"%s\" будут навсегда удалены с SD-карты</string>
     <string name="delete_song_desc_nosdcard">%s будут навсегда удалены из USB-хранилища</string>
-    <string name="delete_confirm_button_text">OK</string>
+    <string name="delete_confirm_button_text">ОК</string>
     <string name="scanning">Сканирование</string>
     <string name="scanning_nosdcard">Нет SD-карты</string>
     <string name="nowplaying_title">Сейчас играет</string>
-    <string name="partyshuffle_title">Party shuffle</string>
+    <string name="partyshuffle_title">Частичное перемешивание</string>
     <string name="artists_title">Исполнители</string>
     <string name="albums_menu">Альбомы</string>
     <string name="albums_title">Альбомы</string>
@@ -268,6 +268,8 @@
     <string name="file_filter">Фильтр файлов</string>
     <string name="filter_songs">Фильтр коротких песен</string>
     <string name="filter_songs_hint">Фильтрация аудиофайлов с небольшой продолжительностью (менее 1 минуты)</string>
+    <string name="EQ">Эквалайзер</string>
+    <string name="adjust_EQ">Регулировать эквалайзер</string>
     <string name="folder">Источник</string>
     <string name="choose_folder">Выбор папки(ок) с музыкой</string>
     <string name="setting_fade_title">Затухание громкости</string>
@@ -298,7 +300,7 @@
     <string name="no_network">Сеть недоступна</string>
     <string name="lrc_down_notfound">Тексты песен не найдены</string>
     <string name="playcurrent_failed">%s не воспроизводится: неподдерживаемый формат или отсутствует файл</string>
-    <string name="inland">mainland</string>
+
     <string name="hk_tw">Гонконг и Тайвань</string>
     <string name="west">Европа</string>
     <string name="japan_korea">Япония и Южная Корея</string>
@@ -450,6 +452,4 @@
     <string name="enter_keys">Введите исполнителя или название песни</string>
     <string name="songs_download">Скачать песни</string>
     <string name="playlist_exists">Плейлист уже существует. Пожалуйста, переименуйте</string>
-	<string name="EQ">Эквалайзер</string>
-    <string name="adjust_EQ">Регулировать эквалайзер</string>
 </resources>
