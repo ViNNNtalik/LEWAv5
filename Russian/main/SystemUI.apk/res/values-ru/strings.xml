@@ -282,7 +282,7 @@
     <string name="navigation_bar_single_mode">Навигационная панель для управления одной рукой</string>
     <string name="navigation_bar_single_mode_comman">Включение опции управления навигационной панелью одной рукой</string>
     <string name="navigation_location_setting">Схема размещения кнопок</string>
-    <string name="navigation_move_error">Кпопки Домой, Меню и Назад не могут быть убраны</string>
+    <string name="navigation_move_error">Кнопки Домой, Меню и Назад не могут быть убраны</string>
     <string name="navigation_hide_dialog_text">Навигационная панель спрятана, проведите снизу вверх для открытия виртуальной навигационной панели</string>
     <string name="title_menu">Меню</string>
     <string name="title_back">Назад</string>
