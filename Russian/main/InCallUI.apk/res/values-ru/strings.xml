@@ -31,7 +31,7 @@
     <string name="callFailed_dsac_vt_bear_not_authorized">Видеовызов не может быть настроен. Видеотелефон не активирован на этой SIM-карте, выполнить голосовой вызов?</string>
     <string name="notification_voicemail">Голосовая почта</string>
     <string name="turn_on_3g_service_message">Служба 3G в данный момент отключена, подключить ее?</string>
-    <string name="associate_sim_missing_message">SIM-карта %1$s недоступна. Выполнить вызов через %2$s</string>
+    <string name="associate_sim_missing_message">SIM-карта %1$s недоступна. Выполнить вызов через %2$s?</string>
     <string name="associate_sim_missing_other">Другое</string>
     <string name="vt_incoming_call">Входящий видеовызов</string>
     <string name="vt_settings">Настройки видео</string>
@@ -163,7 +163,7 @@
     <string name="enable_3G_service">Включить режим 3G</string>
     <string name="setting_for_3G_service">Служба 3G</string>
     <string name="network_forbidden">Отключить</string>
-    <string name="voice_mail_dialog_text">Поступила новая голосовая почта%s, получить ее сейчас?</string>
+    <string name="voice_mail_dialog_text">Поступила новая голосовая почта от %s, получить ее сейчас?</string>
     <string name="lable_call_barring">Запрет вызовов</string>
     <string name="lable_all_outgoing">Все исходящие вызовы</string>
     <string name="lable_all_outgoing_international">Международные исходящие вызовы</string>
@@ -623,7 +623,7 @@
     <string name="simContacts_emptyLoading">Считывание с SIM-карты…</string>
     <string name="simContacts_empty">На SIM-карте нет контактов</string>
     <string name="simContacts_title">Выберите контакты для импорта</string>
-    <string name="simContacts_airplaneMode">Чтобы импортировать контакты с SIM-карты, отключите режим полета</string>
+    <string name="simContacts_airplaneMode">Чтобы импортировать контакты с SIM-карты, отключите режим \"В полете\"</string>
     <string name="enable_pin">Включить/отключить запрос PIN-кода для SIM-карты</string>
     <string name="change_pin">Изменить PIN-код для SIM-карты</string>
     <string name="enter_pin_text">PIN-код для SIM-карты:</string>
@@ -686,7 +686,7 @@
     <string name="notification_action_end_call">Завершить вызов</string>
     <string name="notification_missedCall_call_back">Вызов</string>
     <string name="notification_missedCall_message">SMS</string>
-    <string name="incall_error_power_off">Вначале отключите режим полета</string>
+    <string name="incall_error_power_off">Вначале отключите режим \"В полете\"</string>
     <string name="incall_error_emergency_only">Нет регистрации в сети</string>
     <string name="incall_error_out_of_service">Сеть недоступна</string>
     <string name="incall_error_no_phone_number_supplied">Вызов не осуществляется, действительный номер телефона не указан</string>
@@ -713,7 +713,7 @@
 "</string>
     <string name="onscreenMuteText">"Откл. микр.
 "</string>
-    <string name="onscreenAddCallText">"+ вызов
+    <string name="onscreenAddCallText">"Доб. вызов
 "</string>
     <string name="onscreenMergeCallsText">"Объединить
 "</string>
@@ -723,7 +723,7 @@
     <string name="onscreenManageConferenceText">Управление конференцией</string>
     <string name="onscreenAudioText">"Динамик
 "</string>
-
+    <string name="onscreenVideoCallText">Видеовызов</string>
     <string name="importSimEntry">Импортировать</string>
     <string name="importAllSimEntries">Импортировать все</string>
     <string name="importingSimContacts">Импорт контактов с SIM-карты</string>
@@ -916,8 +916,8 @@
 "</string>
     <string name="menu_recording">"Запись
 "</string>
-    <string name="menu_more">"Ещё
+    <string name="menu_more">"Еще...
 "</string>
     <string name="strange_number">Неизвестный номер</string>
-    <string name="mark_string">%d людей отмечено</string>
+    <string name="mark_string">Отмечено %d</string>
 </resources>

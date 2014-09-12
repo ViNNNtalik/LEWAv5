@@ -7,7 +7,7 @@
     <string name="configure_wallpaper">Настройки…</string>
     <string name="wallpaper_instructions">Установить обои</string>
     <string name="live_wallpaper_empty">Живые обои отсутствуют</string>
-    <string name="set_live_wallpaper">Установить фоновый рисунок</string>
+    <string name="set_live_wallpaper">Установить обои</string>
     <string name="wallpaper_title_and_author">%1$s, автор: %2$s</string>
     <string name="live_wallpaper_loading">Загрузка живых обоев...</string>
     <string name="wallpaper_cancel">Отмена</string>

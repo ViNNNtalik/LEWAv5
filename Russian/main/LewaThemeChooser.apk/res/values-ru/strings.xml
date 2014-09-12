@@ -53,7 +53,7 @@
     <string name="custom_font">Шрифт</string>
     <string name="no_sdcard">Пожалуйста, вставьте SD-карту и попробуйте еще раз</string>
     <string name="can_not_find_app">Не удается найти приложение!</string>
-    <string name="import_other_app">Импорт из других приложений</string>
+    <string name="import_other_app">Добавить</string>
     <string name="theme_count">Эта тема содержит %s модулей</string>
     <string name="theme_details">детали темы</string>
     <string name="no_modules_to_apply">Нет модулей для применения</string>

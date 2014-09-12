@@ -10,10 +10,10 @@
     <string name="noalarm">Будильник</string>
     <string name="off">Выкл</string>
     <string name="on">Вкл</string>
-    <string name="alarm">Будил.</string>
-    <string name="power_on">Сбер.</string>
+    <string name="alarm">Будильник</string>
+    <string name="power_on">Вкл</string>
     <string name="power_surplus">Осталось</string>
-    <string name="power_full">Зарядка</string>
+    <string name="power_full">Заряжается</string>
     <string name="power_isfull">Заряжено</string>
     <string name="power_h">ч</string>
     <string name="power_m">м</string>

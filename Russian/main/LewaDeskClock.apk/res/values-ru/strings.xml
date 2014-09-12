@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_city">2151849</string>
+    <string name="default_city">9000007</string>
     <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
     <string name="app_label">Часы</string>
     <string name="alarm_list_title">Будильник</string>
@@ -114,8 +114,8 @@
     <string name="could_not_add_more_lap_time">Извините, максимум 99 записей!</string>
     <string name="menu_actionbar_selected_items">%s выбрано</string>
     <string name="menu_multichoice_select_all">Выбрать всё</string>
-    <string name="menu_multichoice_clear_select">Очистить выбранные</string>
-    <string name="time_zh_str">Шанхай</string>
+    <string name="menu_multichoice_clear_select">Снять выделение</string>
+    <string name="time_zh_str">Киев</string>
     <string name="early_time">Меньше на %1$s ч.</string>
     <string name="later_time">Больше на %1$s ч.</string>
     <string name="lab">Круг</string>

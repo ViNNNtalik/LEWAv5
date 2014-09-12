@@ -149,7 +149,7 @@
     <string name="contact_nickname">Псевдоним: %s</string>
     <string name="contact_website">Web-сайт: %s</string>
     <string name="contact_new">Новый контакт</string>
-    <string name="contact_save">Добавить  к контакту</string>
+    <string name="contact_save">Добавить к контакту</string>
     <string name="fragment_result">Результат</string>
     <string name="download_times">Загрузки: %s 次</string>
     <string name="theme_author">Автор: %s</string>

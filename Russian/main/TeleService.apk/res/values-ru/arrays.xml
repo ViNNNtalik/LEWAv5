@@ -2,7 +2,14 @@
 <resources>
 
 
-
+    <string-array name="max_phone_record_size">
+        <item>50 MБ</item>
+        <item>100 MБ</item>
+        <item>300 МБ</item>
+        <item>500 МБ</item>
+        <item>1 ГБ</item>
+        <item>Без ограничений</item>
+    </string-array>
 
 
 

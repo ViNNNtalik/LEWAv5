@@ -42,7 +42,7 @@
     <string name="dlg_rds_settings_channel_information">Информация о канале</string>
     <string name="dlg_rds_settings_alternative_frequency">Альтернативная частота</string>
     <string name="sound_mode">Звуковой режим</string>
-    <string name="more">Еще приложения</string>
+    <string name="more">Дополнительно</string>
     <string name="power">Вкл.</string>
     <string name="toast_in_call">Нельзя запустить FM-радио во время вызова</string>
     <string name="empty_list">Лист каналов пуст.</string>
@@ -122,6 +122,6 @@
     <string name="correct">ОК</string>
     <string name="error">Ошибка</string>
     <string name="toast_earphone_plug_in">наушники подключены</string>
-    <string name="toast_earphone_plug_out">наушники отсоединены</string>
+    <string name="toast_earphone_plug_out">наушники отключены</string>
     <string name="toast_noantenna_text">Наушники не подключены!</string>
 </resources>

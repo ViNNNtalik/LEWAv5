@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
-
+    <string name="title_activity_filter_show">Редактор</string>
+    <string name="cannot_load_image">Не удается загрузить изображение!</string>
     <string name="original">Оригинал</string>
     <string name="borders">Границы</string>
     <string name="done">ОК</string>
@@ -227,8 +227,8 @@
     <string name="delete_success">Удалено успешно</string>
     <string name="app_name">Камера</string>
     <string name="video_camera_label">Видеокамера</string>
-    <string name="details_ms">%1$02d:%2$02d</string>
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+
+
     <string name="set_image">Установить изображение как</string>
     <string name="delete">Удалить</string>
     <string name="share">Отправить</string>
@@ -271,171 +271,171 @@
     <string name="auto">Авто</string>
     <string name="flash_on">Со вспышкой</string>
     <string name="flash_off">Без вспышки</string>
+    <string name="unknown">Неизв.</string>
+    <string name="try_to_set_local_album_available_offline">Этот элемент сохранен локально и доступен оффлайн</string>
+    <string name="please_wait">Ожидайте</string>
+    <string name="rendering_photo_sphere">Рендеринг сферы</string>
+    <string name="camera_error_title">Ошибка камеры</string>
+    <string name="cannot_connect_camera">"Не удается подключиться к камере"</string>
+    <string name="camera_disabled">Камера заблокирована в соответствии с политикой безопасности</string>
+    <string name="camera_label">Камера</string>
+    <string name="gallery_camera_bucket_name">Изображения камеры</string>
+    <string name="gallery_camera_videos_bucket_name">Видео камеры</string>
+    <string name="wait">Ожидайте</string>
+    <string name="no_storage">Вставьте SD-карту перед использованием камеры</string>
+    <string name="not_enough_space">SD-карта переполнена</string>
+    <string name="preparing_sd">Подготовка SD-карты</string>
+    <string name="access_sd_fail">"Нет доступа к SD-карте"</string>
+    <string name="review_play">Воспроизведение</string>
+    <string name="review_cancel">ОТМЕНА</string>
+    <string name="review_ok">ГОТОВО</string>
+    <string name="review_retake">ПОВТОР</string>
+    <string name="camera_gallery_photos_text">Галерея</string>
+    <string name="time_lapse_title">Временной интервал</string>
+    <string name="capturing">Захват</string>
+    <string name="pref_camera_id_title">Выбор камеры</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="pref_camera_id_default">0</string>
     <string name="pref_camera_id_entry_back">Задняя</string>
     <string name="pref_camera_id_entry_front">Передняя</string>
+    <string name="pref_camera_location_label">МЕСТОПОЛОЖЕНИЕ</string>
+    <string name="pref_camera_timer_title">Обратный отсчет</string>
 
 
-
-
-
-
-
+    <string name="pref_camera_timer_sound_title">Звук во время отсчета</string>
+    <string name="setting_off">Выкл.</string>
+    <string name="setting_on">Вкл.</string>
 
 
     <string name="pref_camera_recordlocation_title">Геотеги</string>
-    <string name="pref_camera_recordlocation_default">on</string>
+
 
 
     <string name="pref_camera_mute_shutter_title">Выкл.звук затвора</string>
-    <string name="pref_camera_mute_shutter_default">off</string>
+
     <string name="pref_camera_power_shutter_title">Долгое нажатие затвора</string>
-    <string name="pref_camera_power_shutter_default">off</string>
+
     <string name="pref_camera_volume_zoom_title">Зум громкостью</string>
-    <string name="pref_camera_volume_zoom_default">off</string>
+
     <string name="pref_camera_focus_sound_title">Звук фокуса</string>
-    <string name="pref_camera_focus_sound_default">on</string>
+
     <string name="pref_camera_recordlocation_entry_off">Выкл.</string>
     <string name="pref_camera_recordlocation_entry_on">Вкл.</string>
     <string name="pref_video_quality_title">Качество видео</string>
-    <string name="pref_video_quality_default">10</string>
+
     <string name="pref_video_quality_entry_1080p">1080p</string>
     <string name="pref_video_quality_entry_720p">720p</string>
     <string name="pref_video_quality_entry_480p">480p</string>
     <string name="pref_video_time_lapse_frame_interval_title">Замедление</string>
-    <string name="pref_video_time_lapse_frame_interval_default">0</string>
+
     <string name="pref_camera_settings_category">Настройки камеры</string>
     <string name="pref_camcorder_settings_category">Настройки видеокамеры</string>
     <string name="pref_camera_picturesize_title">Размер фото</string>
-    <string name="pref_camera_picturesize_entry_30mp">30M pixels</string>
-    <string name="pref_camera_picturesize_entry_20mp">20M pixels</string>
-    <string name="pref_camera_picturesize_entry_15mp">15M pixels</string>
-    <string name="pref_camera_picturesize_entry_13mp">13M pixels</string>
-    <string name="pref_camera_picturesize_entry_12_5mp">12.5M pixels</string>
-    <string name="pref_camera_picturesize_entry_12mp">12M pixels</string>
-    <string name="pref_camera_picturesize_entry_11mp">11M pixels</string>
-    <string name="pref_camera_picturesize_entry_10mp">10M pixels</string>
-    <string name="pref_camera_picturesize_entry_9_5mp">9.5M pixels</string>
-    <string name="pref_camera_picturesize_entry_9mp">9M pixels</string>
-    <string name="pref_camera_picturesize_entry_8mp">8M pixels</string>
-    <string name="pref_camera_picturesize_entry_7_5mp">7.5M pixels</string>
-    <string name="pref_camera_picturesize_entry_7mp">7M pixels</string>
-    <string name="pref_camera_picturesize_entry_6mp">6M pixels</string>
-    <string name="pref_camera_picturesize_entry_5mp">5M pixels</string>
-    <string name="pref_camera_picturesize_entry_4mp">4M pixels</string>
-    <string name="pref_camera_picturesize_entry_3_2mp">3.2M pixels</string>
-    <string name="pref_camera_picturesize_entry_3mp">3M pixels</string>
-    <string name="pref_camera_picturesize_entry_2_5mp">2.5M pixels</string>
-    <string name="pref_camera_picturesize_entry_2mp">2M pixels</string>
-    <string name="pref_camera_picturesize_entry_1_5mp">1.5M pixels</string>
-    <string name="pref_camera_picturesize_entry_1_3mp">1.3M pixels</string>
-    <string name="pref_camera_picturesize_entry_1_2mp">1.2M pixels</string>
-    <string name="pref_camera_picturesize_entry_1mp">1M pixels</string>
-    <string name="pref_camera_picturesize_entry_0_9mp">0.9M pixels</string>
-    <string name="pref_camera_picturesize_entry_0_8mp">0.8M pixels</string>
-    <string name="pref_camera_picturesize_entry_0_7mp">0.7M pixels</string>
-    <string name="pref_camera_picturesize_entry_0_6mp">0.6M pixels</string>
-    <string name="pref_camera_picturesize_entry_0_5mp">0.5M pixels</string>
+    <string name="pref_camera_picturesize_entry_30mp">30M пикс.</string>
+    <string name="pref_camera_picturesize_entry_20mp">20M пикс.</string>
+    <string name="pref_camera_picturesize_entry_15mp">15M пикс.</string>
+    <string name="pref_camera_picturesize_entry_13mp">13M пикс.</string>
+    <string name="pref_camera_picturesize_entry_12_5mp">12,5M пикс.</string>
+    <string name="pref_camera_picturesize_entry_12mp">12M пикс.</string>
+    <string name="pref_camera_picturesize_entry_11mp">11M пикс.</string>
+    <string name="pref_camera_picturesize_entry_10mp">10M пикс.</string>
+    <string name="pref_camera_picturesize_entry_9_5mp">9,5M пикс.</string>
+    <string name="pref_camera_picturesize_entry_9mp">9M пикс.</string>
+    <string name="pref_camera_picturesize_entry_8mp">8M пикс.</string>
+    <string name="pref_camera_picturesize_entry_7_5mp">7,5M пикс.</string>
+    <string name="pref_camera_picturesize_entry_7mp">7M пикс.</string>
+    <string name="pref_camera_picturesize_entry_6mp">6M пикс.</string>
+    <string name="pref_camera_picturesize_entry_5mp">5M пикс.</string>
+    <string name="pref_camera_picturesize_entry_4mp">4M пикс.</string>
+    <string name="pref_camera_picturesize_entry_3_2mp">3,2M пикс.</string>
+    <string name="pref_camera_picturesize_entry_3mp">3M пикс.</string>
+    <string name="pref_camera_picturesize_entry_2_5mp">2,5M пикс.</string>
+    <string name="pref_camera_picturesize_entry_2mp">2M пикс.</string>
+    <string name="pref_camera_picturesize_entry_1_5mp">1,5M пикс.</string>
+    <string name="pref_camera_picturesize_entry_1_3mp">1,3M пикс.</string>
+    <string name="pref_camera_picturesize_entry_1_2mp">1,2M пикс.</string>
+    <string name="pref_camera_picturesize_entry_1mp">1M пикс.</string>
+    <string name="pref_camera_picturesize_entry_0_9mp">0,9M пикс.</string>
+    <string name="pref_camera_picturesize_entry_0_8mp">0,8M пикс.</string>
+    <string name="pref_camera_picturesize_entry_0_7mp">0,7M пикс.</string>
+    <string name="pref_camera_picturesize_entry_0_6mp">0,6M пикс.</string>
+    <string name="pref_camera_picturesize_entry_0_5mp">0,5M пикс.</string>
     <string name="pref_camera_picturesize_entry_vga">VGA</string>
     <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
-    <string name="pref_camera_focusmode_title">Focus mode</string>
-    <string name="pref_camera_focusmode_entry_auto">Auto</string>
-    <string name="pref_camera_focusmode_entry_infinity">Infinity</string>
-    <string name="pref_camera_focusmode_entry_macro">Macro</string>
-    <string name="pref_camera_focusmode_label_auto">AUTO</string>
-    <string name="pref_camera_focusmode_label_infinity">INFINITY</string>
-    <string name="pref_camera_focusmode_label_macro">MACRO</string>
-    <string name="pref_camera_flashmode_default">auto</string>
-    <string name="pref_camera_flashmode_no_flash">no_flash</string>
+    <string name="pref_camera_focusmode_title">Режим фокуса</string>
+    <string name="pref_camera_focusmode_entry_auto">Авто</string>
+    <string name="pref_camera_focusmode_entry_infinity">Постоянно</string>
+    <string name="pref_camera_focusmode_entry_macro">Макро</string>
+    <string name="pref_camera_focusmode_label_auto">Авто</string>
+    <string name="pref_camera_focusmode_label_infinity">Постоянно</string>
+    <string name="pref_camera_focusmode_label_macro">Макро</string>
+
+
     <string name="pref_camera_flashmode_title">Режим вспышки</string>
-    <string name="pref_camera_flashmode_label">FLASH MODE</string>
-    <string name="pref_camera_flashmode_entry_auto">Auto</string>
+    <string name="pref_camera_flashmode_label">Режим вспышки</string>
+    <string name="pref_camera_flashmode_entry_auto">Авто</string>
     <string name="pref_camera_flashmode_entry_on">Вкл.</string>
     <string name="pref_camera_flashmode_entry_off">Выкл.</string>
-    <string name="pref_camera_flashmode_label_auto">FLASH AUTO</string>
-    <string name="pref_camera_flashmode_label_on">FLASH ON</string>
-    <string name="pref_camera_flashmode_label_off">FLASH OFF</string>
-    <string name="pref_camera_video_flashmode_default">off</string>
-    <string name="pref_camera_whitebalance_default">auto</string>
+    <string name="pref_camera_flashmode_label_auto">Авто</string>
+    <string name="pref_camera_flashmode_label_on">Вкл.</string>
+    <string name="pref_camera_flashmode_label_off">Выкл.</string>
+
+
     <string name="pref_camera_whitebalance_title">Баланс белого</string>
-    <string name="pref_camera_whitebalance_label">WHITE BALANCE</string>
+    <string name="pref_camera_whitebalance_label">Баланс белого</string>
     <string name="pref_camera_whitebalance_entry_auto">Авто</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Лампа накаливания</string>
     <string name="pref_camera_whitebalance_entry_daylight">Дневной свет</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Лампа дневного света</string>
     <string name="pref_camera_whitebalance_entry_cloudy">Пасмурно</string>
-    <string name="pref_camera_whitebalance_label_auto">AUTO</string>
-    <string name="pref_camera_whitebalance_label_incandescent">INCANDESCENT</string>
-    <string name="pref_camera_whitebalance_label_daylight">DAYLIGHT</string>
-    <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENT</string>
-    <string name="pref_camera_whitebalance_label_cloudy">CLOUDY</string>
-    <string name="pref_camera_whitebalance_label_twilight">TWILIGHT</string>
-    <string name="pref_camera_whitebalance_label_shade">SHADE</string>
-    <string name="pref_camera_whitebalance_label_warm_fluorescent">WARM FLUORESCENT</string>
-    <string name="pref_camera_whitebalance_label_tungsten">TUNGSTEN</string>
-    <string name="pref_camera_scenemode_default">auto</string>
+    <string name="pref_camera_whitebalance_label_auto">Авто</string>
+    <string name="pref_camera_whitebalance_label_incandescent">Лампа накаливания</string>
+    <string name="pref_camera_whitebalance_label_daylight">Дневной свет</string>
+    <string name="pref_camera_whitebalance_label_fluorescent">Лампа дневного света</string>
+    <string name="pref_camera_whitebalance_label_cloudy">Пасмурно</string>
+    <string name="pref_camera_whitebalance_label_twilight">Сумерки</string>
+    <string name="pref_camera_whitebalance_label_shade">Тень</string>
+    <string name="pref_camera_whitebalance_label_warm_fluorescent">Лампа теплого дневного света</string>
+    <string name="pref_camera_whitebalance_label_tungsten">Вольфрам</string>
+
     <string name="pref_camera_scenemode_title">Режим съемки</string>
     <string name="pref_camera_scenemode_entry_auto">Авто</string>
-
-
-
-
-
-
+    <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
+    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
+    <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ вкл.</string>
+    <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ выкл.</string>
+    <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR вкл.</string>
+    <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR выкл.</string>
     <string name="pref_camera_scenemode_entry_action">Действие</string>
     <string name="pref_camera_scenemode_entry_night">Ночь</string>
     <string name="pref_camera_scenemode_entry_sunset">Закат</string>
     <string name="pref_camera_scenemode_entry_party">Вечеринка</string>
-
-
-
-
-
-
-
-
-
-
+    <string name="pref_camera_scenemode_label_auto">Нет</string>
+    <string name="pref_camera_scenemode_label_action">Действие</string>
+    <string name="pref_camera_scenemode_label_night">Ночь</string>
+    <string name="pref_camera_scenemode_label_sunset">Закат</string>
+    <string name="pref_camera_scenemode_label_party">Вечеринка</string>
+    <string name="pref_camera_countdown_label_off">Таймер выкл.</string>
+    <string name="pref_camera_countdown_label_one">1 секунда</string>
+    <string name="pref_camera_countdown_label_three">3 секунды</string>
+    <string name="pref_camera_countdown_label_ten">10 секунд</string>
+    <string name="pref_camera_countdown_label_fifteen">15 секунд</string>
     <string name="not_selectable_in_scene_mode">Недоступно в режиме съемки</string>
     <string name="pref_restore_title">Настройки камеры</string>
     <string name="pref_restore_detail">По умолчанию</string>
     <string name="pref_exposure_title">Экспозиция</string>
-    <string name="pref_exposure_default">0</string>
 
-
-
-
+    <string name="pref_exposure_label">Экспозиция</string>
+    <string name="pref_camera_hdr_label">HDR</string>
+    <string name="pref_camera_id_label_back">Передняя камера</string>
+    <string name="pref_camera_id_label_front">Задняя камера</string>
     <string name="dialog_ok">ОК</string>
     <string name="spaceIsLow_content">Место на SD-карте заканчивается. Измените настройки качества или удалите ненужные изображения и другие файлы</string>
-    <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
-    <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
+
+
 
     <string name="video_reach_size_limit">Достигнут предельный размер видео</string>
-    <string name="setting_increment">></string>
-    <string name="setting_decrement">&lt;</string>
+
+
     <string name="share_picture_via">Отправка изображения</string>
     <string name="share_video_via">Отправка видео</string>
     <string name="no_picture_to_share">Нет ни одного изображения</string>
@@ -447,9 +447,9 @@
     <string name="pano_capture_indication">Создание панорамы...</string>
     <string name="pano_dialog_waiting_previous">Обработка предыдущего файла...</string>
     <string name="pano_review_saving_indication_str">Сохранение...</string>
-
+    <string name="pano_review_rendering">Рендеринг панорамы</string>
     <string name="tap_to_focus">Нажмите для фокусировки</string>
-    <string name="pref_video_effect_default">none</string>
+
     <string name="pref_video_effect_title">Эффекты</string>
     <string name="effect_none">Без эффектов</string>
     <string name="effect_goofy_face_squeeze">Сжатие</string>
@@ -463,112 +463,112 @@
     <string name="effect_backdropper_gallery">Мои видео</string>
     <string name="not_selectable_in_effect">Недоступно при использовании эффекта</string>
     <string name="video_snapshot_hint">Нажмите, чтобы сделать фотографию во время записи</string>
-
-
+    <string name="video_recording_started">Видеозапись запущена</string>
+    <string name="video_recording_stopped">Видеозапись остановлена</string>
     <string name="disable_video_snapshot_hint">Невозможно сделать снимок при включенных спецэффектах</string>
     <string name="clear_effects">Убрать эффекты</string>
     <string name="effect_silly_faces">СМЕШНЫЕ РОЖИЦЫ</string>
     <string name="effect_background">ФОН</string>
     <string name="accessibility_shutter_button">Кнопка \"Затвор\"</string>
-
+    <string name="accessibility_menu_button">Кнопка меню</string>
     <string name="accessibility_review_thumbnail">Недавние фото</string>
     <string name="accessibility_camera_picker">Переключение на переднюю или заднюю камеру</string>
     <string name="accessibility_mode_picker">Переключатель между режимами \"Фото\", \"Видео\" и \"Панорама\"</string>
-
-
-
-
-
+    <string name="accessibility_check_box">%1$s чекбокс</string>
+    <string name="accessibility_switch_to_photo_sphere">Переключение на фотосферу</string>
+    <string name="accessibility_switch_to_gcam">Переключение на высокое качество</string>
+    <string name="accessibility_review_cancel">Обзор отменен</string>
+    <string name="accessibility_review_ok">Обзор завершен</string>
     <string name="accessibility_second_level_indicators">Дополнительные настройки</string>
     <string name="accessibility_back_to_first_level">Закрыть</string>
     <string name="accessibility_zoom_control">Зум</string>
     <string name="accessibility_decrement">Уменьшить %1$s</string>
     <string name="accessibility_increment">Увеличить %1$s</string>
     <string name="accessibility_switch">Переключить %1$s</string>
-    <string name="empty">" "</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="pref_settings_weather_title">Погода LEWA</string>
+    <string name="accessibility_review_retake">Повтор</string>
+    <string name="capital_on">Вкл.</string>
+    <string name="capital_off">Выкл.</string>
+    <string name="pref_video_time_lapse_frame_interval_off">Выкл.</string>
+    <string name="pref_video_time_lapse_frame_interval_500">0,5 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_1000">1 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_1500">1,5 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_2000">2 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_2500">2,5 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_3000">3 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_4000">4 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_5000">5 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_6000">6 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_10000">10 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_12000">12 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_15000">15 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_24000">24 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_30000">0,5 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_60000">1 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_90000">1,5 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_120000">2 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_150000">2,5 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_180000">3 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_240000">4 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_300000">5 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_360000">6 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_600000">10 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_720000">12 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_900000">15 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_1440000">24 мин.</string>
+    <string name="pref_video_time_lapse_frame_interval_1800000">0,5 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_3600000">1 час</string>
+    <string name="pref_video_time_lapse_frame_interval_5400000">1,5 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_7200000">2 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_9000000">2,5 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_10800000">3 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_14400000">4 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_18000000">5 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_21600000">6 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_36000000">10 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_43200000">12 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_54000000">15 час.</string>
+    <string name="pref_video_time_lapse_frame_interval_86400000">24 час.</string>
+    <string name="time_lapse_seconds">сек.</string>
+    <string name="time_lapse_minutes">мин.</string>
+    <string name="time_lapse_hours">час.</string>
+    <string name="time_lapse_interval_set">Готово</string>
+    <string name="set_time_interval">Задать интервал</string>
+    <string name="set_time_interval_help">Опция отключена. Включите задержку, чтобы задать интервал</string>
+    <string name="set_duration">Задать в секундах</string>
+    <string name="count_down_title_text">Обратный отсчет для фото</string>
+    <string name="remember_location_title">Запомнить местоположение?</string>
+    <string name="remember_location_prompt">"Добавьте к фото и видео данные о местоположении
+
+Другие приложения могут иметь доступ к этой информации"</string>
+    <string name="remember_location_no">Нет, спасибо</string>
+    <string name="remember_location_yes">Да</string>
+    <string name="camera_menu_more_label">ЕЩЕ</string>
+    <string name="camera_menu_settings_label">НАСТРОЙКИ</string>
+    <string name="create_tiny_planet">Создать Tiny Planet</string>
+    <string name="saving_tiny_planet">Сохранение Tiny Planet …</string>
+    <string name="tiny_planet_zoom">Зум</string>
+    <string name="tiny_planet_rotate">Повернуть</string>
+    <string name="crop_save">Сохранить</string>
+    <string name="switch_photo_filmstrip">Диафильм</string>
+    <string name="setting_wallpaper">Обои</string>
+    <string name="weather_title">Отображение погоды</string>
+    <string name="hdr_title">HDR</string>
+    <string name="filter_title">Фильтр</string>
+    <string name="revision_title">Подгонять</string>
+    <string name="photosetting_title">Еще</string>
+    <string name="videosetting_title">Еще</string>
+    <string name="video_recording_paused">На паузе</string>
+    <string name="pref_settings_revision_title">Подгонять</string>
+    <string name="pref_settings_video_title">Настройки видео</string>
+    <string name="pref_settings_close">Закрыть</string>
+
+    <string name="confirm_restore_photo_message">Восстановить настройки камеры по умолчанию?</string>
+    <string name="confirm_restore_video_message">Восстановить настройки видео по умолчанию?</string>
     <string name="pref_settings_photo_title">Настройки</string>
     <string name="pref_settings_photo_grp_title">Настройки камеры</string>
-
+    <string name="pref_settings_video_grp_title">Настройки видео</string>
     <string name="pref_settings_photo_location">Местоположение GPS</string>
     <string name="pref_settings_photo_quality">Качество JPG</string>
     <string name="pref_settings_photo_sizes">Размер изображения</string>
@@ -578,7 +578,7 @@
     <string name="pref_settings_photo_voice_key_focus">Фокус голосовым ключом</string>
     <string name="pref_settings_photo_focus_notice">Звук фокуса</string>
     <string name="pref_settings_photo_grp_more_title">Еще</string>
-
+    <string name="pref_settings_video_grp_more_title">Еще</string>
     <string name="pref_settings_photo_exposure">Экспозиция</string>
     <string name="pref_settings_photo_saturation">Насыщенность</string>
     <string name="pref_settings_photo_shapness">Резкость</string>
@@ -591,18 +591,90 @@
     <string name="pref_settings_photo_continuous_capture">Серийная съемка</string>
     <string name="pref_settings_photo_restore">Восстановление</string>
     <string name="pref_settings_flit_title">Фильтр</string>
-    <string name="self_num_0">0</string>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="pref_settings_weather_none_data">Нет данных</string>
+    <string name="none_weather_data_tip">Нет информации о погоде</string>
     <string name="insta_weather_air_quality">PM:</string>
 
 
-
+    <string name="select_image">Выбор изображения</string>
     <string name="location_country_cn">Китай</string>
-    <string name="photo_card_index">" / "</string>
-    <string name="original_picture_text">@string/original</string>
-    <string name="history_original">@string/original</string>
 
-    <string name="aspectOriginal_effect">@string/original</string>
+
+
+
     <string name="settings">Настройки</string>
+    <string name="setp_option_name">Шаг перемотки</string>
+    <string name="step_option_desc">Польз. быстрая перемотка</string>
+    <string name="setp_option_three_second">3 сек.</string>
+    <string name="setp_option_six_second">6 сек.</string>
+    <string name="pano_module">Режим панорамы</string>
+    <string name="photo_module">Режим фото</string>
+    <string name="video_module">Режим видео</string>
 
+    <string name="pref_camera_videoencoder_title">Видеокодер</string>
+
+
+
+
+    <string name="error_app_unsupported">Неподдерживаемое разрешение видео</string>
+
+    <string name="pref_camera_hfr_title">Видео высокой частоты кадров</string>
+
+
+
+
+
+
+
+
+    <string name="pref_settings_photo_ab_title">Настройки камеры</string>
+    <string name="pref_settings_video_ab_title">Настройки видео</string>
 </resources>

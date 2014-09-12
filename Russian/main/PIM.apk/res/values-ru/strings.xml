@@ -66,17 +66,17 @@
     <string name="splitConfirmation">Вы действительно хотите разделить этот контакт на несколько контактов: по одному для каждого набора контактной информации, содержащейся в этом контакте?</string>
     <string name="menu_joinAggregate">Присоединить</string>
     <string name="titleJoinContactDataWith">Объединить контакты</string>
-    <string name="blurbJoinContactDataWith">Выберите контакт, который нужно объединить с этим адресатом: %s.</string>
+    <string name="blurbJoinContactDataWith">Выберите контакт, который нужно объединить с этим адресатом: %s</string>
     <string name="showAllContactsJoinItem">Показать все контакты</string>
     <string name="separatorJoinAggregateSuggestions">Предлагаемые контакты</string>
     <string name="separatorJoinAggregateAll">Все контакты</string>
     <string name="contactsJoinedMessage">Контакты объединены</string>
     <string name="menu_set_ring_tone">Установить мелодию</string>
     <string name="menu_redirect_calls_to_vm">Все вызовы на голосовую почту</string>
-    <string name="readOnlyContactWarning">Невозможно удалить контакты из аккаунта, доступного только для чтения, однако, можно скрыть их в списках контактов.</string>
-    <string name="readOnlyContactDeleteConfirmation">Этот контакт содержит информацию из различных аккаунтов. Информация из аккаунтов, доступных только для чтения, будет скрыта в ваших списках контактов, но не удалена.</string>
-    <string name="multipleContactDeleteConfirmation">Удаление этого контакта приведет к потере данных из нескольких аккаунтов.</string>
-    <string name="deleteConfirmation">Этот контакт будет удален.</string>
+    <string name="readOnlyContactWarning">Невозможно удалить контакты из аккаунта, доступного только для чтения, однако, можно скрыть их в списках контактов</string>
+    <string name="readOnlyContactDeleteConfirmation">Этот контакт содержит информацию из различных аккаунтов. Информация из аккаунтов, доступных только для чтения, будет скрыта в ваших списках контактов, но не удалена</string>
+    <string name="multipleContactDeleteConfirmation">Удаление этого контакта приведет к потере данных из нескольких аккаунтов</string>
+    <string name="deleteConfirmation">Этот контакт будет удален</string>
     <string name="menu_done">Готово</string>
     <string name="menu_doNotSave">Отмена</string>
     <string name="menu_discard">Откатить</string>
@@ -92,7 +92,7 @@
     <string name="emailLabelsGroup">Электронная почта</string>
     <string name="imLabelsGroup">Чат</string>
     <string name="postalLabelsGroup">Почтовый адрес</string>
-    <string name="photoPickerNotFoundText">В телефоне нет изображений.</string>
+    <string name="photoPickerNotFoundText">В телефоне нет изображений</string>
     <string name="attach_photo_dialog_title">Фото контакта</string>
     <string name="customLabelPickerTitle">Название ярлыка</string>
     <string name="send_to_voicemail_checkbox">Направлять вызовы на голосовую почту</string>
@@ -134,9 +134,9 @@
     <string name="recentCalls_deleteAll">Очистить список вызовов</string>
     <string name="recentCalls_trashVoicemail">Удалить голосовое сообщение</string>
     <string name="recentCalls_shareVoicemail">Поделиться голосовым сообщением</string>
-    <string name="recentCalls_empty">Список вызовов пуст.</string>
+    <string name="recentCalls_empty">Список вызовов пуст</string>
     <string name="clearCallLogConfirmation_title">Очистить список вызовов</string>
-    <string name="clearCallLogConfirmation">Все записи из журнала вызовов будут удалены.</string>
+    <string name="clearCallLogConfirmation">Все записи из журнала вызовов будут удалены</string>
     <string name="clearCallLogProgress_title">Очистка журнала вызовов…</string>
     <string name="clearFrequentsConfirmation_title">Очистить частые контакты?</string>
     <string name="clearFrequentsConfirmation">"Вы очистите частые контакты"</string>
@@ -214,9 +214,9 @@
 "</string>
     <string name="dialer_useDtmfDialpad">Использовать тональный набор</string>
     <string name="dialer_returnToInCallScreen">Вернуться к ожидающему вызову</string>
-    <string name="dialer_addAnotherCall">+ вызов</string>
+    <string name="dialer_addAnotherCall">Добавить вызов</string>
     <string name="callDetailTitle">Сведения о вызове</string>
-    <string name="toast_call_detail_error">Не удается получить сведения о вызове.</string>
+    <string name="toast_call_detail_error">Не удается получить сведения о вызове</string>
     <string name="type_incoming">Входящий вызов</string>
     <string name="type_outgoing">Исходящий вызов</string>
     <string name="type_missed">Пропущенный вызов</string>
@@ -323,8 +323,8 @@
     <string name="dialog_import_export">Импорт/экспорт контактов</string>
     <string name="dialog_import">Импорт контактов</string>
     <string name="menu_share">Отправить</string>
-    <string name="share_via">Способ отправки</string>
-    <string name="share_error">Не удалось передать данные.</string>
+    <string name="share_via">Передать контакт через</string>
+    <string name="share_error">Этот контакт нельзя передать</string>
     <string name="nameLabelsGroup">Имя</string>
     <string name="nicknameLabelsGroup">Псевдоним</string>
     <string name="organizationLabelsGroup">Организация</string>
@@ -332,7 +332,7 @@
     <string name="eventLabelsGroup">Мероприятия</string>
     <string name="relationLabelsGroup">Отношения</string>
     <string name="groupsLabel">Группы</string>
-    <string name="dialog_new_contact_account">Создать контакт в аккаунте</string>
+    <string name="dialog_new_contact_account">Создать контакт</string>
     <string name="dialog_new_group_account">Создание группы в аккаунте</string>
     <string name="menu_sync_remove">Удалить группу синхронизации</string>
     <string name="dialog_sync_add">Добавить группу синхронизации</string>
@@ -714,6 +714,8 @@
     <string name="menu_manually_refresh">Обновить</string>
     <string name="add_to_blacklist">Добавить в черный список</string>
     <string name="clear_from_blacklist">Удалить из черного списка</string>
+    <string name="add_to_autorecord_list">Добавить в автозапись</string>
+    <string name="clear_from_autorecord_list">Отмена автозаписи</string>
     <string name="addblack_dec">Замечание (необязательно)</string>
     <string name="importsms_black">Импорт всех SMS на номер</string>
     <string name="deleteCallLogConfirmation_title">Удалить вызов(ы)?</string>
@@ -916,6 +918,9 @@
     <string name="yellowpages_detail_error_label">Ошибка</string>
     <string name="yellowpages_detail_error_description">Помощь обеспечивается по телефонному номеру</string>
     <string name="label_yellowpages_mark">%s людей отмечено</string>
+    <string name="addContactToAutoRecordConfirmation_message">Добавить контакт в список автозаписи разговоров?</string>
+    <string name="removeContactFromAutoRecordConfirmation_message">Удалить контакт из списка автозаписи разговоров?</string>
+    <string name="also_open_auto_phone_record">Одновременная запись вызовов</string>
 
     <string name="copy_email">Копировать адрес эл.почты</string>
     <string name="copy_number">Копировать номер телефона</string>

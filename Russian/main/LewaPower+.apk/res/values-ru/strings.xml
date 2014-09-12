@@ -121,7 +121,7 @@
     <string name="spm_custom_settings_intelli_batterylow_summy">"Предупреждение о низком заряде батареи. Текущее значение: "</string>
     <string name="spm_battery_low_warnnig_title">Батарея разряжена!</string>
     <string name="spm_battery_low_warnnig_msg">Внимание! Уровень заряда меньше</string>
-    <string name="spm_battery_low_warnnig_msg_1">.Открыть приложение Батарея+?</string>
+    <string name="spm_battery_low_warnnig_msg_1">. Открыть приложение Батарея+?</string>
     <string name="spm_battery_low_warnnig_to_connect">Заряд батареи ниже, чем</string>
     <string name="spm_battery_low_warnnig_to_connect_1">!</string>
     <string name="spm_inti_statusbar_in">Режим экономии энергии включен</string>

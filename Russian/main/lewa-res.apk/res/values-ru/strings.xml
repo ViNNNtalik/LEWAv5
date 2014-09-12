@@ -139,7 +139,7 @@
     <string name="reboot_confirm">Ваше устройство перезагрузится</string>
     <string name="lockscreen_discharging">Батарея (%d%%)</string>
     <string name="progress_scanning">Сканирование</string>
-    <string name="phone_goggles_problem_count">Проблема #%1$d:</string>
+    <string name="phone_goggles_problem_count">Проблема № %1$d:</string>
     <string name="phone_goggles_description">Решение %1$d следующей проблемы займет менее %2$d секунд</string>
     <string name="permlab_revokePermissions">Отмененные разрешения</string>
     <string name="permdesc_revokePermissions">Позволяет читать и писать отмененные разрешения. Не для использования обычными приложениями</string>

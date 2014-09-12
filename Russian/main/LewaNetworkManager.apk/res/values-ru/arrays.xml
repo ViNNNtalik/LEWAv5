@@ -10,8 +10,8 @@
     </string-array>
     <array name="pref_adjust_interval">
         <item>@string/adjust_interval_none</item>
-        <item>День</item>
-        <item>Месяц</item>
+        <item>Ежедневно</item>
+        <item>Ежемесячно</item>
     </array>
     <string-array name="detail_times">
         <item>@string/time_today</item>

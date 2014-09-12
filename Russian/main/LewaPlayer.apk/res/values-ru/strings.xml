@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="share_title">Поделиться с друзьями</string>
+    <string name="share_content">"Я нашел шикарную песню в Музыке Lewa 
+ %1$s 
+ %2$s"</string>
     <string name="nosdcard_title">SD-карта отключена</string>
     <string name="nousb_title">USB-хранилище отключено</string>
     <string name="music_pro_def">0:00</string>

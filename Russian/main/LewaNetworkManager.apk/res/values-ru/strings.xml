@@ -69,7 +69,7 @@
     <string name="widget_disabled_mobile">Трафик по 2G/3G отключен</string>
     <string name="widget_today_usage">Сегодня</string>
     <string name="widget_exceed">Превышение</string>
-    <string name="widget_remain">Еще</string>
+    <string name="widget_remain">Осталось</string>
     <string name="widget_data_pack_warning">Лимит не задан</string>
     <string name="notify_data_pack_title">Предупреждение о лимите</string>
     <string name="notify_data_pack_summary">@string/widget_data_pack_warning</string>

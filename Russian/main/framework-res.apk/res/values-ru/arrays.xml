@@ -4,7 +4,7 @@
         <item>Личный</item>
         <item>Рабочий</item>
         <item>Другой</item>
-        <item>Создать свой ярлык</item>
+        <item>Пользовательский</item>
     </string-array>
     <string-array name="imProtocols">
         <item>AIM</item>
@@ -19,7 +19,7 @@
     <string-array name="organizationTypes">
         <item>Рабочий</item>
         <item>Другой</item>
-        <item>Создать свой ярлык</item>
+        <item>Пользовательский</item>
     </string-array>
     <string-array name="phoneTypes">
         <item>Домашний</item>
@@ -29,19 +29,19 @@
         <item>Домашний факс</item>
         <item>Пейджер</item>
         <item>Другой</item>
-        <item>Создать свой ярлык</item>
+        <item>Пользовательский</item>
     </string-array>
     <string-array name="postalAddressTypes">
         <item>Домашний</item>
         <item>Рабочий</item>
         <item>Другой</item>
-        <item>Создать свой ярлык</item>
+        <item>Пользовательский</item>
     </string-array>
     <string-array name="imAddressTypes">
         <item>Домашний</item>
         <item>Рабочий</item>
         <item>Другое</item>
-        <item>Создать свой ярлык</item>
+        <item>Пользовательский</item>
     </string-array>
     <array name="carrier_properties" />
 </resources>
