@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="chinese_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="animals_year">
+        <item>Крыса</item>
+        <item>Бык</item>
+        <item>Тигр</item>
+        <item>Кролик</item>
+        <item>Дракон</item>
+        <item>Змея</item>
+        <item>Лошадь</item>
+        <item>Коза</item>
+        <item>Обезьяна</item>
+        <item>Петух</item>
+        <item>Собака</item>
+        <item>Свинья</item>
+    </string-array>
+    <string-array name="gan">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <string-array name="zhi">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+    <string-array name="chinese_ten">
+        <item>Рано</item>
+        <item>Десять</item>
+        <item>Двадцать</item>
+        <item>Тридцать</item>
+    </string-array>
+    <string-array name="festival">
+        <item>0101 新年元旦</item>
+        <item>0202 世界湿地日</item>
+        <item>0207 国际声援南非日</item>
+        <item>0210 国际气象节</item>
+        <item>0214 情人节</item>
+        <item>0301 国际海豹日</item>
+        <item>0303 全国爱耳日</item>
+        <item>0308 国际妇女节</item>
+        <item>0312 植树节 孙中山逝世纪念日</item>
+        <item>0314 国际警察日</item>
+        <item>0315 国际消费者权益日</item>
+        <item>0317 中国国医节 国际航海日</item>
+        <item>0321 世界森林日 消除种族歧视国际日</item>
+        <item>0321 世界儿歌日</item>
+        <item>0322 世界水日</item>
+        <item>0323 世界气象日</item>
+        <item>0324 世界防治结核病日</item>
+        <item>0325 全国中小学生安全教育日</item>
+        <item>0330 巴勒斯坦国土日</item>
+        <item>0401 愚人节 全国爱国卫生运动月(四月) 税收宣传月(四月)</item>
+        <item>0407 Всемирный день здоровья</item>
+        <item>0422 世界地球日</item>
+        <item>0423 世界图书和版权日</item>
+        <item>0424 亚非新闻工作者日</item>
+        <item>0501 国际劳动节</item>
+        <item>0504 中国五四青年节</item>
+        <item>0505 碘缺乏病防治日</item>
+        <item>0508 世界红十字日</item>
+        <item>0512 国际护士节</item>
+        <item>0515 国际家庭日</item>
+        <item>0517 世界电信日</item>
+        <item>0518 国际博物馆日</item>
+        <item>0520 全国学生营养日</item>
+        <item>0523 国际牛奶日</item>
+        <item>0531 世界无烟日</item>
+        <item>0601 国际儿童节</item>
+        <item>0605 世界环境日</item>
+        <item>0606 全国爱眼日</item>
+        <item>0617 防治荒漠化和干旱日</item>
+        <item>0623 国际奥林匹克日</item>
+        <item>0625 全国土地日</item>
+        <item>0626 国际反毒品日</item>
+        <item>0701 中国共产党建党日 世界建筑日</item>
+        <item>0702 国际体育记者日</item>
+        <item>0707 中国人民抗日战争纪念日</item>
+        <item>0711 世界人口日</item>
+        <item>0730 非洲妇女日</item>
+        <item>0801 中国建军节</item>
+        <item>0808 中国男子节(爸爸节)</item>
+        <item>0815 日本正式宣布无条件投降日</item>
+        <item>0908 国际扫盲日 国际新闻工作者日</item>
+        <item>0910 教师节</item>
+        <item>0914 世界清洁地球日</item>
+        <item>0916 国际臭氧层保护日</item>
+        <item>0918 九·一八事变纪念日</item>
+        <item>0920 国际爱牙日</item>
+        <item>0927 世界旅游日</item>
+        <item>1001 国庆节 世界音乐日 国际老人节</item>
+        <item>1001 国际音乐日</item>
+        <item>1002 国际和平与民主自由斗争日</item>
+        <item>1004 世界动物日</item>
+        <item>1008 全国高血压日</item>
+        <item>1008 世界视觉日</item>
+        <item>1009 世界邮政日 万国邮联日</item>
+        <item>1010 辛亥革命纪念日 世界精神卫生日</item>
+        <item>1013 世界保健日 国际教师节</item>
+        <item>1014 世界标准日</item>
+        <item>1015 国际盲人节(白手杖节)</item>
+        <item>1016 世界粮食日</item>
+        <item>1017 世界消除贫困日</item>
+        <item>1022 世界传统医药日</item>
+        <item>1024 联合国日 世界发展信息日</item>
+        <item>1031 世界勤俭日</item>
+        <item>1107 十月社会主义革命纪念日</item>
+        <item>1108 中国记者日</item>
+        <item>1109 全国消防安全宣传教育日</item>
+        <item>1110 世界青年节</item>
+        <item>1111 国际科学与和平周(本日所属的一周)</item>
+        <item>1112 孙中山诞辰纪念日</item>
+        <item>1114 世界糖尿病日</item>
+        <item>1117 国际大学生节 世界学生节</item>
+        <item>1121 世界问候日 世界电视日</item>
+        <item>1129 国际声援巴勒斯坦人民国际日</item>
+        <item>1201 世界艾滋病日</item>
+        <item>1203 世界残疾人日</item>
+        <item>1205 国际经济和社会发展志愿人员日</item>
+        <item>1208 国际儿童电视日</item>
+        <item>1209 世界足球日</item>
+        <item>1210 世界人权日</item>
+        <item>1212 西安事变纪念日</item>
+        <item>1213 南京大屠杀(1937年)纪念日！紧记血泪史！</item>
+        <item>1221 国际篮球日</item>
+        <item>1224 平安夜</item>
+        <item>1225 圣诞节</item>
+        <item>1229 国际生物多样性日</item>
+    </string-array>
+    <string-array name="edition_one">
+        <item>"萨迪:
+　　谁若想在困厄时得到援助，就应在平日待人以宽。"</item>
+        <item>"苏格拉底:
+　　如果我们把每个人的不幸堆成一堆由大家均分，大多数人都会甘愿接受一份，欣然离去。"</item>
+        <item>"荀况:
+　　骐骥一跃，不能十步；驽马十驾，功在不舍；锲而舍之，朽木不折；锲而不舍，金石可镂。"</item>
+        <item>"梅茵:
+　　习惯是一条巨缆——我们每天编结其中一根线，到最后我们最终无法弄断它。"</item>
+        <item>"无名氏:
+　　与其皱着眉头送人一件贵重礼品，不如面带笑容送人一件小礼物。"</item>
+        <item>"李四光:
+　　我是炎黄的子孙，理所当然地要把所学到的知识，全部献给我亲爱的祖国。"</item>
+        <item>"富兰克林:
+　　不惜牺牲自由以图苟安的人，既不配享受自由，也不配获得安全。"</item>
+        <item>"毕加索:
+　　呵！高尚的风度！多可怕的东西！风度乃是创造力的敌人。"</item>
+        <item>"无名氏:
+　　我从多话的人学到静默，从偏狭的人学到了宽容，从这残忍的人学到了仁爱，但奇怪的是我对于这些老师并不感激。"</item>
+        <item>"陆游:
+　　一身报国有万死，双鬓向人无再青。"</item>
+        <item>"莎士比亚:
+　　多听，少说，接受每一个人的责难，但是保留你的最后裁决。"</item>
+        <item>"蒙田:
+　　沉默较之言不由衷的话更有益于社交。"</item>
+        <item>"弗洛伊德:
+　　人生就象弈棋， 一步失误， 全盘皆输，这是令人悲哀之事；而且人生还不如弈棋，不可能再来一局，也不能悔棋。"</item>
+        <item>"苏格拉底:
+　　在你发怒的时候，要紧闭你的嘴，免得增加你的怒气。"</item>
+        <item>"萧伯纳:
+　　不要企图永远活下去，你不会成功的。"</item>
+        <item>"陶铸:
+　　如烟往事俱忘却，心底无私天地宽。"</item>
+        <item>"无名氏:
+　　与其皱着眉头送人一件贵重礼品，不如面带笑容送人一件小礼物。"</item>
+        <item>"李四光:
+　　我是炎黄的子孙，理所当然地要把所学到的知识，全部献给我亲爱的祖国。"</item>
+        <item>"富兰克林:
+　　不惜牺牲自由以图苟安的人，既不配享受自由，也不配获得安全。"</item>
+        <item>"毕加索:
+　　呵！高尚的风度！多可怕的东西！风度乃是创造力的敌人。"</item>
+        <item>"无名氏:
+　　我从多话的人学到静默，从偏狭的人学到了宽容，从这残忍的人学到了仁爱，但奇怪的是我对于这些老师并不感激。"</item>
+        <item>"陆游:
+　　一身报国有万死，双鬓向人无再青。"</item>
+        <item>"莎士比亚:
+　　多听，少说，接受每一个人的责难，但是保留你的最后裁决。"</item>
+        <item>"蒙田:
+　　沉默较之言不由衷的话更有益于社交。"</item>
+        <item>"弗洛伊德:
+　　人生就象弈棋， 一步失误， 全盘皆输，这是令人悲哀之事；而且人生还不如弈棋，不可能再来一局，也不能悔棋。"</item>
+        <item>"苏格拉底:
+　　在你发怒的时候，要紧闭你的嘴，免得增加你的怒气。"</item>
+        <item>"萧伯纳:
+　　不要企图永远活下去，你不会成功的。"</item>
+        <item>"陶铸:
+　　如烟往事俱忘却，心底无私天地宽。"</item>
+        <item>"袁采:
+　　贤者能自反，则无往不善；不贤者不能自反，为人子则多怨，为人父则多暴。"</item>
+        <item>"方志敏:
+　　我们活着不能与草木同腐，不能醉生梦死，枉度人生，要有所做为!"</item>
+        <item>"毕达哥拉斯:
+　　思而后行，以免做出蠢事。因为草率的动作和言语，均是卑劣的特征。"</item>
+        <item>"阿西塔斯:
+　　哪怕置身天国，如果没有一个伴侣相陪而独身漫游于那些伟大而神圣的天宫间，也是并不令人愉快的。"</item>
+        <item>"布迪曼:
+　　最本质的人生价值就是人的独立性。"</item>
+        <item>"屠格涅夫:
+　　凡事只要看得淡些，就没有什么可忧虑的了；只要不因愤怒而夸大事态，就没有什么事情值得生气的了。"</item>
+        <item>"萨迪:
+　　谁若想在困厄时得到援助，就应在平日待人以宽。"</item>
+        <item>"苏格拉底:
+　　如果我们把每个人的不幸堆成一堆由大家均分，大多数人都会甘愿接受一份，欣然离去。"</item>
+        <item>"萧楚女:
+　　人生应该如蜡烛一样，从顶燃到底，一直都是光明的。"</item>
+        <item>"萨迪:
+　　你在两个仇人之间说话要有分寸，以免他们和好后你将无地自容。"</item>
+        <item>"西塞罗:
+　　人世间没有比互相竭尽全心、互相尽力照料更加快乐的了。"</item>
+        <item>"奥古斯丁:
+　　习惯不加以抑制，不久它就会变成你生活上的必需品了。"</item>
+        <item>"罗丹:
+　　为了在生活中努力发挥自己的作用，热爱人生吧!"</item>
+        <item>"萧伯纳:
+　　人生有两出悲剧。一是万念俱灰；另一是踌躇满志。"</item>
+        <item>"莎士比亚:
+　　不良的习惯会随时阻碍你走向成名、获利和享乐的路上去。"</item>
+        <item>"萧伯纳:
+　　人喜欢习惯，因为造它的就是自己。"</item>
+        <item>"西塞罗:
+　　受惠的人，必须把那恩惠常藏心底，但是施恩的人则不可记住它。"</item>
+        <item>"高汀:
+　　习惯，我们每个人或多或少都是它的奴隶。"</item>
+        <item>"但丁:
+　　容易发怒，是品格上最为显著的弱点。"</item>
+        <item>"富勒:
+　　人若是太幸运，则不知天高地厚，也不知自己能力究竟有多少；若是太不幸，则终其一生皆默默无名。"</item>
+        <item>"德谟克里特:
+　　不要对一切人都以不信任的眼光看待,但要谨慎而坚定。"</item>
+        <item>"高尔基:
+　　你要记住，永远要愉快地多给别人，少从别人那里拿取。"</item>
+        <item>"罗丹:
+　　工作就是人生的价值，人生的欢乐，也是幸福之所在。"</item>
+        <item>"伊索:
+　　应当在朋友正是困难的时候给予帮助，不可在事情无望之后再说闲话。"</item>
+        <item>"富兰克林:
+　　心胸开阔，不要为令人不快的区区琐事而心烦意乱，悲观失望。"</item>
+        <item>"伊索:
+　　对一个尚未成熟的少年来讲，坏的伙伴比好的老师起的作用要大得多。"</item>
+        <item>"奥斯特洛夫斯基:
+　　人应该支配习惯，而决不能让习惯支配人，一 个人不能去掉他的坏习惯，那简直一文不值。"</item>
+        <item>"周文雍:
+　　头可断，肢可折，革命精神不可灭。志士头颅为党落，好汉身躯为群裂。"</item>
+        <item>"夏明翰:
+　　砍头不要紧，只要主义真。杀了夏明翰，还有后来人。"</item>
+        <item>"方志敏:
+　　在理论的政治的认识上，站稳着脚步，才不至于随时为某些现象或谣言而动摇自己的革命信仰！"</item>
+        <item>"方志敏:
+　　敌人只能砍下我们的头颅，决不能动摇我们的信仰！因为我们信仰的主义，仍是宇宙的真理！"</item>
+        <item>"鲁迅:
+　　在行进时，也时时有人退伍，有人落荒，有人颓唐，有人叛变，然而只要无碍于进行，则越到后来，这队伍也就越成为纯粹、精锐的队伍了。"</item>
+        <item>"罗学瓒:
+　　不患不能柔，惟患不能刚；惟刚斯不惧，惟刚始有为。"</item>
+        <item>"杨靖宇:
+　　革命就象火一样，任凭大雪封山，鸟兽藏迹，只要我们有火种，就能驱赶严寒，带来光明和温暖。"</item>
+        <item>"陶铸:
+　　我们应该赞美岩石的坚定。我们应该学习岩石的坚定。我们应该对革命有着坚强的信念。"</item>
+        <item>"吴运铎:
+　　革命理想，不是可有可无的点缀品，而是一个人生命的动力，有了理想，就等于有了灵魂。"</item>
+        <item>"伏尔泰:
+　　几个苍蝇咬几口，决不能羁留一匹英勇的奔马。"</item>
+        <item>"歌德:
+　　决定一个人的一生，以及整个命运的，只是一瞬之间。"</item>
+        <item>"贺拉斯:
+　　由于热切地想要躲避过错，我们却常常更易陷入荒谬。"</item>
+        <item>"杰弗逊:
+　　生气的时候，开口前先数到十，如果非常愤怒，先数到一百。"</item>
+        <item>"艾普利亚:
+　　人就个人而言终有一死，就整体而言则是不朽的。"</item>
+        <item>"歌 德:
+　　谁若游戏人生，他就一事无成；谁不主宰自己，永远是一个奴隶。"</item>
+        <item>"孔丘:
+　　始吾于人也，听其言而信其行。今吾于人也，听其言而观其行。"</item>
+        <item>"鲁迅:
+　　单是说不行，要紧的是做。"</item>
+        <item>"卡耐基:
+　　你有信仰就年轻，疑惑就年老；有自信就年轻，畏惧就年老；有希望就年轻，绝望就年老；岁月使你皮肤起皱，但是失去了热忱，就损伤了灵魂。"</item>
+        <item>"居里夫人:
+　　我们必须有恒心，尤其要有自信力！我们必须相信我们的天赋是要用来作某种事情的，无论代价多麽大，这种事情必须作到。"</item>
+        <item>"伏契克:
+　　为了争取将来的美好而牺牲了的人，都是一尊石质的雕像。"</item>
+        <item>"斯特林堡:
+　　信念是由一种愿望产生的，因为愿意相信才会相信，希望相信才会相信，有一种利益所在才会相信。"</item>
+        <item>"罗曼·罗兰:
+　　最可怕的敌人，就是没有坚强的信念。"</item>
+        <item>"郑板桥:
+　　不奋苦而求速效，只落得少日浮夸，老来窘隘而已。"</item>
+        <item>"富兰克林:
+　　心胸开阔：不要为令人不快的区区琐事而心烦意乱，悲观失望。"</item>
+        <item>"伊 索:
+　　对一个尚未成熟的少年来讲，坏的伙伴比好的老师起的作用要大得多。"</item>
+    </string-array>
+    <string-array name="account_change_label">
+        <item>Аккаунт</item>
+        <item>Пароль</item>
+    </string-array>
+    <string-array name="account_change_result_tip">
+        <item>账号切换成功！</item>
+        <item>账号不存在</item>
+        <item>密码不正确</item>
+        <item>Проблемы с сетью или неизвестная ошибка</item>
+    </string-array>
+    <string-array name="account_edit_label">
+        <item>账号名称</item>
+        <item>旧的密码</item>
+        <item>新建密码</item>
+        <item>确认密码</item>
+        <item>您的姓名</item>
+        <item>电子邮件</item>
+    </string-array>
+    <string-array name="account_edit_result_tip">
+        <item>账号修改成功！</item>
+        <item>账号名已存在</item>
+        <item>原密码错误</item>
+        <item>Проблемы с сетью или неизвестная ошибка</item>
+    </string-array>
+    <string-array name="account_input_tip">
+        <item>账号长度不少于4位</item>
+        <item>请输入账号密码</item>
+        <item>两次密码不一致，请再次输入确认</item>
+        <item>请输入不同于当前正在使用的账号</item>
+        <item>请输入6-20位的密码</item>
+    </string-array>
+    <string-array name="alarm_times">
+        <item>по графику</item>
+        <item>за 5 минут</item>
+        <item>за 10 минут</item>
+        <item>за 30 минут</item>
+        <item>за час</item>
+        <item>за день</item>
+        <item>за 3 дня</item>
+    </string-array>
+    <string-array name="almanac_array">
+        <item>祭祀：指祭拜祖先和神明等。</item>
+        <item>安葬：举行埋葬等仪式。</item>
+        <item>嫁娶：结婚的日子。</item>
+        <item>出行：外出旅游等。</item>
+        <item>祈福：祈求神明降福或设醮还愿之事。</item>
+        <item>动土：建筑房屋时、第一次动起锄头挖土。</item>
+        <item>安床：指安置床铺。</item>
+        <item>开光：佛像塑成后、供奉上位之事。</item>
+        <item>纳采：订婚时受授聘金。</item>
+        <item>入殓：将尸体放入棺材。</item>
+        <item>移徙：搬家、迁移住所。</item>
+        <item>破土：指埋葬死人。</item>
+        <item>解除：打扫房屋。</item>
+        <item>入宅：搬入新家。</item>
+        <item>修造：修理建造房屋。</item>
+        <item>栽种：种植作物。</item>
+        <item>开市：商店开张营业。</item>
+        <item>移柩：移动棺材。</item>
+        <item>订盟：订婚仪式的一种，俗称小聘。</item>
+        <item>拆卸：拆毁房屋。</item>
+        <item>立券：订立各种契约互相买卖之事。</item>
+        <item>交易：订立各种契约互相买卖之事。</item>
+        <item>求嗣：向神明祈求后代。</item>
+        <item>上梁：给房屋装上大梁。</item>
+        <item>纳财：购屋产业、进货、收帐、收租、讨债、贷款、五谷入仓等。</item>
+        <item>起基：建筑时、第一次动起锄头挖土。</item>
+        <item>斋醮：庙宇建醮前需举行的斋戒仪式。</item>
+        <item>赴任：走马上任。</item>
+        <item>冠笄：男女年满二十岁所举行的成年礼仪式。</item>
+        <item>安门：放置正门门框。</item>
+        <item>修坟：修理坟墓。</item>
+        <item>挂匾：指悬挂招牌或各种匾额。</item>
+        <item>坏垣：指拆除房屋或围墙。</item>
+        <item>沐浴：洗澡。</item>
+    </string-array>
+    <string-array name="default_alarm_items">
+        <item>Вкл.</item>
+        <item>Выкл.</item>
+    </string-array>
+    <string-array name="default_first_day">
+        <item>Понед.</item>
+        <item>Воскр.</item>
+    </string-array>
+    <string-array name="help_contact_list">
+        <item>Проверка обновлений</item>
+        <item>Обратная связь</item>
+        <item>15910709384　</item>
+        <item>help@365rili.com</item>
+    </string-array>
+    <string-array name="jiri_yiji_array">
+        <item>宜</item>
+        <item>忌</item>
+    </string-array>
+    <string-array name="picker_almanac_array">
+        <item></item>
+        <item></item>
+        <item>祭祀：指祭拜祖先和神明等。</item>
+        <item>安葬：举行埋葬等仪式。</item>
+        <item>嫁娶：结婚的日子。</item>
+        <item>出行：外出旅游等。</item>
+        <item>祈福：祈求神明降福或设醮还愿之事。</item>
+        <item>动土：建筑房屋时、第一次动起锄头挖土。</item>
+        <item>安床：指安置床铺。</item>
+        <item>开光：佛像塑成后、供奉上位之事。</item>
+        <item>纳采：订婚时受授聘金。</item>
+        <item>入殓：将尸体放入棺材。</item>
+        <item>移徙：搬家、迁移住所。</item>
+        <item>破土：指埋葬死人。</item>
+        <item>解除：打扫房屋。</item>
+        <item>入宅：搬入新家。</item>
+        <item>修造：修理建造房屋。</item>
+        <item>栽种：种植作物。</item>
+        <item>开市：商店开张营业。</item>
+        <item>移柩：移动棺材。</item>
+        <item>订盟：订婚仪式的一种，俗称小聘。</item>
+        <item>拆卸：拆毁房屋。</item>
+        <item>立卷：订立各种契约互相买卖之事。</item>
+        <item>交易：订立各种契约互相买卖之事。</item>
+        <item>求嗣：向神明祈求后代。</item>
+        <item>上梁：给房屋装上大梁。</item>
+        <item>纳财：购屋产业、进货、收帐、收租、讨债、贷款、五谷入仓等。</item>
+        <item>起基：建筑时、第一次动起锄头挖土。</item>
+        <item>斋醮：庙宇建醮前需举行的斋戒仪式。</item>
+        <item>赴任：走马上任。</item>
+        <item>冠笄：男女年满二十岁所举行的成年礼仪式。</item>
+        <item>安门：放置正门门框。</item>
+        <item>修坟：修理坟墓。</item>
+        <item>挂匾：指悬挂招牌或各种匾额。</item>
+        <item>坏垣：指拆除房屋或围墙。</item>
+        <item>沐浴：洗澡。</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="repeat_types_solar">
+        <item>Не повторять</item>
+        <item>阶段（持续一段时间）</item>
+        <item>按天重复（每天，每几天）</item>
+        <item>按周重复（每周，每几周）</item>
+        <item>按月重复（每月，每几月）</item>
+        <item>按年重复（每年，每几年）</item>
+        <item>农历每月</item>
+        <item>农历每年</item>
+        <item>Каждый будний день (с понедельника по пятницу)</item>
+        <item>Каждый понедельник, среду и пятницу</item>
+        <item>Каждый вторник и четверг</item>
+    </string-array>
+    <string-array name="schedule_select_items">
+        <item>Редактировать</item>
+        <item>Удалить</item>
+        <item>Назад</item>
+    </string-array>
+    <string-array name="rss_long_click_items">
+        <item>分享</item>
+    </string-array>
+    <string-array name="setup_description_items">
+        <item>桌面Widget插件</item>
+        <item>Выберите вашу любимую тему</item>
+        <item>Настройка списка для отображения календаря</item>
+        <item>Первый день недели</item>
+        <item>Включить или выключить функцию напоминания</item>
+        <item>程序启动默认加载视图</item>
+        <item>Зашифровать мой календарь</item>
+        <item>Получить справку</item>
+    </string-array>
+    <string-array name="setup_index">
+        <item>Переключение списка</item>
+        <item>Элементы списка дел</item>
+        <item>Управление календарём</item>
+        <item>Управление аккаунтом</item>
+        <item>Настройка</item>
+        <item>Виджет</item>
+    </string-array>
+    <string-array name="setup_index_unmulti">
+        <item>Переключение списка</item>
+        <item>Элементы списка дел</item>
+        <item>Управление аккаунтом</item>
+        <item>Настройка</item>
+        <item>Виджет</item>
+    </string-array>
+    <string-array name="setup_items">
+        <item>Темы</item>
+        <item>Начало недели</item>
+        <item>В списке только текущий день</item>
+        <item>Особый цвет праздников</item>
+        <item>Настройка напоминаний</item>
+        <item>Настройка списка дел</item>
+        <item>Экспорт</item>
+        <item>Пароль на запуск</item>
+        <item>Часто задаваемые вопросы</item>
+        <item>О программе</item>
+    </string-array>
+    <string-array name="setup_month">
+        <item>Вид месяца</item>
+        <item>Элементы списка дел</item>
+        <item>Управление календарем</item>
+        <item>Управление аккаунтом</item>
+        <item>Настойка</item>
+        <item>Виджет</item>
+    </string-array>
+    <string-array name="setup_month_unmulti">
+        <item>Вид месяца</item>
+        <item>Элементы списка дел</item>
+        <item>Управление аккаунтом</item>
+        <item>Настройка</item>
+        <item>Виджет</item>
+    </string-array>
+    <string-array name="sync_setup_options">
+        <item>Синхронизировать сейчас</item>
+        <item>Автоматическая синхронизация</item>
+    </string-array>
+    <string-array name="sync_setup_repeat_options">
+        <item>1 час</item>
+        <item>4 часа</item>
+        <item>8 часов</item>
+        <item>1 день</item>
+    </string-array>
+    <string-array name="tools_array">
+        <item>Альманах</item>
+        <item>Благоприятный запрос</item>
+        <item>Интервал дат</item>
+        <item>Расчёт даты</item>
+        <item>Номер недели</item>
+        <item>Инь Янь переход</item>
+        <item>Поиск</item>
+    </string-array>
+    <string-array name="unbind_google_calendar_result_tip">
+        <item>已取消绑定Google Calendar</item>
+        <item>Проблемы с сетью или неизвестная ошибка</item>
+    </string-array>
+    <string-array name="week_times">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресение</item>
+    </string-array>
+    <string-array name="widget_operation_tip_array">
+        <item>Загрузить и установить</item>
+        <item>Установить сейчас</item>
+        <item>Обновить</item>
+        <item>Информация</item>
+    </string-array>
+    <string-array name="widget_status_string_array">
+        <item>Загрузить</item>
+        <item>Установить</item>
+        <item>Установлено</item>
+        <item>Обновить</item>
+    </string-array>
+    <string-array name="solar_holiday_in_month">
+        <item>元旦</item>
+        <item>情人</item>
+        <item>妇女</item>
+        <item>植树</item>
+        <item>愚人</item>
+        <item>劳动</item>
+        <item>青年</item>
+        <item>儿童</item>
+        <item>建党</item>
+        <item>抗战</item>
+        <item>建军</item>
+        <item>教师</item>
+        <item>国庆</item>
+        <item>光棍</item>
+        <item>平安</item>
+        <item>圣诞</item>
+    </string-array>
+    <string-array name="lunar_holiday_in_month">
+        <item>Китайский Новый год</item>
+        <item>Праздник фонарей</item>
+        <item>Праздник драконьих лодок</item>
+        <item>Танабата</item>
+        <item>Праздник середины осени</item>
+        <item>Праздник двойной девятки</item>
+        <item>Laba congee</item>
+        <item>Малый новогодний сочельник</item>
+        <item>Канун Нового года</item>
+    </string-array>
+    <string-array name="note_setup_options">
+        <item>Показ важных дел сегодня</item>
+        <item>Показывать время окончания</item>
+    </string-array>
+    <string-array name="rss_date_dialog_text">
+        <item>Сегодня</item>
+        <item>Выходные</item>
+        <item>За неделю</item>
+        <item>Выберите дату</item>
+    </string-array>
+    <string-array name="multi_calendar_invite">
+        <item>Пользователи 365 Календаря</item>
+        <item>Поделиться в Sina Weibo</item>
+        <item>Приглашение по E-mail</item>
+        <item>Контакты телефона</item>
+    </string-array>
+    <string-array name="multi_calendar_delete">
+        <item>Удалить</item>
+        <item>Отменить подписку</item>
+    </string-array>
+    <string-array name="year">
+        <item></item>
+        <item></item>
+        <item>1901</item>
+        <item>1902</item>
+        <item>1903</item>
+        <item>1904</item>
+        <item>1905</item>
+        <item>1906</item>
+        <item>1907</item>
+        <item>1908</item>
+        <item>1909</item>
+        <item>1910</item>
+        <item>1911</item>
+        <item>1912</item>
+        <item>1913</item>
+        <item>1914</item>
+        <item>1915</item>
+        <item>1916</item>
+        <item>1917</item>
+        <item>1918</item>
+        <item>1919</item>
+        <item>1920</item>
+        <item>1921</item>
+        <item>1922</item>
+        <item>1923</item>
+        <item>1924</item>
+        <item>1925</item>
+        <item>1926</item>
+        <item>1927</item>
+        <item>1928</item>
+        <item>1929</item>
+        <item>1930</item>
+        <item>1931</item>
+        <item>1932</item>
+        <item>1933</item>
+        <item>1934</item>
+        <item>1935</item>
+        <item>1936</item>
+        <item>1937</item>
+        <item>1938</item>
+        <item>1939</item>
+        <item>1940</item>
+        <item>1941</item>
+        <item>1942</item>
+        <item>1943</item>
+        <item>1944</item>
+        <item>1945</item>
+        <item>1946</item>
+        <item>1947</item>
+        <item>1948</item>
+        <item>1949</item>
+        <item>1950</item>
+        <item>1951</item>
+        <item>1952</item>
+        <item>1953</item>
+        <item>1954</item>
+        <item>1955</item>
+        <item>1956</item>
+        <item>1957</item>
+        <item>1958</item>
+        <item>1959</item>
+        <item>1960</item>
+        <item>1961</item>
+        <item>1962</item>
+        <item>1963</item>
+        <item>1964</item>
+        <item>1965</item>
+        <item>1966</item>
+        <item>1967</item>
+        <item>1968</item>
+        <item>1969</item>
+        <item>1970</item>
+        <item>1971</item>
+        <item>1972</item>
+        <item>1973</item>
+        <item>1974</item>
+        <item>1975</item>
+        <item>1976</item>
+        <item>1977</item>
+        <item>1978</item>
+        <item>1979</item>
+        <item>1980</item>
+        <item>1981</item>
+        <item>1982</item>
+        <item>1983</item>
+        <item>1984</item>
+        <item>1985</item>
+        <item>1986</item>
+        <item>1987</item>
+        <item>1988</item>
+        <item>1989</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+        <item>2032</item>
+        <item>2033</item>
+        <item>2034</item>
+        <item>2035</item>
+        <item>2036</item>
+        <item>2037</item>
+        <item>2038</item>
+        <item>2039</item>
+        <item>2040</item>
+        <item>2041</item>
+        <item>2042</item>
+        <item>2043</item>
+        <item>2044</item>
+        <item>2045</item>
+        <item>2046</item>
+        <item>2047</item>
+        <item>2048</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="month">
+        <item></item>
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="day31">
+        <item></item>
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="day30">
+        <item></item>
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="day29">
+        <item></item>
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="day28">
+        <item></item>
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="hour">
+        <item></item>
+        <item></item>
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="minute">
+        <item></item>
+        <item></item>
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="month_lunar">
+        <item></item>
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="day29_lunar">
+        <item></item>
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="day30_lunar">
+        <item></item>
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="week">
+        <item></item>
+        <item></item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресение</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="UMageList">
+        <item>Возраст</item>
+        <item>До 18 лет</item>
+        <item>18-24 лет</item>
+        <item>25-30 лет</item>
+        <item>31-35 лет</item>
+        <item>36-40 лет</item>
+        <item>41-50 лет</item>
+        <item>51-59 лет</item>
+        <item>60 лет и старше</item>
+    </string-array>
+    <string-array name="UMgenderList">
+        <item>Пол</item>
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+</resources>
